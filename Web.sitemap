@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode title="" url="~/WebUI/Default.aspx">
+		<siteMapNode title="Hồ sơ" url="~/WebUI/CN_HoSo_QuanLy.aspx" roles="01,02" />
+		<siteMapNode title="Thu lệ phí" url="~/WebUI/CN_ThongBaoPhi.aspx" roles="0109,0106" />
+		<siteMapNode title="Tra cứu" url="">
+			<siteMapNode title=" Biểu mẫu" url="~/WebUI/BieuMau.aspx"/>
+			<siteMapNode title=" Hồ sơ chứng nhận" url="~/WebUI/CN_TraCuuThongTinHoSo.aspx" />
+			<siteMapNode title=" Hồ sơ công bố" url="~/WebUI/CB_TraCuuPHTC.aspx"/>
+			<siteMapNode title=" Giấy chứng nhận" url="~/WebUI/CN_TraCuuGCN.aspx"/>
+			<siteMapNode title=" Bản tiếp nhận công bố" url="~/WebUI/CB_TraCuuBCB.aspx"/>
+			<siteMapNode title=" Giấy báo lệ phí" url="~/WebUI/CN_TraCuuThuPhi.aspx"/>
+		</siteMapNode>
+		<siteMapNode title="Báo cáo" url=""  roles="06">
+			<siteMapNode title=" Báo cáo tuần" url="~/WebUI/BC_BaoCaoTuan.aspx" roles="0601"/>
+			<siteMapNode title=" Báo cáo quý" url="~/WebUI/BC_BaoCaoQuy.aspx" roles="0602"/>
+			<siteMapNode title=" Báo cáo thống kê" url="~/WebUI/BC_ThongKe.aspx" roles="0603"/>
+			<siteMapNode title=" Báo cáo tiếp nhận hồ sơ" url="~/WebUI/BC_TiepNhanHoSo.aspx" roles="0603"/>
+		</siteMapNode>
+		<siteMapNode title="Danh mục" url="" roles="*">
+			<siteMapNode title=" Cơ quan đo kiểm" url="~/WebUI/DM_CoQuanDoKiem.aspx" roles="*" >
+				<siteMapNode title=" Cơ quan do kiểm chi tiết" url="~/WebUI/DM_CoQuanDoKiem_ChiTiet.aspx" roles="0305" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Đơn vị" url="~/WebUI/DM_DonVi.aspx" roles="*">
+				<siteMapNode title=" Danh mục đơn vị chi tiết" url="~/WebUI/DM_DonVi_ChiTiet.aspx" roles="0303" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Hãng sản xuất" url="~/WebUI/DM_HangSanXuat.aspx" roles="*" >
+				<siteMapNode title=" Danh mục nhóm sản phẩm chi tiết" url="~/WebUI/DM_HangSanXuat_ChiTiet.aspx" roles="0306" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Nhóm sản phẩm" url="~/WebUI/DM_NhomSanPham.aspx" roles="*" >
+				<siteMapNode title=" Nhóm sản phẩm chi tiết" url="~/WebUI/DM_NhomSanPham_ChiTiet.aspx" roles="0301" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Sản phẩm" url="~/WebUI/DM_SanPham.aspx"  roles="*">
+				<siteMapNode title=" Danh mục tiêu chuẩn áp dụng chi tiết" url="~/WebUI/DM_SanPham_ChiTiet.aspx" roles="0302" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Phòng ban" url="~/WebUI/DM_PhongBan.aspx" roles="*" >
+				<siteMapNode title=" Phòng ban chi tiết" url="~/WebUI/DM_PhongBan_ChiTiet.aspx" roles="0309" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Tiêu chuẩn" url="~/WebUI/DM_TieuChuanApDung.aspx" roles="*" >
+				<siteMapNode title=" Tiêu chuẩn chi tiết" url="~/WebUI/DM_TieuChuanApDung_ChiTiet.aspx" roles="0308" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Trung tâm" url="~/WebUI/DM_TrungTam.aspx" roles="*" >
+				<siteMapNode title=" Trung tâm chi tiết" url="~/WebUI/DM_TrungTam_ChiTiet.aspx" roles="0304" visible="true"/>
+			</siteMapNode>
+			<siteMapNode title=" Mẫu dấu hợp quy" url="~/WebUI/QuanLyMauDau.aspx" roles="*" >
+				<siteMapNode title=" Mẫu dấu chi tiết" url="~/WebUI/MauDauHopQuy_ChiTiet.aspx" roles="0303" visible="true"/>
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode title="Đồng bộ" url="" roles="04">
+			<siteMapNode title=" Lập lich đồng bộ" url="~/WebUI/DB_LapLichDongBo.aspx" roles="0401"/>
+			<siteMapNode title=" Đồng bộ bằng tay" url="~/WebUI/DB_DongBoBangTay.aspx" roles="0402"/>
+			<siteMapNode title=" Đồng bộ từ File" url="~/WebUI/DB_DongBoTuFile.aspx" roles="0403" />
+			<siteMapNode title=" Báo cáo đồng bộ" url="~/WebUI/DB_BaoCaoDongBo.aspx" roles="0404"/>
+		</siteMapNode>
+		<siteMapNode title="Hệ thống" url="">
+			<siteMapNode title=" Thông tin cá nhân" url="~/WebUI/HT_ThayDoiThongTinCaNhan.aspx" />
+			<siteMapNode title=" Quản lý người dùng" url="~/WebUI/HT_NguoiDung_QuanLy.aspx" roles="0502" />
+			<siteMapNode title=" Quản lý vai trò" url="~/WebUI/HT_VaiTro_QuanLy.aspx" roles="0501"/>
+			<siteMapNode title=" Sao lưu phục hồi" url="~/WebUI/HT_QuanLySaoLuuPhucHoi.aspx" roles="0503"/>
+			<siteMapNode title=" Nhật ký hệ thống" url="~/WebUI/HT_NhatKy_QuanLy.aspx" roles="0504" />
+			<siteMapNode title=" Cấu hình hệ thống" url="~/WebUI/HT_CauHinhHeThong.aspx"  roles="0505"/>
+			<siteMapNode title=" Đăng xuất" url="~/WebUI/Logout.aspx" />
+		</siteMapNode>
+		<siteMapNode title="Hồ sơ đã lưu trữ" url="" roles="01,02">
+			<siteMapNode title=" Hồ sơ chứng nhận" url="~/WebUI/NhapLieu_CN_HoSoQuanLy.aspx" roles="01,02"/>
+			<siteMapNode title=" Hồ sơ công bố" url="~/WebUI/NhapLieu_CB_HoSoQuanLy.aspx"  roles="01,02"/>
+			<siteMapNode title=" Giám sát hồ sơ chứng nhận" url="~/WebUI/GiamSatCNHC.aspx" roles="01,02"/>
+		</siteMapNode>
+
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  - <ThongBaoNopTienCNHQ>
+    <GCN>Giấy chứng nhận</GCN>
+    <DonGia1>Đơn giá 1</DonGia1>
+    <SoLuong1>Số lượng 1</SoLuong1>
+    <ThanhTien1>Thành tiền 1</ThanhTien1>
+    <DonGia2>Đơn giá 2</DonGia2>
+    <SoLuong2>Số lượng 2</SoLuong2>
+    <ThanhTien2>Thành tiền 2</ThanhTien2>
+  </ThongBaoNopTienCNHQ>
+</root>

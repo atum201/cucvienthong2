@@ -1,0 +1,42 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<%@ Register Namespace="Fadrian.Web.Control" TagPrefix="cc1" %>
+<asp:GridView runat="server" CellPadding="4" AutoGenerateColumns="False" Width="100%" ForeColor="#333333" GridLines= "Horizontal" BorderColor="#D6D6D6" BorderWidth="1" BorderStyle="solid"  CssClass="oneselect" >
+                     <FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+                    <RowStyle BackColor="#FFFFFF" HorizontalAlign="Left" CssClass="rowitem" />
+                    <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Left" CssClass="pager_style"/>
+                    <HeaderStyle BackColor="#337bd5" CssClass="grid_header_text" ForeColor="white" HorizontalAlign="Left" />
+                    <EditRowStyle BackColor="#2461BF" />
+                    
+                    <AlternatingRowStyle BackColor="#FFFFFF" CssClass="rowitem"/>
+ </asp:GridView>
+ <asp:Button runat="server"  CssClass="danhsach_button"/>
+ <asp:TextBox  runat="server"  BorderColor="#66CCFF" BorderStyle="Solid" BorderWidth="1px" Font-Names="verdana, helvetica, sans-serif" Font-Size="13px"></asp:TextBox>
+ <asp:DropDownList  runat="server" BorderColor="#66CCFF" BorderStyle="Solid" BorderWidth="1px" Font-Names="verdana, helvetica, sans-serif" Font-Size="13px">
+ </asp:DropDownList>
+  <asp:FileUpload  runat="server" BorderColor="#66CCFF" BorderStyle="Solid" BorderWidth="1px" Font-Names="verdana, helvetica, sans-serif" Font-Size="13px" />
+  <asp:Panel  runat="server"  ScrollBars="Both" Width="300px" BorderColor="#66CCFF" BorderStyle="Solid" BorderWidth="1px" Font-Names="verdana, helvetica, sans-serif" Font-Size="13px"></asp:Panel>
+  <asp:Panel runat="server" ScrollBars="None" SkinID="FU"></asp:Panel>
+  <cc1:paginggridview runat="server" CellPadding="5"  CellSpacing="0" AutoGenerateColumns="False" Width="100%" ForeColor="#333333" GridLines="Horizontal"  BorderColor="#D6D6D6" BorderWidth="1" BorderStyle="solid"  SortDescImageUrl="~/Images/sortdescending.gif"  SortAscImageUrl="~/Images/sortascending.gif" CssClass="oneselect" >
+                    <FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+                    <RowStyle BackColor="#FFFFFF" HorizontalAlign="Left" CssClass="rowitem"/>
+                    <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Left" CssClass="pager_style"/>
+                    <HeaderStyle BackColor="#337bd5" CssClass="grid_header_text" ForeColor="white" HorizontalAlign="Left" Wrap="False" />
+                    <EditRowStyle BackColor="#2461BF" />
+                    <AlternatingRowStyle BackColor="#F8F8F8" CssClass="rowitem"/>
+ </cc1:paginggridview>

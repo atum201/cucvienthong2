@@ -1,0 +1,4843 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DMDonVi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaDonVi" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengViet" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengAnh" type="xs:string" minOccurs="0" />
+                <xs:element name="TenVietTat" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+                <xs:element name="TinhThanhID" type="xs:string" minOccurs="0" />
+                <xs:element name="DienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Fax" type="xs:string" minOccurs="0" />
+                <xs:element name="MatKhau" type="xs:string" minOccurs="0" />
+                <xs:element name="MatKhauKhongMaHoa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMHangSanXuat">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TenHangSanXuat" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengAnh" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMLePhi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="GiaTriLoHang" type="xs:string" minOccurs="0" />
+                <xs:element name="LePhi" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMSanPham">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaSanPham" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengViet" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengAnh" type="xs:string" minOccurs="0" />
+                <xs:element name="NhomSanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiTieuChuanApDung" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiSanPham" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMSanPhamTieuChuan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TieuChuanID" type="xs:string" minOccurs="0" />
+                <xs:element name="SanPhamID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMTieuChuan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaTieuChuan" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTieuChuan" type="xs:string" minOccurs="0" />
+                <xs:element name="GhiChu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMTinhThanh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaTinhThanh" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTinhThanh" type="xs:string" minOccurs="0" />
+                <xs:element name="TrungTamID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMTrungTam">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaTrongGCN" type="xs:string" minOccurs="0" />
+                <xs:element name="MaTrungTam" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTrungTam" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengAnh" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+                <xs:element name="DienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Fax" type="xs:string" minOccurs="0" />
+                <xs:element name="SoTaiKhoan" type="xs:string" minOccurs="0" />
+                <xs:element name="TenKhoBac" type="xs:string" minOccurs="0" />
+                <xs:element name="TenCoQuanThuHuong" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChiCoQuanThuHuong" type="xs:string" minOccurs="0" />
+                <xs:element name="TinhThanhID" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="GiamDocID" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiTiepNhanHoSoQuaMang" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMNhomSanPham">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaNhom" type="xs:string" minOccurs="0" />
+                <xs:element name="TenNhom" type="xs:string" minOccurs="0" />
+                <xs:element name="ThoiHanGCN" type="xs:int" minOccurs="0" />
+                <xs:element name="MucLePhi" type="xs:int" minOccurs="0" />
+                <xs:element name="LienQuanTanSo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMCoQuanDoKiem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TenCoQuanDoKiem" type="xs:string" minOccurs="0" />
+                <xs:element name="TenTiengAnh" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+                <xs:element name="DienThoai" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="LichSuXoa">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MaTrungTam" type="xs:string" minOccurs="0" />
+                <xs:element name="MaBanGhi" type="xs:string" minOccurs="0" />
+                <xs:element name="TenBang" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DMPhongBan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TenPhongBan" type="xs:string" minOccurs="0" />
+                <xs:element name="TrungTamID" type="xs:string" minOccurs="0" />
+                <xs:element name="TruongPhongID" type="xs:string" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HoSo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiHoSo" type="xs:int" minOccurs="0" />
+                <xs:element name="HoSoMoi" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TrungTamID" type="xs:string" minOccurs="0" />
+                <xs:element name="SoHoSo" type="xs:string" minOccurs="0" />
+                <xs:element name="SoCongVanDen" type="xs:string" minOccurs="0" />
+                <xs:element name="SoCongVanDonVi" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayTiepNhan" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NgayHetHanXuLy" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="HoSoXuLyDungHan" type="xs:int" minOccurs="0" />
+                <xs:element name="NguoiTiepNhanID" type="xs:string" minOccurs="0" />
+                <xs:element name="DonViID" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiNopHoSo" type="xs:string" minOccurs="0" />
+                <xs:element name="DienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Fax" type="xs:string" minOccurs="0" />
+                <xs:element name="DanhSachSanPham" type="xs:string" minOccurs="0" />
+                <xs:element name="DanhSachKyHieuSanPham" type="xs:string" minOccurs="0" />
+                <xs:element name="NhanHoSoTuID" type="xs:int" minOccurs="0" />
+                <xs:element name="NguonGocID" type="xs:int" minOccurs="0" />
+                <xs:element name="HinhThucID" type="xs:int" minOccurs="0" />
+                <xs:element name="BanCongBo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DonDeNghiChungNhan" type="xs:boolean" minOccurs="0" />
+                <xs:element name="GiayToTuCachPhapNhan" type="xs:boolean" minOccurs="0" />
+                <xs:element name="KetQuaDoKiem" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TaiLieuKyThuat" type="xs:boolean" minOccurs="0" />
+                <xs:element name="QuyTrinhSanXuat" type="xs:boolean" minOccurs="0" />
+                <xs:element name="BanTuDanhGia" type="xs:boolean" minOccurs="0" />
+                <xs:element name="QuyTrinhDamBaoChatLuong" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ChungChi_HTQLCL" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TieuChuanApDung" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TaiLieuKhac" type="xs:string" minOccurs="0" />
+                <xs:element name="LuuY" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoDayDu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NgayLuuTru" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SoLuuTru" type="xs:string" minOccurs="0" />
+                <xs:element name="NoiLuuTru" type="xs:string" minOccurs="0" />
+                <xs:element name="GhiChuLuuTru" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TrangThaiID" type="xs:int" minOccurs="0" />
+                <xs:element name="PhaiThamDinhLai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DaDoc" type="xs:string" minOccurs="0" />
+                <xs:element name="SoQuyTrinhCanDanhGiaCL" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PhanCong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoID" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiXuLy" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiThamDinh" type="xs:string" minOccurs="0" />
+                <xs:element name="YKienCuaLanhDao" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayPhanCong" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NguoiPhanCong" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SanPham">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoID" type="xs:string" minOccurs="0" />
+                <xs:element name="SanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="KyHieu" type="xs:string" minOccurs="0" />
+                <xs:element name="MauDauID" type="xs:string" minOccurs="0" />
+                <xs:element name="HinhThucID" type="xs:int" minOccurs="0" />
+                <xs:element name="NguonGocID" type="xs:int" minOccurs="0" />
+                <xs:element name="LePhiID" type="xs:string" minOccurs="0" />
+                <xs:element name="NhomSanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="HangSanXuatID" type="xs:string" minOccurs="0" />
+                <xs:element name="TrangThaiID" type="xs:int" minOccurs="0" />
+                <xs:element name="HopLe" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DayDu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SoDoKiem" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayDoKiem" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CoQuanDoKiemID" type="xs:string" minOccurs="0" />
+                <xs:element name="NoiDungDoKiem" type="xs:string" minOccurs="0" />
+                <xs:element name="KetQuaKiemTraCSSX" type="xs:boolean" minOccurs="0" />
+                <xs:element name="QuyHoachTanSo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NhanXetKhac" type="xs:string" minOccurs="0" />
+                <xs:element name="KetLuanID" type="xs:int" minOccurs="0" />
+                <xs:element name="ThoiHanID" type="xs:int" minOccurs="0" />
+                <xs:element name="SoGCN" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiKyDuyetID" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayKyDuyet" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PhaiThamDinhLai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DaDoc" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayHetHan" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TaiLieuDinhKem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="SanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiTaiLieuID" type="xs:int" minOccurs="0" />
+                <xs:element name="TenFile" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ThongBaoLePhi">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="SoGiayThongBaoLePhi" type="xs:string" minOccurs="0" />
+                <xs:element name="DonViID" type="xs:string" minOccurs="0" />
+                <xs:element name="TongPhi" type="xs:int" minOccurs="0" />
+                <xs:element name="NguoiPheDuyetID" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayPheDuyet" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TrangThaiID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ThongBaoLePhiSanPham">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ID1" type="xs:string" minOccurs="0" />
+                <xs:element name="ThongBaoLePhiID" type="xs:string" minOccurs="0" />
+                <xs:element name="SanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="TenSanPham" type="xs:string" minOccurs="0" />
+                <xs:element name="CachTinhPhi" type="xs:int" minOccurs="0" />
+                <xs:element name="LePhi" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MauDauHopQuy">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TenMauDau" type="xs:string" minOccurs="0" />
+                <xs:element name="MaMauDau" type="xs:string" minOccurs="0" />
+                <xs:element name="Dau" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="DonViID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CBDanhGia">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoID" type="xs:string" minOccurs="0" />
+                <xs:element name="SoHoSo" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoHopLe" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HoSoDayDu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SoDoKiem" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayDoKiem" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CoQuanDoKiemID" type="xs:string" minOccurs="0" />
+                <xs:element name="NoiDungDoKiem" type="xs:string" minOccurs="0" />
+                <xs:element name="KetQuaKiemTraCSSX" type="xs:boolean" minOccurs="0" />
+                <xs:element name="QuyHoachTanSo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NhanXetKhac" type="xs:string" minOccurs="0" />
+                <xs:element name="KetLuanID" type="xs:int" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SoBanTiepNhanCB" type="xs:string" minOccurs="0" />
+                <xs:element name="NguoiKyDuyetID" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayKyDuyet" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SanPhamTieuChuanApDung">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="SanPhamID" type="xs:string" minOccurs="0" />
+                <xs:element name="TieuChuanApDungID" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TaiLieuDinhKemHoSo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="HoSoID" type="xs:string" minOccurs="0" />
+                <xs:element name="LoaiTaiLieuID" type="xs:int" minOccurs="0" />
+                <xs:element name="TenFile" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysEvent">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="EventKey" type="xs:string" minOccurs="0" />
+                <xs:element name="EventName" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysUser">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="UserName" type="xs:string" minOccurs="0" />
+                <xs:element name="PassWord" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+                <xs:element name="DateOfBirth" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="PlaceOfBirth" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="PhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="Gender" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OrganizationID" type="xs:string" minOccurs="0" />
+                <xs:element name="DepartmentID" type="xs:string" minOccurs="0" />
+                <xs:element name="Position" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysEventGroup">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EventGroupID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="EventGroupName" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysPermission">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="PermissionName" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentPermission" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysUserRole">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="UserID" type="xs:string" minOccurs="0" />
+                <xs:element name="RoleID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SysRole">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="RoleName" type="xs:string" minOccurs="0" />
+                <xs:element name="NgayCapNhatSauCung" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DaDongBo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DMHangSanXuat>
+    <ID>TTCN_10798</ID>
+    <TenHangSanXuat>&lt;br/&gt;</TenHangSanXuat>
+    <TenTiengAnh>&lt;a&gt;</TenTiengAnh>
+  </DMHangSanXuat>
+  <DMLePhi>
+    <ID>TTCN_44</ID>
+    <GiaTriLoHang>5 tấn, tạ, yến</GiaTriLoHang>
+    <LePhi>8000</LePhi>
+  </DMLePhi>
+  <DMSanPham>
+    <ID>TTCN_6668</ID>
+    <TenTiengViet>abcdef</TenTiengViet>
+    <TenTiengAnh>abc</TenTiengAnh>
+    <NhomSanPhamID>TT2_1694</NhomSanPhamID>
+    <LoaiTieuChuanApDung>A</LoaiTieuChuanApDung>
+    <LoaiSanPham>1</LoaiSanPham>
+  </DMSanPham>
+  <DMSanPhamTieuChuan>
+    <ID>TTCN_12386</ID>
+    <TieuChuanID>TT2_7956</TieuChuanID>
+    <SanPhamID>TTCN_6668</SanPhamID>
+  </DMSanPhamTieuChuan>
+  <DMTinhThanh>
+    <ID>TTCN_100</ID>
+    <MaTinhThanh>LMDG</MaTinhThanh>
+    <TenTinhThanh>Lâm Đồng</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_101</ID>
+    <MaTinhThanh>LOCI</MaTinhThanh>
+    <TenTinhThanh>Lào Cai</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_102</ID>
+    <MaTinhThanh>NEAN</MaTinhThanh>
+    <TenTinhThanh>Nghệ An</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_103</ID>
+    <MaTinhThanh>NHBH</MaTinhThanh>
+    <TenTinhThanh>Ninh Bình</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_104</ID>
+    <MaTinhThanh>NHTN</MaTinhThanh>
+    <TenTinhThanh>Ninh Thuận</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_105</ID>
+    <MaTinhThanh>NMDH</MaTinhThanh>
+    <TenTinhThanh>Nam Định</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_106</ID>
+    <MaTinhThanh>PUTO</MaTinhThanh>
+    <TenTinhThanh>Phú Thọ</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_107</ID>
+    <MaTinhThanh>PUYN</MaTinhThanh>
+    <TenTinhThanh>Phú Yên</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_108</ID>
+    <MaTinhThanh>QGBH</MaTinhThanh>
+    <TenTinhThanh>Quảng Bình</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_109</ID>
+    <MaTinhThanh>QGNH</MaTinhThanh>
+    <TenTinhThanh>Quảng Ninh</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_110</ID>
+    <MaTinhThanh>QGNI</MaTinhThanh>
+    <TenTinhThanh>Quảng Ngãi</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_111</ID>
+    <MaTinhThanh>QGNM</MaTinhThanh>
+    <TenTinhThanh>Quảng Nam</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_112</ID>
+    <MaTinhThanh>QGTI</MaTinhThanh>
+    <TenTinhThanh>Quảng Trị</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_113</ID>
+    <MaTinhThanh>SCTG</MaTinhThanh>
+    <TenTinhThanh>Sóc Trăng</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_114</ID>
+    <MaTinhThanh>SNLA</MaTinhThanh>
+    <TenTinhThanh>Sơn La</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_115</ID>
+    <MaTinhThanh>TAVH</MaTinhThanh>
+    <TenTinhThanh>Trà Vinh</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_116</ID>
+    <MaTinhThanh>THHA</MaTinhThanh>
+    <TenTinhThanh>Thanh Hoá</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_117</ID>
+    <MaTinhThanh>TIBH</MaTinhThanh>
+    <TenTinhThanh>Thái Bình</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_118</ID>
+    <MaTinhThanh>TINN</MaTinhThanh>
+    <TenTinhThanh>Thái Nguyên</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_119</ID>
+    <MaTinhThanh>TNGG</MaTinhThanh>
+    <TenTinhThanh>Tiền Giang</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_120</ID>
+    <MaTinhThanh>TNQG</MaTinhThanh>
+    <TenTinhThanh>Tuyên Quang</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_121</ID>
+    <MaTinhThanh>TYNH</MaTinhThanh>
+    <TenTinhThanh>Tây Ninh</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_122</ID>
+    <MaTinhThanh>VHLG</MaTinhThanh>
+    <TenTinhThanh>Vĩnh Long</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_123</ID>
+    <MaTinhThanh>VHPC</MaTinhThanh>
+    <TenTinhThanh>Vĩnh Phúc</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_124</ID>
+    <MaTinhThanh>YNBI</MaTinhThanh>
+    <TenTinhThanh>Yên Bái</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_125</ID>
+    <MaTinhThanh>HCMH</MaTinhThanh>
+    <TenTinhThanh>Hồ Chí Minh</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_126</ID>
+    <MaTinhThanh>TTHU</MaTinhThanh>
+    <TenTinhThanh>Thừa Thiên Huế</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_64</ID>
+    <MaTinhThanh>ANGG</MaTinhThanh>
+    <TenTinhThanh>An Giang</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_65</ID>
+    <MaTinhThanh>BCCN</MaTinhThanh>
+    <TenTinhThanh>Bắc Cạn</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_66</ID>
+    <MaTinhThanh>BCGG</MaTinhThanh>
+    <TenTinhThanh>Bắc Giang</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_67</ID>
+    <MaTinhThanh>BCLU</MaTinhThanh>
+    <TenTinhThanh>Bạc Liêu</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_68</ID>
+    <MaTinhThanh>BCNH</MaTinhThanh>
+    <TenTinhThanh>Bắc Ninh</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_69</ID>
+    <MaTinhThanh>BHDG</MaTinhThanh>
+    <TenTinhThanh>Bình Dương</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_70</ID>
+    <MaTinhThanh>BHDH</MaTinhThanh>
+    <TenTinhThanh>Bình Định</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_71</ID>
+    <MaTinhThanh>BHPC</MaTinhThanh>
+    <TenTinhThanh>Bình Phước</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_72</ID>
+    <MaTinhThanh>BHTN</MaTinhThanh>
+    <TenTinhThanh>Bình Thuận</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_73</ID>
+    <MaTinhThanh>BNTE</MaTinhThanh>
+    <TenTinhThanh>Bến Tre</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_74</ID>
+    <MaTinhThanh>BRVT</MaTinhThanh>
+    <TenTinhThanh>Bà Rịa - Vũng Tàu</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_75</ID>
+    <MaTinhThanh>CAMU</MaTinhThanh>
+    <TenTinhThanh>Cà Mau</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_76</ID>
+    <MaTinhThanh>CNTO</MaTinhThanh>
+    <TenTinhThanh>Cần Thơ</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_77</ID>
+    <MaTinhThanh>COBG</MaTinhThanh>
+    <TenTinhThanh>Cao Bằng</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_78</ID>
+    <MaTinhThanh>DANG</MaTinhThanh>
+    <TenTinhThanh>Đà Nẵng</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_79</ID>
+    <MaTinhThanh>DCLC</MaTinhThanh>
+    <TenTinhThanh>Đắc Lắc</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_80</ID>
+    <MaTinhThanh>DCNG</MaTinhThanh>
+    <TenTinhThanh>Đắc Nông</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_81</ID>
+    <MaTinhThanh>DGNI</MaTinhThanh>
+    <TenTinhThanh>Đồng Nai</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_82</ID>
+    <MaTinhThanh>DGTP</MaTinhThanh>
+    <TenTinhThanh>Đồng Tháp</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_83</ID>
+    <MaTinhThanh>DNBN</MaTinhThanh>
+    <TenTinhThanh>Điện Biên</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_84</ID>
+    <MaTinhThanh>GALI</MaTinhThanh>
+    <TenTinhThanh>Gia Lai</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_85</ID>
+    <MaTinhThanh>HABH</MaTinhThanh>
+    <TenTinhThanh>Hoà Bình</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_86</ID>
+    <MaTinhThanh>HAGG</MaTinhThanh>
+    <TenTinhThanh>Hà Giang</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_87</ID>
+    <MaTinhThanh>HANI</MaTinhThanh>
+    <TenTinhThanh>Hà Nội</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_88</ID>
+    <MaTinhThanh>HANM</MaTinhThanh>
+    <TenTinhThanh>Hà Nam</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_89</ID>
+    <MaTinhThanh>HATH</MaTinhThanh>
+    <TenTinhThanh>Hà Tĩnh</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_90</ID>
+    <MaTinhThanh>HGYN</MaTinhThanh>
+    <TenTinhThanh>Hưng Yên</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_91</ID>
+    <MaTinhThanh>HIDG</MaTinhThanh>
+    <TenTinhThanh>Hải Dương</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_92</ID>
+    <MaTinhThanh>HIPG</MaTinhThanh>
+    <TenTinhThanh>Hải Phòng</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_93</ID>
+    <MaTinhThanh>HUGG</MaTinhThanh>
+    <TenTinhThanh>Hậu Giang</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_94</ID>
+    <MaTinhThanh>KHHA</MaTinhThanh>
+    <TenTinhThanh>Khánh Hoà</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_95</ID>
+    <MaTinhThanh>KNGG</MaTinhThanh>
+    <TenTinhThanh>Kiên Giang</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_96</ID>
+    <MaTinhThanh>KNTM</MaTinhThanh>
+    <TenTinhThanh>Kontum</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_97</ID>
+    <MaTinhThanh>LGAN</MaTinhThanh>
+    <TenTinhThanh>Long An</TenTinhThanh>
+    <TrungTamID>TT2</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_98</ID>
+    <MaTinhThanh>LGSN</MaTinhThanh>
+    <TenTinhThanh>Lạng Sơn</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTinhThanh>
+    <ID>TTCN_99</ID>
+    <MaTinhThanh>LICU</MaTinhThanh>
+    <TenTinhThanh>Lai Châu</TenTinhThanh>
+    <TrungTamID>TTCN</TrungTamID>
+  </DMTinhThanh>
+  <DMTrungTam>
+    <STT>12</STT>
+    <ID>TTCN</ID>
+    <MaTrongGCN>A</MaTrongGCN>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <TenTrungTam>Trung tâm chứng nhận</TenTrungTam>
+    <TenTiengAnh>Solution</TenTiengAnh>
+    <DiaChi>Trung Hoà - Cầu Giấy - HN</DiaChi>
+    <DienThoai>123445</DienThoai>
+    <Email>ttcn@ad.c</Email>
+    <Fax>04 88888</Fax>
+    <SoTaiKhoan>4944883</SoTaiKhoan>
+    <TenKhoBac>KB Nha Nuoc</TenKhoBac>
+    <TenCoQuanThuHuong>Cục QLCL</TenCoQuanThuHuong>
+    <DiaChiCoQuanThuHuong>Cầu Giấy - Hà Nội</DiaChiCoQuanThuHuong>
+    <TinhThanhID>TTCN_87   </TinhThanhID>
+    <NgayCapNhatSauCung>2009-11-16T15:29:46.043+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <GiamDocID>TTCN_15599</GiamDocID>
+    <NguoiTiepNhanHoSoQuaMang>TTCN_3</NguoiTiepNhanHoSoQuaMang>
+  </DMTrungTam>
+  <DMNhomSanPham>
+    <ID>TTCN_1656</ID>
+    <MaNhom>A09</MaNhom>
+    <TenNhom>A09</TenNhom>
+    <ThoiHanGCN>1</ThoiHanGCN>
+    <MucLePhi>500</MucLePhi>
+    <LienQuanTanSo>false</LienQuanTanSo>
+  </DMNhomSanPham>
+  <DMNhomSanPham>
+    <ID>TTCN_1683</ID>
+    <MaNhom>K01</MaNhom>
+    <TenNhom>K01</TenNhom>
+    <ThoiHanGCN>1</ThoiHanGCN>
+    <MucLePhi>500</MucLePhi>
+    <LienQuanTanSo>false</LienQuanTanSo>
+  </DMNhomSanPham>
+  <DMNhomSanPham>
+    <ID>TTCN_1656</ID>
+    <MaNhom>A09</MaNhom>
+    <TenNhom>A09</TenNhom>
+    <ThoiHanGCN>1</ThoiHanGCN>
+    <MucLePhi>500</MucLePhi>
+    <LienQuanTanSo>false</LienQuanTanSo>
+  </DMNhomSanPham>
+  <DMNhomSanPham>
+    <ID>TTCN_1683</ID>
+    <MaNhom>K01</MaNhom>
+    <TenNhom>K01</TenNhom>
+    <ThoiHanGCN>1</ThoiHanGCN>
+    <MucLePhi>500</MucLePhi>
+    <LienQuanTanSo>false</LienQuanTanSo>
+  </DMNhomSanPham>
+  <LichSuXoa>
+    <ID>TTCN_1945717</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_1699</MaBanGhi>
+    <TenBang>DM_NhomSanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945718</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14681</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945719</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14680</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945720</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14660</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945721</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14659</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945722</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14675</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945723</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_1841</MaBanGhi>
+    <TenBang>Sys_Role_Permission</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945724</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_1848</MaBanGhi>
+    <TenBang>Sys_Role_Permission</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945725</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_1968</MaBanGhi>
+    <TenBang>Sys_Role_Permission</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945726</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_1924</MaBanGhi>
+    <TenBang>Sys_Role_Permission</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945727</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_367</MaBanGhi>
+    <TenBang>Sys_User_Role</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945728</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14687</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945729</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14686</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945730</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14819</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945731</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14818</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945732</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14821</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945733</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14820</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945734</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14823</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945735</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14822</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945736</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14825</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945737</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14824</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945738</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_364</MaBanGhi>
+    <TenBang>Sys_User_Role</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945739</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14828</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945740</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14831</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945741</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_924</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945742</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14832</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945743</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14833</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945744</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_925</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945745</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14834</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945746</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_926</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945747</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14835</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945748</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14836</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945749</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14837</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945750</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14838</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945751</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14839</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945752</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14840</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945753</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14841</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945754</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14842</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945755</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14843</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945756</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14844</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945757</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14845</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945758</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_927</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945759</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14846</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945760</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_928</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945761</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14847</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945762</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14848</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945763</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14849</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945764</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_929</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945765</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14850</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945766</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14851</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945767</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14852</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945768</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_930</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945769</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14853</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945770</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_931</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945771</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14854</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945772</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_932</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945773</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14855</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945774</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_403</MaBanGhi>
+    <TenBang>ThongBaoLePhi_SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945775</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14829</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945776</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14857</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945777</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14858</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945778</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14859</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945779</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14830</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945780</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_405</MaBanGhi>
+    <TenBang>ThongBaoLePhi_SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945781</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_241</MaBanGhi>
+    <TenBang>ThongBaoLePhi</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945782</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14860</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945783</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14816</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945784</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14815</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945785</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14814</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945786</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14866</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945787</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_934</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945788</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14867</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945789</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_935</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945790</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14868</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945791</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_936</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945792</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14869</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945793</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14870</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945794</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14871</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945795</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14872</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945796</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_937</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945797</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14873</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945798</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14874</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945799</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_938</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945800</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14875</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945801</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14876</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945802</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14879</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945803</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14881</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945804</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14883</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945805</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14885</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945806</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14886</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945807</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14890</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945808</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14892</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945809</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14893</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945810</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13872</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945811</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13871</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945812</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13870</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945813</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13869</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945814</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13868</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945815</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13867</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945816</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13866</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945817</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13865</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945818</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13864</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945819</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13863</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945820</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13862</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945821</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13861</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945822</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13873</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945823</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13874</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945824</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13876</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945825</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13875</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945826</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_835</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945827</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_834</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945828</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_833</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945829</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_832</MaBanGhi>
+    <TenBang>TaiLieuDinhKem</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945830</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6756</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945831</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6755</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945832</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6754</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945833</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_55042</MaBanGhi>
+    <TenBang>SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945834</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_17810</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945835</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_17776</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945836</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_17753</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945837</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13821</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945838</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6729</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945839</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6728</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945840</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6727</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945841</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_6726</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945842</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_55027</MaBanGhi>
+    <TenBang>SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945843</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_I_55026</MaBanGhi>
+    <TenBang>SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945844</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13820</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945845</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_13819</MaBanGhi>
+    <TenBang>HoSo</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945846</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14897</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945847</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14898</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945848</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14899</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945849</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_14901</MaBanGhi>
+    <TenBang>SanPham_TieuChuanApDung</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945850</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_409</MaBanGhi>
+    <TenBang>ThongBaoLePhi_SanPham</TenBang>
+  </LichSuXoa>
+  <LichSuXoa>
+    <ID>TTCN_1945851</ID>
+    <MaTrungTam>TTCN</MaTrungTam>
+    <MaBanGhi>TTCN_248</MaBanGhi>
+    <TenBang>ThongBaoLePhi</TenBang>
+  </LichSuXoa>
+  <DMPhongBan>
+    <STT>21</STT>
+    <ID>TTCN_12_21</ID>
+    <TenPhongBan>Chứng nhận</TenPhongBan>
+    <TrungTamID>TTCN</TrungTamID>
+    <TruongPhongID>TTCN_3</TruongPhongID>
+    <MoTa>Phòng chứng nhận</MoTa>
+  </DMPhongBan>
+  <DMPhongBan>
+    <STT>39</STT>
+    <ID>TTCN_39</ID>
+    <TenPhongBan>Tổng hợp</TenPhongBan>
+    <TrungTamID>TTCN</TrungTamID>
+    <TruongPhongID>TTCN_3</TruongPhongID>
+    <MoTa>Phòng tổng hợp</MoTa>
+  </DMPhongBan>
+  <DMPhongBan>
+    <STT>40</STT>
+    <ID>TTCN_40</ID>
+    <TenPhongBan>Kế toán</TenPhongBan>
+    <TrungTamID>TTCN</TrungTamID>
+    <TruongPhongID>TTCN_3</TruongPhongID>
+    <MoTa>Kế toán</MoTa>
+  </DMPhongBan>
+  <DMPhongBan>
+    <STT>41</STT>
+    <ID>TTCN_41</ID>
+    <TenPhongBan>Lưu trữ</TenPhongBan>
+    <TrungTamID>TTCN</TrungTamID>
+    <TruongPhongID>TTCN_3</TruongPhongID>
+    <MoTa>Lưu trữ</MoTa>
+  </DMPhongBan>
+  <DMPhongBan>
+    <STT>42</STT>
+    <ID>TTCN_42</ID>
+    <TenPhongBan>Tiếp nhận hồ sơ</TenPhongBan>
+    <TrungTamID>TTCN</TrungTamID>
+    <TruongPhongID>TTCN_3</TruongPhongID>
+    <MoTa>Tiếp nhận hồ sơ</MoTa>
+  </DMPhongBan>
+  <HoSo>
+    <STT>13813</STT>
+    <ID>TTCN_13813</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090002</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-10T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-08-21T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11513</DonViID>
+    <NguoiNopHoSo>21222</NguoiNopHoSo>
+    <DienThoai>212312</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>true</BanCongBo>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-08-31T10:52:42.107+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>7</TrangThaiID>
+    <PhaiThamDinhLai>true</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13814</STT>
+    <ID>TTCN_13814</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090003</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-10T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-08-21T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11513</DonViID>
+    <NguoiNopHoSo>Nguyễn Văn Hùng</NguoiNopHoSo>
+    <DienThoai>0192834734</DienThoai>
+    <Email>hungtechno@gmail.com</Email>
+    <Fax />
+    <DanhSachSanPham>Tạo ra để test ko thay đổi trạng thái nhé</DanhSachSanPham>
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>true</BanCongBo>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac>Tạo ra để test ko thay đổi trạng thái nhé</TaiLieuKhac>
+    <LuuY>Tạo ra để test ko thay đổi trạng thái nhé</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-08-27T16:53:44.603+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>9</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15592,,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13816</STT>
+    <ID>TTCN_13816</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090004</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-17T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-08-28T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11513</DonViID>
+    <NguoiNopHoSo>tuanvm</NguoiNopHoSo>
+    <DienThoai>2</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham>ds</DanhSachSanPham>
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac>sd</TaiLieuKhac>
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-08-29T09:31:13.25+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13817</STT>
+    <ID>TTCN_13817</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090278</SoHoSo>
+    <SoCongVanDen>90-</SoCongVanDen>
+    <SoCongVanDonVi>90-</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-21T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-01T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11515</DonViID>
+    <NguoiNopHoSo>34534</NguoiNopHoSo>
+    <DienThoai>(04)37712309</DienThoai>
+    <Email>linhnd@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>-90-90-</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>89-90</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>1</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>true</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>  08-90</TaiLieuKhac>
+    <LuuY>2342343</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-04T08:21:28.827+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13818</STT>
+    <ID>TTCN_13818</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090279</SoHoSo>
+    <SoCongVanDen>123</SoCongVanDen>
+    <SoCongVanDonVi>222</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-21T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-01T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11514</DonViID>
+    <NguoiNopHoSo>Nguyễn thị Trang</NguoiNopHoSo>
+    <DienThoai>(04)38780542</DienThoai>
+    <Email>trangnt2@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>ti vi</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>βγ</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.423+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13830</STT>
+    <ID>TTCN_13830</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090005</SoHoSo>
+    <SoCongVanDen>CVD_TTCN</SoCongVanDen>
+    <SoCongVanDonVi>CVDV_TTCN</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-31T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TTCN_11796</DonViID>
+    <NguoiNopHoSo>Người nộp của TTCN</NguoiNopHoSo>
+    <DienThoai>45435345</DienThoai>
+    <Email>linhnd@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>Sản phẩm 123
+-1
+-2
+-3</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>Ký hiệu
+-3
+-2
+-1</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>2</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>true</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>Tài liệu
+- số 1
+- số 2
+- số 3</TaiLieuKhac>
+    <LuuY>Ý kiến CVTN
+- số 3
+- số 2
+- số 1</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.407+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13831</STT>
+    <ID>TTCN_13831</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090003</SoHoSo>
+    <SoCongVanDen>CVDCB_TTCN</SoCongVanDen>
+    <SoCongVanDonVi>CVDVCB_TTCN</SoCongVanDonVi>
+    <NgayTiepNhan>1987-07-15T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-08-26T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TTCN_11796</DonViID>
+    <NguoiNopHoSo>Người nộp CB của TTCN</NguoiNopHoSo>
+    <DienThoai>0200202</DienThoai>
+    <Email>linhnd1@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>Sản phẩm CB
+-1
+-2
+-3</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>Ký hiệu CB
+-4
+-3
+-2</DanhSachKyHieuSanPham>
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac>Tài liệu CB khác:
+- số 1
+- số 2</TaiLieuKhac>
+    <LuuY>Lưu ý CB:
+-3
+-4 nào</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-08-27T08:42:22.603+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>5</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13832</STT>
+    <ID>TTCN_13832</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090006</SoHoSo>
+    <SoCongVanDen>123</SoCongVanDen>
+    <SoCongVanDonVi>12</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-31T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11791</DonViID>
+    <NguoiNopHoSo>tuanvm</NguoiNopHoSo>
+    <DienThoai>0975</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham>tuanvm</DanhSachSanPham>
+    <DanhSachKyHieuSanPham />
+    <NhanHoSoTuID>2</NhanHoSoTuID>
+    <NguonGocID>1</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>sdf</TaiLieuKhac>
+    <LuuY>ad</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-13T11:44:02.03+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13833</STT>
+    <ID>TTCN_13833</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090007</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-31T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11791</DonViID>
+    <NguoiNopHoSo>tét</NguoiNopHoSo>
+    <DienThoai>0975</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham>tet</DanhSachSanPham>
+    <DanhSachKyHieuSanPham />
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>false</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>sdf</TaiLieuKhac>
+    <LuuY>sdf</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-13T11:44:02.013+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13846</STT>
+    <ID>TTCN_13846</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090005</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-04T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-15T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TT2_11792</DonViID>
+    <NguoiNopHoSo>45345</NguoiNopHoSo>
+    <DienThoai>123</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-16T13:52:12.03+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13847</STT>
+    <ID>TTCN_13847</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090006</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-04T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-15T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TT2_11792</DonViID>
+    <NguoiNopHoSo>435345</NguoiNopHoSo>
+    <DienThoai>123</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.47+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>9</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,,TTCN_15578,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13848</STT>
+    <ID>TTCN_13848</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090007</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-05T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-16T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TT2_11792</DonViID>
+    <NguoiNopHoSo>9999</NguoiNopHoSo>
+    <DienThoai>123666</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-17T11:53:18.75+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13849</STT>
+    <ID>TTCN_13849</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090008</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-05T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-16T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>456456</NguoiNopHoSo>
+    <DienThoai>456456456</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-17T11:53:18.733+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13850</STT>
+    <ID>TTCN_13850</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090009</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-05T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-16T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TT2_11792</DonViID>
+    <NguoiNopHoSo>78768</NguoiNopHoSo>
+    <DienThoai>123456456</DienThoai>
+    <Email />
+    <Fax />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham />
+    <BanCongBo>false</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.453+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>9</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15597,TTCN_3,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13855</STT>
+    <ID>TTCN_13855</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090011</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_20091777</SoCongVanDen>
+    <SoCongVanDonVi>CVDVTT2005</SoCongVanDonVi>
+    <NgayTiepNhan>2009-08-27T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-10-08T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>1</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15590</NguoiTiepNhanID>
+    <DonViID>TTCN_11542</DonViID>
+    <NguoiNopHoSo>tuanvm</NguoiNopHoSo>
+    <DienThoai>(04)39438626</DienThoai>
+    <Email />
+    <DanhSachSanPham>Nokia</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>N71, n72</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>3</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>true</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac />
+    <LuuY />
+    <NgayLuuTru>2009-08-28T00:00:00+07:00</NgayLuuTru>
+    <SoLuuTru>TTCN-CN20090011</SoLuuTru>
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-08-28T15:03:27.937+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>13</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15590,TTCN_15599,,TTCN_15591,,TTCN_15592,,TTCN_15594,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13856</STT>
+    <ID>TTCN_13856</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090005</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-28T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-10-09T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15590</NguoiTiepNhanID>
+    <DonViID>TTCN_11540</DonViID>
+    <NguoiNopHoSo>tuanvm</NguoiNopHoSo>
+    <DienThoai>(04)35373089</DienThoai>
+    <Email />
+    <DanhSachSanPham />
+    <DanhSachKyHieuSanPham>fdg</DanhSachKyHieuSanPham>
+    <BanCongBo>true</BanCongBo>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <NgayCapNhatSauCung>2009-11-12T15:34:16.31+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>5</TrangThaiID>
+    <PhaiThamDinhLai>true</PhaiThamDinhLai>
+    <DaDoc>TTCN_15590,TTCN_15599,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13857</STT>
+    <ID>TTCN_13857</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CB20090006</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-29T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-10-10T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>1</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15590</NguoiTiepNhanID>
+    <DonViID>TTCN_11543</DonViID>
+    <NguoiNopHoSo>Tuấnvm</NguoiNopHoSo>
+    <DienThoai>(04)36363461</DienThoai>
+    <Email />
+    <DanhSachSanPham>Nokia</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>N900</DanhSachKyHieuSanPham>
+    <BanCongBo>true</BanCongBo>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac />
+    <LuuY />
+    <NgayLuuTru>2009-09-01T00:00:00+07:00</NgayLuuTru>
+    <SoLuuTru>TTCN-CB20090006</SoLuuTru>
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-01T08:53:40.92+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>13</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15590,TTCN_15599,,TTCN_15591,,TTCN_15592,,TTCN_15594,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13858</STT>
+    <ID>TTCN_13858</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CN20090012</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-31T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-10-10T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15590</NguoiTiepNhanID>
+    <DonViID>TTCN_11541</DonViID>
+    <NguoiNopHoSo>Tuấnvm</NguoiNopHoSo>
+    <DienThoai>(04)32103063</DienThoai>
+    <Email />
+    <DanhSachSanPham>máy công trình</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>mct</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>false</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac />
+    <LuuY />
+    <NgayCapNhatSauCung>2009-11-12T15:34:16.28+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15590,TTCN_15599,,TTCN_15591,,TTCN_15592,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13859</STT>
+    <ID>TTCN_13859</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>false</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>ttcn-cn01</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-08-31T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-10-10T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>1</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15590</NguoiTiepNhanID>
+    <DonViID>TTCN_11544</DonViID>
+    <NguoiNopHoSo>TuấnVM</NguoiNopHoSo>
+    <DienThoai>(0313)855846</DienThoai>
+    <Email />
+    <DanhSachSanPham>N71</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>N71</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>true</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac />
+    <LuuY />
+    <NgayLuuTru>2009-08-31T00:00:00+07:00</NgayLuuTru>
+    <SoLuuTru>ttcn-cn01</SoLuuTru>
+    <NoiLuuTru>tang 1</NoiLuuTru>
+    <GhiChuLuuTru>day 3</GhiChuLuuTru>
+    <NgayCapNhatSauCung>2009-08-31T16:44:30.887+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>13</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_15590,TTCN_15599,,TTCN_15591,,TTCN_15592,,TTCN_15594,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13877</STT>
+    <ID>TTCN_13877</ID>
+    <LoaiHoSo>3</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-CNHC20090001</SoHoSo>
+    <SoCongVanDen>123</SoCongVanDen>
+    <SoCongVanDonVi>123</SoCongVanDonVi>
+    <NgayTiepNhan>2009-11-12T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-12-24T00:00:00+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>1</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11540</DonViID>
+    <NguoiNopHoSo>123</NguoiNopHoSo>
+    <DienThoai>(04)35373089</DienThoai>
+    <Email />
+    <DanhSachSanPham>123</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>123</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>1</NhanHoSoTuID>
+    <NguonGocID>4</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>false</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>true</ChungChi_HTQLCL>
+    <TieuChuanApDung>true</TieuChuanApDung>
+    <TaiLieuKhac>123</TaiLieuKhac>
+    <LuuY />
+    <NgayCapNhatSauCung>2009-11-13T22:56:59.357+07:00</NgayCapNhatSauCung>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3,TTCN_15592,</DaDoc>
+    <SoQuyTrinhCanDanhGiaCL>12</SoQuyTrinhCanDanhGiaCL>
+  </HoSo>
+  <HoSo>
+    <STT>13825</STT>
+    <ID>TTCN_I_17777</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CB20090002</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917777</SoCongVanDen>
+    <SoCongVanDonVi>CVDV001</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-25T11:05:09+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-05T11:05:09+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>Người nộp - trung tâm 2</NguoiNopHoSo>
+    <DienThoai>30030303</DienThoai>
+    <Email>linhnd@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>ký hiẹu</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <BanCongBo>false</BanCongBo>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac>tài liệu</TaiLieuKhac>
+    <LuuY>ghi chú</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-09T09:39:00.7+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>11</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>,TTCN_15592,,TTCN_3,,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13826</STT>
+    <ID>TTCN_I_17778</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090003</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917778</SoCongVanDen>
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-25T11:12:24+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-05T11:12:24+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>Nguyễn</NguoiNopHoSo>
+    <DienThoai>9399933</DienThoai>
+    <Email>linhnd@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>ký hiệu</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>3</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>true</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>tài liệu khác</TaiLieuKhac>
+    <LuuY>ghi chú khác</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-09T09:39:00.607+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>abc,TTCN_3,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13827</STT>
+    <ID>TTCN_I_17779</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090004</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917779</SoCongVanDen>
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-25T11:24:13+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-05T11:24:13+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>Nguyễn Linh</NguoiNopHoSo>
+    <DienThoai>040440</DienThoai>
+    <Email>linhnguyen@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>ký hiệu</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>3</NguonGocID>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>true</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>true</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>Tài liệu khác</TaiLieuKhac>
+    <LuuY>Ghi chú</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-09T09:39:00.59+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>abc,TTCN_3,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13837</STT>
+    <ID>TTCN_I_17789</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090006</SoHoSo>
+    <SoCongVanDen />
+    <SoCongVanDonVi>321</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-31T14:20:54+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T14:19:21+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TTCN_11791</DonViID>
+    <NguoiNopHoSo>321</NguoiNopHoSo>
+    <DienThoai>321</DienThoai>
+    <Email>s@s.com</Email>
+    <Fax />
+    <DanhSachSanPham>3211</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>321</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>1</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>321</TaiLieuKhac>
+    <LuuY />
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-13T11:44:02+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>abc,TTCN_3,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13838</STT>
+    <ID>TTCN_I_17790</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090007</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917790</SoCongVanDen>
+    <SoCongVanDonVi>abc</SoCongVanDonVi>
+    <NgayTiepNhan>2009-07-31T14:30:08+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T14:30:08+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TTCN_11791</DonViID>
+    <NguoiNopHoSo>abc</NguoiNopHoSo>
+    <DienThoai>abc</DienThoai>
+    <Email>s@s.com</Email>
+    <Fax />
+    <DanhSachSanPham>abc</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>abc</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>1</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>abc</TaiLieuKhac>
+    <LuuY>abc</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-13T11:44:02+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>abc,TTCN_3,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13840</STT>
+    <ID>TTCN_I_17797</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090008</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917797</SoCongVanDen>
+    <SoCongVanDonVi />
+    <NgayTiepNhan>2009-07-31T15:51:04+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-11T16:46:30+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_15597</NguoiTiepNhanID>
+    <DonViID>TTCN_11791</DonViID>
+    <NguoiNopHoSo>TUANVM</NguoiNopHoSo>
+    <DienThoai>TUANVM</DienThoai>
+    <Email>s@s.com</Email>
+    <Fax />
+    <DanhSachSanPham>SADF</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>ASDF</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>2</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>false</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>false</TieuChuanApDung>
+    <TaiLieuKhac>ASDF</TaiLieuKhac>
+    <LuuY>SDF</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.36+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>abc,TTCN_3,,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13852</STT>
+    <ID>TTCN_I_17811</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CB20090003</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917811</SoCongVanDen>
+    <SoCongVanDonVi>CVCB001</SoCongVanDonVi>
+    <NgayTiepNhan>2009-08-07T10:19:47+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-18T10:19:47+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TTCN_11796</DonViID>
+    <NguoiNopHoSo>Người nộp CB của đơn vị TTCN</NguoiNopHoSo>
+    <DienThoai>004003005</DienThoai>
+    <Email>emai@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm có nhiều loại
+- máy xe
+- đạp xe
+
+- tô ô</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>Các loại ký hiệu
+- mx
+- dx
+
+- to</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <BanCongBo>true</BanCongBo>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>true</TaiLieuKyThuat>
+    <BanTuDanhGia>false</BanTuDanhGia>
+    <TaiLieuKhac>Thiếu các tài liệu:
+- Giấy CN đăng ký 
+- Bản tự đánh giá</TaiLieuKhac>
+    <LuuY>Ghi chú lại 1 số thứ</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:26:56.453+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>9</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>,TTCN_3,,TTCN_15591,</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13853</STT>
+    <ID>TTCN_I_17812</ID>
+    <LoaiHoSo>1</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CN20090010</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917812</SoCongVanDen>
+    <SoCongVanDonVi>CVDVTT2001</SoCongVanDonVi>
+    <NgayTiepNhan>2009-08-07T00:00:00+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-18T10:25:01+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>Người nộp đơn vị của TT2</NguoiNopHoSo>
+    <DienThoai>0020202220</DienThoai>
+    <Email>tt2@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm của trung tâm 2:
+- XE MÁY 2
+- XE ĐẠP 2
+
+- Ô TÔ 2</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>Ký hiệu các sp của tt2:
+- XM
+- XD
+
+- OTO</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <NguonGocID>1</NguonGocID>
+    <DonDeNghiChungNhan>false</DonDeNghiChungNhan>
+    <GiayToTuCachPhapNhan>true</GiayToTuCachPhapNhan>
+    <KetQuaDoKiem>true</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <QuyTrinhSanXuat>false</QuyTrinhSanXuat>
+    <QuyTrinhDamBaoChatLuong>false</QuyTrinhDamBaoChatLuong>
+    <ChungChi_HTQLCL>false</ChungChi_HTQLCL>
+    <TieuChuanApDung>true</TieuChuanApDung>
+    <TaiLieuKhac>Các tài liệu có:
+- Giấy tờ Tư cách pháp nhân
+- KQ đo kiểm
+- Qtrình đảm bảo chất lượng
+- Tiêu chuẩn tự nguyện áp dụng</TaiLieuKhac>
+    <LuuY>Ghi chú thiếu, thừa, NK mậu dịch</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-30T15:27:27.597+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>4</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>TTCN_3</DaDoc>
+  </HoSo>
+  <HoSo>
+    <STT>13854</STT>
+    <ID>TTCN_I_17813</ID>
+    <LoaiHoSo>2</LoaiHoSo>
+    <HoSoMoi>true</HoSoMoi>
+    <TrungTamID>TTCN</TrungTamID>
+    <SoHoSo>TTCN-I-CB20090004</SoHoSo>
+    <SoCongVanDen>CVD_TTCN_200917813</SoCongVanDen>
+    <SoCongVanDonVi>CVDVTT2002</SoCongVanDonVi>
+    <NgayTiepNhan>2009-08-07T10:29:25+07:00</NgayTiepNhan>
+    <NgayHetHanXuLy>2009-09-18T10:29:25+07:00</NgayHetHanXuLy>
+    <HoSoXuLyDungHan>0</HoSoXuLyDungHan>
+    <NguoiTiepNhanID>TTCN_3</NguoiTiepNhanID>
+    <DonViID>TT2_11795</DonViID>
+    <NguoiNopHoSo>Người nộp CB của đơn vị TT2</NguoiNopHoSo>
+    <DienThoai>30038282882</DienThoai>
+    <Email>tt2cb@tinhvan.com</Email>
+    <Fax />
+    <DanhSachSanPham>sản phẩm côgn bố của tt2:
+- MÁY XE
+- ĐẠP XE
+
+- Ô TÔ XE.</DanhSachSanPham>
+    <DanhSachKyHieuSanPham>các kí hiệu tương ứng:
+- MX,
+- DX,
+
+- OTOX.</DanhSachKyHieuSanPham>
+    <NhanHoSoTuID>4</NhanHoSoTuID>
+    <BanCongBo>false</BanCongBo>
+    <DonDeNghiChungNhan>true</DonDeNghiChungNhan>
+    <KetQuaDoKiem>false</KetQuaDoKiem>
+    <TaiLieuKyThuat>false</TaiLieuKyThuat>
+    <BanTuDanhGia>true</BanTuDanhGia>
+    <TaiLieuKhac>Các tài liệu:
+- Giấy CN đăng ký kinh doanh
+- bản tự đánh giá</TaiLieuKhac>
+    <LuuY>Ghi chsu</LuuY>
+    <SoLuuTru />
+    <NoiLuuTru />
+    <GhiChuLuuTru />
+    <NgayCapNhatSauCung>2009-09-21T10:34:26.953+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <TrangThaiID>1</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>,TTCN_3,</DaDoc>
+  </HoSo>
+  <PhanCong>
+    <ID>TTCN_7771</ID>
+    <HoSoID>TTCN_I_17797</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_3</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-08T11:02:42.157+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_3</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7783</ID>
+    <HoSoID>TTCN_13833</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_3</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-08T09:55:50.563+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_3</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7784</ID>
+    <HoSoID>TTCN_I_17811</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_3</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-10T11:13:45.157+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_3</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7785</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao>xử lý ngay</YKienCuaLanhDao>
+    <NgayPhanCong>2009-08-27T16:53:03.923+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15599</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7786</ID>
+    <HoSoID>TTCN_13856</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-28T15:49:59.937+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15599</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7787</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-31T09:36:46.327+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15599</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7788</ID>
+    <HoSoID>TTCN_13859</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-31T16:13:50.593+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15599</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7789</ID>
+    <HoSoID>TTCN_13857</HoSoID>
+    <NguoiXuLy>TTCN_15591</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-08-31T16:56:36.983+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15599</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7790</ID>
+    <HoSoID>TTCN_I_17812</HoSoID>
+    <NguoiXuLy>TTCN_3</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao>Cái này là do chuyên viên xử lý sửa nhé</YKienCuaLanhDao>
+    <NgayPhanCong>2009-09-30T15:27:27.58+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_15591</NguoiPhanCong>
+  </PhanCong>
+  <PhanCong>
+    <ID>TTCN_7791</ID>
+    <HoSoID>TTCN_13877</HoSoID>
+    <NguoiXuLy>TTCN_3</NguoiXuLy>
+    <NguoiThamDinh>TTCN_15592</NguoiThamDinh>
+    <YKienCuaLanhDao />
+    <NgayPhanCong>2009-11-12T11:26:04.86+07:00</NgayPhanCong>
+    <NguoiPhanCong>TTCN_3</NguoiPhanCong>
+  </PhanCong>
+  <SanPham>
+    <ID>TTCN_66864</ID>
+    <HoSoID>TTCN_13818</HoSoID>
+    <SanPhamID>TTCN_6444</SanPhamID>
+    <KyHieu />
+    <LePhiID>TTCN_43</LePhiID>
+    <NhomSanPhamID>TTCN_1651</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10359</HangSanXuatID>
+    <TrangThaiID>12</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem>97978</SoDoKiem>
+    <NgayDoKiem>2009-07-23T00:00:00+07:00</NgayDoKiem>
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem>789</NoiDungDoKiem>
+    <NhanXetKhac>79789</NhanXetKhac>
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <SoGCN>A0094050809AA03B1</SoGCN>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-05T11:29:12.86+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>true</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_3,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15591,,TTCN_3,,TTCN_15591,,TTCN_15592,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66874</ID>
+    <HoSoID>TTCN_13833</HoSoID>
+    <SanPhamID>TTCN_6445</SanPhamID>
+    <KyHieu />
+    <LePhiID>TTCN_43</LePhiID>
+    <NhomSanPhamID>TTCN_1652</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10359</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_3,,TTCN_3,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66880</ID>
+    <HoSoID>TTCN_I_17797</HoSoID>
+    <SanPhamID>TTCN_6444</SanPhamID>
+    <KyHieu>df</KyHieu>
+    <LePhiID>TTCN_43</LePhiID>
+    <NhomSanPhamID>TTCN_1651</NhomSanPhamID>
+    <HangSanXuatID>TT2_10793</HangSanXuatID>
+    <TrangThaiID>6</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem>df</SoDoKiem>
+    <NgayDoKiem>2009-07-10T00:00:00+07:00</NgayDoKiem>
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem>sdf</NoiDungDoKiem>
+    <NhanXetKhac>fd</NhanXetKhac>
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <SoGCN>A0096190809AA03B1</SoGCN>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-19T11:16:34.953+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66881</ID>
+    <HoSoID>TTCN_I_17790</HoSoID>
+    <SanPhamID>TTCN_6444</SanPhamID>
+    <KyHieu>df</KyHieu>
+    <NhomSanPhamID>TTCN_1651</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10359</HangSanXuatID>
+    <TrangThaiID>1</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem>á</SoDoKiem>
+    <NgayDoKiem>2009-07-08T00:00:00+07:00</NgayDoKiem>
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem>sa</NoiDungDoKiem>
+    <NhanXetKhac>á</NhanXetKhac>
+    <KetLuanID>2</KetLuanID>
+    <SoGCN>CVCN-TTCN-27/08/20090002</SoGCN>
+    <NgayKyDuyet>2009-08-27T11:53:35.643+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66912</ID>
+    <HoSoID>TTCN_13833</HoSoID>
+    <SanPhamID>TTCN_6444</SanPhamID>
+    <KyHieu>sdf</KyHieu>
+    <NhomSanPhamID>TTCN_1651</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10359</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_3,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66913</ID>
+    <HoSoID>TTCN_13813</HoSoID>
+    <SanPhamID>TTCN_6659</SanPhamID>
+    <KyHieu />
+    <MauDauID />
+    <HinhThucID>4</HinhThucID>
+    <NhomSanPhamID>TTCN_1694</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10361</HangSanXuatID>
+    <TrangThaiID>1</TrangThaiID>
+    <SoGCN />
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66914</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <SanPhamID>TTCN_6640</SanPhamID>
+    <KyHieu>td 01</KyHieu>
+    <NhomSanPhamID>TTCN_1666</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>11</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem>01</SoDoKiem>
+    <NgayDoKiem>2009-08-05T00:00:00+07:00</NgayDoKiem>
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>true</KetQuaKiemTraCSSX>
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>1</ThoiHanID>
+    <SoGCN>A0097270809AE01B1</SoGCN>
+    <NguoiKyDuyetID>TTCN_15599</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-27T17:30:13.077+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15599,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66915</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <SanPhamID>TTCN_6546</SanPhamID>
+    <KyHieu>MXQ01</KyHieu>
+    <NhomSanPhamID>TTCN_1666</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10588</HangSanXuatID>
+    <TrangThaiID>6</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>true</KetQuaKiemTraCSSX>
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>1</ThoiHanID>
+    <SoGCN>A0098280809AE01B1</SoGCN>
+    <NguoiKyDuyetID>TTCN_15599</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-28T14:54:14.14+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>true</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15599,,TTCN_15591,,TTCN_15592,,TTCN_15599,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66916</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <SanPhamID>TTCN_6638</SanPhamID>
+    <KyHieu>MD01</KyHieu>
+    <NhomSanPhamID>TTCN_1661</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10588</HangSanXuatID>
+    <TrangThaiID>6</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>false</KetQuaKiemTraCSSX>
+    <NhanXetKhac />
+    <KetLuanID>2</KetLuanID>
+    <SoGCN>CVCN-TTCN-28/08/20090002</SoGCN>
+    <NgayKyDuyet>2009-08-28T10:13:49.72+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15599,,TTCN_15599,,TTCN_15599,,TTCN_15591,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66917</ID>
+    <HoSoID>TTCN_I_17797</HoSoID>
+    <SanPhamID>TTCN_6545</SanPhamID>
+    <KyHieu>nbbbbb</KyHieu>
+    <NhomSanPhamID>TTCN_1664</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10725</HangSanXuatID>
+    <TrangThaiID>1</TrangThaiID>
+    <HopLe>false</HopLe>
+    <DayDu>false</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <NgayKyDuyet>2009-08-28T15:40:32.297+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66918</ID>
+    <HoSoID>TTCN_13856</HoSoID>
+    <SanPhamID>TT2_6659</SanPhamID>
+    <KyHieu>sdf</KyHieu>
+    <MauDauID />
+    <HinhThucID>4</HinhThucID>
+    <NhomSanPhamID>TT2_1694</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10725</HangSanXuatID>
+    <TrangThaiID>1</TrangThaiID>
+    <SoGCN />
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66919</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6546</SanPhamID>
+    <KyHieu>mxq</KyHieu>
+    <NhomSanPhamID>TTCN_1666</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>false</HopLe>
+    <DayDu>false</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <QuyHoachTanSo>false</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,,TTCN_15592,,TTCN_15592,,TTCN_15592,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66920</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6643</SanPhamID>
+    <KyHieu>pc</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1683</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10439</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66921</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6632</SanPhamID>
+    <KyHieu>md</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1670</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66922</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6612</SanPhamID>
+    <KyHieu>fax</KyHieu>
+    <NhomSanPhamID>TTCN_1686</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10588</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>false</HopLe>
+    <DayDu>false</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>2</KetLuanID>
+    <SoGCN>CVCN-TTCN-31/08/20090002</SoGCN>
+    <NgayKyDuyet>2009-08-31T10:00:07.453+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66923</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6631</SanPhamID>
+    <KyHieu>tmd</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1670</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10588</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66924</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6558</SanPhamID>
+    <KyHieu>cs</KyHieu>
+    <NhomSanPhamID>TTCN_1678</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10725</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66925</ID>
+    <HoSoID>TTCN_13858</HoSoID>
+    <SanPhamID>TTCN_6546</SanPhamID>
+    <KyHieu>abc</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1666</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>2</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66926</ID>
+    <HoSoID>TTCN_13859</HoSoID>
+    <SanPhamID>TTCN_6498</SanPhamID>
+    <KyHieu>cbt01</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1681</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10538</HangSanXuatID>
+    <TrangThaiID>6</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>2</KetLuanID>
+    <SoGCN>CVCN-TTCN-31/08/20090002</SoGCN>
+    <NgayKyDuyet>2009-08-31T16:15:20.233+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15599,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66927</ID>
+    <HoSoID>TTCN_13859</HoSoID>
+    <SanPhamID>TTCN_6492</SanPhamID>
+    <KyHieu>dtb</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1677</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>11</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>3</ThoiHanID>
+    <SoGCN>Số sinh tự động</SoGCN>
+    <NguoiKyDuyetID>TTCN_15599</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-31T16:26:09.577+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_15591,,TTCN_15592,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15591,,TTCN_15599,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66928</ID>
+    <HoSoID>TTCN_13857</HoSoID>
+    <SanPhamID>TTCN_6659</SanPhamID>
+    <KyHieu />
+    <MauDauID />
+    <HinhThucID>4</HinhThucID>
+    <NhomSanPhamID>TTCN_1694</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10570</HangSanXuatID>
+    <TrangThaiID>1</TrangThaiID>
+    <SoGCN />
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_66929</ID>
+    <HoSoID>TTCN_13877</HoSoID>
+    <SanPhamID>TTCN_6668</SanPhamID>
+    <KyHieu>dasf</KyHieu>
+    <NhomSanPhamID>TT2_1694</NhomSanPhamID>
+    <HangSanXuatID>TTCN_10688</HangSanXuatID>
+    <TrangThaiID>6</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>true</KetQuaKiemTraCSSX>
+    <QuyHoachTanSo>true</QuyHoachTanSo>
+    <NhanXetKhac />
+    <KetLuanID>1</KetLuanID>
+    <ThoiHanID>2</ThoiHanID>
+    <SoGCN>A0099121109ANSP_TT2A2</SoGCN>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-11-12T15:53:58.827+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>0,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_15592,,TTCN_3,,TTCN_3,</DaDoc>
+  </SanPham>
+  <SanPham>
+    <ID>TTCN_I_55041</ID>
+    <HoSoID>TTCN_I_17797</HoSoID>
+    <SanPhamID>TTCN_6444</SanPhamID>
+    <KyHieu>SDF</KyHieu>
+    <LePhiID>TTCN_44</LePhiID>
+    <NhomSanPhamID>TTCN_1651</NhomSanPhamID>
+    <HangSanXuatID>TT2_10793</HangSanXuatID>
+    <TrangThaiID>3</TrangThaiID>
+    <HopLe>true</HopLe>
+    <DayDu>true</DayDu>
+    <SoDoKiem>dsf</SoDoKiem>
+    <NgayDoKiem>2009-07-02T00:00:00+07:00</NgayDoKiem>
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem>df</NoiDungDoKiem>
+    <NhanXetKhac>sdf</NhanXetKhac>
+    <KetLuanID>3</KetLuanID>
+    <SoGCN>CVCN-TTCN-28/08/20090002</SoGCN>
+    <NgayKyDuyet>2009-08-28T15:18:23.843+07:00</NgayKyDuyet>
+    <PhaiThamDinhLai>false</PhaiThamDinhLai>
+    <DaDoc>,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_3,,TTCN_15591,,TTCN_15591,,TTCN_3,,TTCN_15591,,TTCN_15591,,TTCN_15591,</DaDoc>
+  </SanPham>
+  <TaiLieuDinhKem>
+    <ID>TTCN_921</ID>
+    <SanPhamID>TTCN_66874</SanPhamID>
+    <LoaiTaiLieuID>13</LoaiTaiLieuID>
+    <TenFile />
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_922</ID>
+    <SanPhamID>TTCN_66914</SanPhamID>
+    <LoaiTaiLieuID>2</LoaiTaiLieuID>
+    <TenFile>/Cuc_QLCL/FileUpLoad/TTCN_922_accVTHH.txt</TenFile>
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_923</ID>
+    <SanPhamID>TTCN_66915</SanPhamID>
+    <LoaiTaiLieuID>3</LoaiTaiLieuID>
+    <TenFile>/Cuc_QLCL/FileUpLoad/TTCN_923_acc.txt</TenFile>
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_933</ID>
+    <SanPhamID>TTCN_66916</SanPhamID>
+    <LoaiTaiLieuID>13</LoaiTaiLieuID>
+    <TenFile>FileUpload/TTCN_cs.txt</TenFile>
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_939</ID>
+    <SanPhamID>TTCN_66926</SanPhamID>
+    <LoaiTaiLieuID>2</LoaiTaiLieuID>
+    <TenFile>/Cuc_QLCL/FileUpLoad/TTCN_939_acc.txt</TenFile>
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_940</ID>
+    <SanPhamID>TTCN_66927</SanPhamID>
+    <LoaiTaiLieuID>4</LoaiTaiLieuID>
+    <TenFile>/Cuc_QLCL/FileUpLoad/TTCN_940_acc.txt</TenFile>
+  </TaiLieuDinhKem>
+  <TaiLieuDinhKem>
+    <ID>TTCN_941</ID>
+    <SanPhamID>TTCN_66926</SanPhamID>
+    <LoaiTaiLieuID>13</LoaiTaiLieuID>
+    <TenFile>FileUpload/TTCN_acc.txt</TenFile>
+  </TaiLieuDinhKem>
+  <ThongBaoLePhi>
+    <ID>TTCN_238</ID>
+    <SoGiayThongBaoLePhi>238/LP-TTCN</SoGiayThongBaoLePhi>
+    <DonViID>TTCN_11791</DonViID>
+    <TongPhi>1000</TongPhi>
+    <NguoiPheDuyetID>TTCN_3</NguoiPheDuyetID>
+    <NgayPheDuyet>2009-08-19T11:16:34.97+07:00</NgayPheDuyet>
+    <TrangThaiID>3</TrangThaiID>
+  </ThongBaoLePhi>
+  <ThongBaoLePhi>
+    <ID>TTCN_239</ID>
+    <SoGiayThongBaoLePhi>239/LP-TTCN</SoGiayThongBaoLePhi>
+    <DonViID>TTCN_11791</DonViID>
+    <TongPhi>8000</TongPhi>
+    <TrangThaiID>1</TrangThaiID>
+  </ThongBaoLePhi>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_401</ID>
+    <ID1>TTCN_401</ID1>
+    <ThongBaoLePhiID>TTCN_238</ThongBaoLePhiID>
+    <SanPhamID>TTCN_66880</SanPhamID>
+    <TenSanPham>THIẾT BỊ ĐẦU CUỐI ADSL</TenSanPham>
+    <CachTinhPhi>2</CachTinhPhi>
+    <LePhi>1000</LePhi>
+  </ThongBaoLePhiSanPham>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_402</ID>
+    <ID1>TTCN_402</ID1>
+    <ThongBaoLePhiID>TTCN_239</ThongBaoLePhiID>
+    <SanPhamID>TTCN_I_55041</SanPhamID>
+    <TenSanPham>THIẾT BỊ ĐẦU CUỐI ADSL</TenSanPham>
+    <CachTinhPhi>2</CachTinhPhi>
+    <LePhi>8000</LePhi>
+  </ThongBaoLePhiSanPham>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_404</ID>
+    <ID1>TTCN_404</ID1>
+    <ThongBaoLePhiID>TTCN_240</ThongBaoLePhiID>
+    <SanPhamID>TTCN_66914</SanPhamID>
+    <TenSanPham>TỦ ĐẤU DÂY VỎ TÔN SƠN TĨNH ĐIỆN</TenSanPham>
+    <CachTinhPhi>3</CachTinhPhi>
+    <LePhi>5000</LePhi>
+  </ThongBaoLePhiSanPham>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_406</ID>
+    <ID1>TTCN_406</ID1>
+    <ThongBaoLePhiID>TTCN_242</ThongBaoLePhiID>
+    <SanPhamID>TTCN_66915</SanPhamID>
+    <TenSanPham> MĂNG XÔNG QUANG</TenSanPham>
+    <CachTinhPhi>3</CachTinhPhi>
+    <LePhi>5000</LePhi>
+  </ThongBaoLePhiSanPham>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_407</ID>
+    <ID1>TTCN_407</ID1>
+    <ThongBaoLePhiID>TTCN_243</ThongBaoLePhiID>
+    <SanPhamID>TTCN_66927</SanPhamID>
+    <TenSanPham>DÂY THUÊ BAO</TenSanPham>
+    <CachTinhPhi>2</CachTinhPhi>
+    <LePhi>8000</LePhi>
+  </ThongBaoLePhiSanPham>
+  <ThongBaoLePhiSanPham>
+    <ID>TTCN_408</ID>
+    <ID1>TTCN_408</ID1>
+    <ThongBaoLePhiID>TTCN_244</ThongBaoLePhiID>
+    <SanPhamID>TTCN_66929</SanPhamID>
+    <TenSanPham>abcdef</TenSanPham>
+    <CachTinhPhi>4</CachTinhPhi>
+    <LePhi>100</LePhi>
+  </ThongBaoLePhiSanPham>
+  <CBDanhGia>
+    <STT>102</STT>
+    <ID>TTCN_102</ID>
+    <HoSoID>TTCN_13847</HoSoID>
+    <SoHoSo>TTCN-CB20090006</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>false</KetQuaKiemTraCSSX>
+    <NhanXetKhac />
+    <KetLuanID>5</KetLuanID>
+    <NgayCapNhatSauCung>2009-08-11T15:08:02.013+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <SoBanTiepNhanCB>0047/CB-TTCN</SoBanTiepNhanCB>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-11T15:08:02.017+07:00</NgayKyDuyet>
+  </CBDanhGia>
+  <CBDanhGia>
+    <STT>105</STT>
+    <ID>TTCN_105</ID>
+    <HoSoID>TTCN_13850</HoSoID>
+    <SoHoSo>TTCN-CB20090009</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>false</KetQuaKiemTraCSSX>
+    <NhanXetKhac />
+    <KetLuanID>4</KetLuanID>
+    <NgayCapNhatSauCung>2009-08-10T11:08:23.03+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <SoBanTiepNhanCB>0045/CB-TTCN</SoBanTiepNhanCB>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-10T11:08:23.017+07:00</NgayKyDuyet>
+  </CBDanhGia>
+  <CBDanhGia>
+    <STT>109</STT>
+    <ID>TTCN_109</ID>
+    <HoSoID>TTCN_13813</HoSoID>
+    <SoHoSo>TTCN-CB20090002</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <KetQuaKiemTraCSSX>false</KetQuaKiemTraCSSX>
+    <NhanXetKhac />
+    <KetLuanID>4</KetLuanID>
+    <NgayCapNhatSauCung>2009-08-31T10:52:42.09+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <SoBanTiepNhanCB>CVCB-TTCN-31/08/20090002</SoBanTiepNhanCB>
+  </CBDanhGia>
+  <CBDanhGia>
+    <STT>110</STT>
+    <ID>TTCN_110</ID>
+    <HoSoID>TTCN_I_17811</HoSoID>
+    <SoHoSo>TTCN-I-CB20090003</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>6</KetLuanID>
+    <NgayCapNhatSauCung>2009-08-10T11:16:14.297+07:00</NgayCapNhatSauCung>
+    <SoBanTiepNhanCB>0046/CB-TTCN</SoBanTiepNhanCB>
+    <NguoiKyDuyetID>TTCN_3</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-08-10T11:16:14.297+07:00</NgayKyDuyet>
+  </CBDanhGia>
+  <CBDanhGia>
+    <STT>111</STT>
+    <ID>TTCN_111</ID>
+    <HoSoID>TTCN_13856</HoSoID>
+    <SoHoSo>TTCN-CB20090005</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>4</KetLuanID>
+    <NgayCapNhatSauCung>2009-08-31T10:50:12.467+07:00</NgayCapNhatSauCung>
+    <SoBanTiepNhanCB>CVCB-TTCN-31/08/20090002</SoBanTiepNhanCB>
+  </CBDanhGia>
+  <CBDanhGia>
+    <STT>112</STT>
+    <ID>TTCN_112</ID>
+    <HoSoID>TTCN_13857</HoSoID>
+    <SoHoSo>TTCN-CB20090006</SoHoSo>
+    <HoSoHopLe>true</HoSoHopLe>
+    <HoSoDayDu>true</HoSoDayDu>
+    <SoDoKiem />
+    <CoQuanDoKiemID>TTCN_64</CoQuanDoKiemID>
+    <NoiDungDoKiem />
+    <NhanXetKhac />
+    <KetLuanID>5</KetLuanID>
+    <NgayCapNhatSauCung>2009-09-01T08:48:27.14+07:00</NgayCapNhatSauCung>
+    <SoBanTiepNhanCB>0048/CB-TTCN</SoBanTiepNhanCB>
+    <NguoiKyDuyetID>TTCN_15599</NguoiKyDuyetID>
+    <NgayKyDuyet>2009-09-01T08:48:35.187+07:00</NgayKyDuyet>
+  </CBDanhGia>
+  <SanPhamTieuChuanApDung>
+    <STT>14809</STT>
+    <ID>TTCN_14809</ID>
+    <SanPhamID>TTCN_66880</SanPhamID>
+    <TieuChuanApDungID>TTCN_7841</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-08T09:53:54.717+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14810</STT>
+    <ID>TTCN_14810</ID>
+    <SanPhamID>TTCN_66880</SanPhamID>
+    <TieuChuanApDungID>TTCN_7775</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-08T09:53:54.717+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14811</STT>
+    <ID>TTCN_14811</ID>
+    <SanPhamID>TTCN_66874</SanPhamID>
+    <TieuChuanApDungID>TTCN_7853</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-08T09:56:24.983+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14812</STT>
+    <ID>TTCN_14812</ID>
+    <SanPhamID>TTCN_66874</SanPhamID>
+    <TieuChuanApDungID>TTCN_7854</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-08T09:56:24.983+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14813</STT>
+    <ID>TTCN_14813</ID>
+    <SanPhamID>TTCN_66912</SanPhamID>
+    <TieuChuanApDungID>TTCN_7775</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-08T09:58:53.217+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14817</STT>
+    <ID>TTCN_14817</ID>
+    <SanPhamID>TTCN_66913</SanPhamID>
+    <TieuChuanApDungID>TTCN_7956</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-10T11:11:21.92+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14826</STT>
+    <ID>TTCN_14826</ID>
+    <SanPhamID>TTCN_66881</SanPhamID>
+    <TieuChuanApDungID>TTCN_7841</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-27T11:54:15.307+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14827</STT>
+    <ID>TTCN_14827</ID>
+    <SanPhamID>TTCN_66881</SanPhamID>
+    <TieuChuanApDungID>TTCN_7775</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-27T11:54:15.307+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14856</STT>
+    <ID>TTCN_14856</ID>
+    <SanPhamID>TTCN_66914</SanPhamID>
+    <TieuChuanApDungID>TTCN_7880</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-27T17:22:24.663+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14861</STT>
+    <ID>TTCN_14861</ID>
+    <SanPhamID>TTCN_66916</SanPhamID>
+    <TieuChuanApDungID>TTCN_7898</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T10:13:47.273+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14862</STT>
+    <ID>TTCN_14862</ID>
+    <SanPhamID>TTCN_66915</SanPhamID>
+    <TieuChuanApDungID>TTCN_7880</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T14:51:57.067+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14863</STT>
+    <ID>TTCN_14863</ID>
+    <SanPhamID>TTCN_I_55041</SanPhamID>
+    <TieuChuanApDungID>TTCN_7841</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T15:18:22.527+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14864</STT>
+    <ID>TTCN_14864</ID>
+    <SanPhamID>TTCN_I_55041</SanPhamID>
+    <TieuChuanApDungID>TTCN_7775</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T15:18:22.527+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14865</STT>
+    <ID>TTCN_14865</ID>
+    <SanPhamID>TTCN_I_55041</SanPhamID>
+    <TieuChuanApDungID>TTCN_7883</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T15:18:22.543+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14877</STT>
+    <ID>TTCN_14877</ID>
+    <SanPhamID>TTCN_66918</SanPhamID>
+    <TieuChuanApDungID>TT2_7956</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-28T15:49:15.26+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14878</STT>
+    <ID>TTCN_14878</ID>
+    <SanPhamID>TTCN_66917</SanPhamID>
+    <TieuChuanApDungID>TTCN_7878</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T09:30:30.56+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14880</STT>
+    <ID>TTCN_14880</ID>
+    <SanPhamID>TTCN_66919</SanPhamID>
+    <TieuChuanApDungID>TTCN_7880</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T09:37:56.107+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14882</STT>
+    <ID>TTCN_14882</ID>
+    <SanPhamID>TTCN_66920</SanPhamID>
+    <TieuChuanApDungID>TTCN_7842</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T09:53:14.67+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14884</STT>
+    <ID>TTCN_14884</ID>
+    <SanPhamID>TTCN_66921</SanPhamID>
+    <TieuChuanApDungID>TTCN_7925</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T09:57:22.34+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14887</STT>
+    <ID>TTCN_14887</ID>
+    <SanPhamID>TTCN_66922</SanPhamID>
+    <TieuChuanApDungID>TTCN_7898</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T10:00:01.09+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14888</STT>
+    <ID>TTCN_14888</ID>
+    <SanPhamID>TTCN_66923</SanPhamID>
+    <TieuChuanApDungID>TTCN_7821</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T10:03:19.64+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14889</STT>
+    <ID>TTCN_14889</ID>
+    <SanPhamID>TTCN_66924</SanPhamID>
+    <TieuChuanApDungID>TTCN_7798</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T10:03:46.653+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14891</STT>
+    <ID>TTCN_14891</ID>
+    <SanPhamID>TTCN_66925</SanPhamID>
+    <TieuChuanApDungID>TTCN_7880</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T10:41:07.23+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14894</STT>
+    <ID>TTCN_14894</ID>
+    <SanPhamID>TTCN_66926</SanPhamID>
+    <TieuChuanApDungID>TTCN_7884</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T16:15:13.793+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14895</STT>
+    <ID>TTCN_14895</ID>
+    <SanPhamID>TTCN_66927</SanPhamID>
+    <TieuChuanApDungID>TTCN_7880</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T16:15:35.937+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14896</STT>
+    <ID>TTCN_14896</ID>
+    <SanPhamID>TTCN_66928</SanPhamID>
+    <TieuChuanApDungID>TTCN_7956</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-08-31T16:55:41.7+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <SanPhamTieuChuanApDung>
+    <STT>14900</STT>
+    <ID>TTCN_14900</ID>
+    <SanPhamID>TTCN_66929</SanPhamID>
+    <TieuChuanApDungID>TT2_7956</TieuChuanApDungID>
+    <NgayCapNhatSauCung>2009-11-12T15:33:14.45+07:00</NgayCapNhatSauCung>
+  </SanPhamTieuChuanApDung>
+  <TaiLieuDinhKemHoSo>
+    <STT>22</STT>
+    <ID>TTCN_22</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <LoaiTaiLieuID>12</LoaiTaiLieuID>
+    <TenFile>../FileUpload/LT_TTCN_22_accVTHH.txt</TenFile>
+    <NgayCapNhatSauCung>2009-08-28T15:07:05.923+07:00</NgayCapNhatSauCung>
+    <DaDongBo>false</DaDongBo>
+  </TaiLieuDinhKemHoSo>
+  <TaiLieuDinhKemHoSo>
+    <STT>23</STT>
+    <ID>TTCN_23</ID>
+    <HoSoID>TTCN_13855</HoSoID>
+    <LoaiTaiLieuID>12</LoaiTaiLieuID>
+    <TenFile>../FileUpload/LT_TTCN_22_BienBanhop1106.doc</TenFile>
+    <NgayCapNhatSauCung>2009-08-28T15:07:05.97+07:00</NgayCapNhatSauCung>
+    <DaDongBo>false</DaDongBo>
+  </TaiLieuDinhKemHoSo>
+  <TaiLieuDinhKemHoSo>
+    <STT>27</STT>
+    <ID>TTCN_27</ID>
+    <HoSoID>TTCN_13859</HoSoID>
+    <LoaiTaiLieuID>12</LoaiTaiLieuID>
+    <TenFile>../FileUpload/LT_TTCN_27_cs.txt</TenFile>
+    <NgayCapNhatSauCung>2009-08-31T16:44:30.903+07:00</NgayCapNhatSauCung>
+    <DaDongBo>false</DaDongBo>
+  </TaiLieuDinhKemHoSo>
+  <TaiLieuDinhKemHoSo>
+    <STT>28</STT>
+    <ID>TTCN_28</ID>
+    <HoSoID>TTCN_13857</HoSoID>
+    <LoaiTaiLieuID>12</LoaiTaiLieuID>
+    <TenFile>../FileUpload/LT_TTCN_28_accVTHH.txt</TenFile>
+    <NgayCapNhatSauCung>2009-09-01T08:53:40.95+07:00</NgayCapNhatSauCung>
+    <DaDongBo>false</DaDongBo>
+  </TaiLieuDinhKemHoSo>
+  <SysEvent>
+    <ID>1</ID>
+    <EventKey>CHUNG_NHAN</EventKey>
+    <EventName>Chứng nhận</EventName>
+    <ParentID>0</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>2</ID>
+    <EventKey>CN_QUAN_LY_HO_SO</EventKey>
+    <EventName>Quản lý hồ sơ chứng nhận</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>4</ID>
+    <EventKey>CN_HO_SO_THEM_MOI</EventKey>
+    <EventName>Thêm mới hồ sơ chứng nhận</EventName>
+    <ParentID>2</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>5</ID>
+    <EventKey>CN_HO_SO_SUA</EventKey>
+    <EventName>Cập nhật thông tin hồ sơ chứng nhận</EventName>
+    <ParentID>2</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>6</ID>
+    <EventKey>CN_HO_SO_XOA</EventKey>
+    <EventName>Xoá hồ sơ chứng nhận</EventName>
+    <ParentID>2</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>7</ID>
+    <EventKey>CN_QUAN_LY_SAN_PHAM</EventKey>
+    <EventName>Quản lý sản phẩm thuộc hồ sơ chứng nhận</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>8</ID>
+    <EventKey>CN_SAN_PHAM_THEM_MOI</EventKey>
+    <EventName>Thêm mới sản phẩm chứng nhận</EventName>
+    <ParentID>7</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>9</ID>
+    <EventKey>CN_SAN_PHAM_SUA</EventKey>
+    <EventName>Cập nhật thông tin sản phẩm chứng nhận</EventName>
+    <ParentID>7</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>10</ID>
+    <EventKey>CN_SAN_PHAM_XOA</EventKey>
+    <EventName>Xoá sản phẩm chứng nhận</EventName>
+    <ParentID>7</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>11</ID>
+    <EventKey>CN_PHAN_CONG_XU_LY</EventKey>
+    <EventName>Phân công xử lý, thẩm định hồ sơ chứng nhận</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>12</ID>
+    <EventKey>CN_XU_LY_DANH_GIA_SAN_PHAM</EventKey>
+    <EventName>Xử lý, đánh giá sản phẩm chứng nhận</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>13</ID>
+    <EventKey>CN_THAM_DINH</EventKey>
+    <EventName>Thẩm định</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>14</ID>
+    <EventKey>CN_PHE_DUYET</EventKey>
+    <EventName>Phê duyệt</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>15</ID>
+    <EventKey>CN_LUU_TRU</EventKey>
+    <EventName>Lưu trữ hồ sơ</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>17</ID>
+    <EventKey>CN_QUAN_LY_GIAY_BLP</EventKey>
+    <EventName>Quản lý giấy báo lệ phí</EventName>
+    <ParentID>1</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>18</ID>
+    <EventKey>CN_GIAY_BLP_THEM_MOI</EventKey>
+    <EventName>Thêm mới giấy báo lệ phí</EventName>
+    <ParentID>17</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>19</ID>
+    <EventKey>CN_GIAY_BLP_SUA</EventKey>
+    <EventName>Cập nhật thông tin giấy báo lệ phí</EventName>
+    <ParentID>17</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>20</ID>
+    <EventKey>CN_GIAY_BLP_XOA</EventKey>
+    <EventName>Xoá giấy báo lệ phí</EventName>
+    <ParentID>17</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>21</ID>
+    <EventKey>CN_THU_LE_PHI</EventKey>
+    <EventName>Thu lệ phí</EventName>
+    <ParentID>17</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>22</ID>
+    <EventKey>CONG_BO</EventKey>
+    <EventName>Công bố</EventName>
+    <ParentID>0</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>23</ID>
+    <EventKey>CB_QUAN_LY_HO_SO</EventKey>
+    <EventName>Quản lý hồ sơ công bố</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>24</ID>
+    <EventKey>CB_HO_SO_THEM_MOI</EventKey>
+    <EventName>Thêm mới hồ sơ công bố</EventName>
+    <ParentID>23</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>25</ID>
+    <EventKey>CB_HO_SO_SUA</EventKey>
+    <EventName>Cập nhật thông tin hồ sơ công bố</EventName>
+    <ParentID>23</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>26</ID>
+    <EventKey>CB_HO_SO_XOA</EventKey>
+    <EventName>Xoá hồ sơ công bố</EventName>
+    <ParentID>23</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>27</ID>
+    <EventKey>CB_QUAN_LY_SAN_PHAM</EventKey>
+    <EventName>Quản lý sản phẩm thuộc hồ sơ công bố</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>28</ID>
+    <EventKey>CB_SAN_PHAM_THEM_MOI</EventKey>
+    <EventName>Thêm mới sản phẩm công bố</EventName>
+    <ParentID>27</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>29</ID>
+    <EventKey>CB_SAN_PHAM_SUA</EventKey>
+    <EventName>Cập nhật thông tin sản phẩm công bố</EventName>
+    <ParentID>27</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>30</ID>
+    <EventKey>CB_SAN_PHAM_XOA</EventKey>
+    <EventName>Xoá sản phẩm công bố</EventName>
+    <ParentID>27</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>31</ID>
+    <EventKey>CB_PHAN_CONG_XU_LY</EventKey>
+    <EventName>Phân công xử lý, thẩm định hồ sơ công bố</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>32</ID>
+    <EventKey>CB_XU_LY_DANH_GIA_HO_SO</EventKey>
+    <EventName>Xử lý, đánh giá hồ sơ công bố</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>33</ID>
+    <EventKey>CB_THAM_DINH</EventKey>
+    <EventName>Thẩm định</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>34</ID>
+    <EventKey>CB_PHE_DUYET</EventKey>
+    <EventName>Phê duyệt</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>35</ID>
+    <EventKey>CB_LUU_TRU</EventKey>
+    <EventName>Lưu trữ hồ sơ</EventName>
+    <ParentID>22</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>36</ID>
+    <EventKey>DANH_MUC</EventKey>
+    <EventName>Danh mục</EventName>
+    <ParentID>0</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>37</ID>
+    <EventKey>DM_NHOM_SAN_PHAM_QL</EventKey>
+    <EventName>Quản lý danh mục nhóm sản phẩm</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>39</ID>
+    <EventKey>DM_NHOM_SAN_PHAM_THEM_MOI</EventKey>
+    <EventName>Thêm mới danh mục nhóm sản phẩm</EventName>
+    <ParentID>37</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>40</ID>
+    <EventKey>DM_NHOM_SAN_PHAM_SUA</EventKey>
+    <EventName>Cập nhật thông tin nhóm sản phẩm</EventName>
+    <ParentID>37</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>41</ID>
+    <EventKey>DM_NHOM_SAN_PHAM_XOA</EventKey>
+    <EventName>Xoá nhóm sản phẩm</EventName>
+    <ParentID>37</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>42</ID>
+    <EventKey>DM_SAN_PHAM_QL</EventKey>
+    <EventName>Quản lý danh mục sản phẩm</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>43</ID>
+    <EventKey>DM_SAN_PHAM_THEM_MOI</EventKey>
+    <EventName>Thêm mới sản phẩm</EventName>
+    <ParentID>42</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>44</ID>
+    <EventKey>DM_SAN_PHAM_SUA</EventKey>
+    <EventName>Cập nhật thông tin sản phẩm</EventName>
+    <ParentID>42</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>45</ID>
+    <EventKey>DM_SAN_PHAM_XOA</EventKey>
+    <EventName>Xoá sản phẩm</EventName>
+    <ParentID>42</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>46</ID>
+    <EventKey>DM_DON_VI_QL</EventKey>
+    <EventName>Quản lý danh mục đơn vị</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>47</ID>
+    <EventKey>DM_DON_VI_THEM_MOI</EventKey>
+    <EventName>Thêm mới đơn vị</EventName>
+    <ParentID>46</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>49</ID>
+    <EventKey>DM_DON_VI_SUA</EventKey>
+    <EventName>Cập nhật thông tin đơn vị</EventName>
+    <ParentID>46</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>50</ID>
+    <EventKey>DM_DON_VI_XOA</EventKey>
+    <EventName>Xoá đơn vị</EventName>
+    <ParentID>46</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>52</ID>
+    <EventKey>DM_TRUNG_TAM_QL</EventKey>
+    <EventName>Quản lý danh mục trung tâm</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>53</ID>
+    <EventKey>DM_TRUNG_TAM_THEM_MOI</EventKey>
+    <EventName>Thêm mới trung tâm</EventName>
+    <ParentID>52</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>54</ID>
+    <EventKey>DM_TRUNG_TAM_SUA</EventKey>
+    <EventName>Cập nhật thông tin trung tâm</EventName>
+    <ParentID>52</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>55</ID>
+    <EventKey>DM_TRUNG_TAM_XOA</EventKey>
+    <EventName>Xoá trung tâm</EventName>
+    <ParentID>52</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>56</ID>
+    <EventKey>DM_CO_QUAN_DO_KIEM_QL</EventKey>
+    <EventName>Quản lý danh mục cơ quan đo kiểm</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>57</ID>
+    <EventKey>DM_CO_QUAN_DO_KIEM_THEM_MOI</EventKey>
+    <EventName>Thêm mới cơ quan đo kiểm</EventName>
+    <ParentID>56</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>58</ID>
+    <EventKey>DM_CO_QUAN_DO_KIEM_SUA</EventKey>
+    <EventName>Cập nhật thông tin cơ quan đo kiểm</EventName>
+    <ParentID>56</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>59</ID>
+    <EventKey>DM_CO_QUAN_DO_KIEM_XOA</EventKey>
+    <EventName>Xoá cơ quan đo kiểm</EventName>
+    <ParentID>56</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>60</ID>
+    <EventKey>DM_HANG_SAN_XUAT_QL</EventKey>
+    <EventName>Quản lý danh mục hãng sản xuất</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>61</ID>
+    <EventKey>DM_HANG_SAN_XUAT_THEM_MOI</EventKey>
+    <EventName>Thêm mới hãng sản xuất</EventName>
+    <ParentID>60</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>62</ID>
+    <EventKey>DM_HANG_SAN_XUAT_SUA</EventKey>
+    <EventName>Cập nhật thông tin hãng sản xuất</EventName>
+    <ParentID>60</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>63</ID>
+    <EventKey>DM_HANG_SAN_XUAT_XOA</EventKey>
+    <EventName>Xoá hãng sản xuất</EventName>
+    <ParentID>60</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>64</ID>
+    <EventKey>DM_LE_PHI_QL</EventKey>
+    <EventName>Quản lý danh mục lệ phí</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>65</ID>
+    <EventKey>DM_LE_PHI_THEM_MOI</EventKey>
+    <EventName>Thêm mới lệ phí</EventName>
+    <ParentID>64</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>66</ID>
+    <EventKey>DM_LE_PHI_SUA</EventKey>
+    <EventName>Cập nhật thông tin lệ phí</EventName>
+    <ParentID>64</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>67</ID>
+    <EventKey>DM_LE_PHI_XOA</EventKey>
+    <EventName>Xoá lệ phí</EventName>
+    <ParentID>64</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>68</ID>
+    <EventKey>DM_TIEU_CHUAN_QL</EventKey>
+    <EventName>Quản lý danh mục tiêu chuẩn</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>69</ID>
+    <EventKey>DM_TIEU_CHUAN_THEM_MOI</EventKey>
+    <EventName>Thêm mới tiêu chuẩn</EventName>
+    <ParentID>68</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>70</ID>
+    <EventKey>DM_TIEU_CHUAN_SUA</EventKey>
+    <EventName>Cập nhật thông tin tiêu chuẩn</EventName>
+    <ParentID>68</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>71</ID>
+    <EventKey>DM_TIEU_CHUAN_XOA</EventKey>
+    <EventName>Xoá tiêu chuẩn</EventName>
+    <ParentID>68</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>72</ID>
+    <EventKey>DM_PHONG_BAN_QL</EventKey>
+    <EventName>Quản lý danh mục phòng ban</EventName>
+    <ParentID>36</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>73</ID>
+    <EventKey>DM_PHONG_BAN_THEM_MOI</EventKey>
+    <EventName>Thêm mới phòng ban</EventName>
+    <ParentID>72</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>74</ID>
+    <EventKey>DM_PHONG_SUA</EventKey>
+    <EventName>Cập nhật thông tin phòng ban</EventName>
+    <ParentID>72</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>75</ID>
+    <EventKey>DM_PHONG_XOA</EventKey>
+    <EventName>Xoá phòng ban</EventName>
+    <ParentID>72</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>76</ID>
+    <EventKey>DONG_BO</EventKey>
+    <EventName>Đồng bộ</EventName>
+    <ParentID>0</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>77</ID>
+    <EventKey>DB_LAP_LICH</EventKey>
+    <EventName>Lập lịch đồng bộ</EventName>
+    <ParentID>76</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>78</ID>
+    <EventKey>DB_BANG_TAY</EventKey>
+    <EventName>Đồng bộ bằng tay</EventName>
+    <ParentID>76</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>79</ID>
+    <EventKey>DB_TU_FILE</EventKey>
+    <EventName>Đồng bộ từ file</EventName>
+    <ParentID>76</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>80</ID>
+    <EventKey>DB_BAO_CAO_XOA</EventKey>
+    <EventName>Xoá báo cáo đồng bộ</EventName>
+    <ParentID>76</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>81</ID>
+    <EventKey>HE_THONG</EventKey>
+    <EventName>Quản trị hệ thống</EventName>
+    <ParentID>0</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>82</ID>
+    <EventKey>HT_VAI_TRO_QL</EventKey>
+    <EventName>Quản lý vai trò</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>83</ID>
+    <EventKey>HT_VAI_TRO_THEM_MOI</EventKey>
+    <EventName>Thêm mới vai trò</EventName>
+    <ParentID>82</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>84</ID>
+    <EventKey>HT_VAI_TRO_SUA</EventKey>
+    <EventName>Cập nhật thông tin vai trò</EventName>
+    <ParentID>82</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>85</ID>
+    <EventKey>HT_VAI_TRO_XOA</EventKey>
+    <EventName>Xoá vai trò</EventName>
+    <ParentID>82</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>87</ID>
+    <EventKey>HT_NGUOI_DUNG_QL</EventKey>
+    <EventName>Quản lý người dùng</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>88</ID>
+    <EventKey>HT_NGUOI_DUNG_THEM_MOI</EventKey>
+    <EventName>Thêm mới người dùng</EventName>
+    <ParentID>87</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>89</ID>
+    <EventKey>HT_NGUOI_DUNG_SUA</EventKey>
+    <EventName>Cập nhật thông tin người dùng</EventName>
+    <ParentID>87</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>90</ID>
+    <EventKey>HT_NGUOI_DUNG_XOA</EventKey>
+    <EventName>Xoá người dùng</EventName>
+    <ParentID>87</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>91</ID>
+    <EventKey>HT_VAI_TRO_THEM_QUYEN</EventKey>
+    <EventName>Thêm quyền cho vai trò</EventName>
+    <ParentID>82</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>92</ID>
+    <EventKey>HT_VAI_TRO_XOA_QUYEN</EventKey>
+    <EventName>Xoá quyền thuộc vai trò</EventName>
+    <ParentID>82</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>93</ID>
+    <EventKey>HT_NGUOI_DUNG_THEM_VAI_TRO</EventKey>
+    <EventName>Thêm vai trò cho người dùng</EventName>
+    <ParentID>87</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>94</ID>
+    <EventKey>HT_NGUOI_DUNG_XOA_VAI_TRO</EventKey>
+    <EventName>Xoá vai trò của người dùng</EventName>
+    <ParentID>87</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>95</ID>
+    <EventKey>HT_SAO_LUU_PHUC_HOI</EventKey>
+    <EventName>Sao lưu phục hồi hệ thống</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>96</ID>
+    <EventKey>HT_SAO_LUU_LAP_LICH</EventKey>
+    <EventName>Lập lịch sao lưu</EventName>
+    <ParentID>95</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>97</ID>
+    <EventKey>HT_SAO_LUU_XOA_FILE</EventKey>
+    <EventName>Xoá file sao lưu</EventName>
+    <ParentID>95</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>98</ID>
+    <EventKey>HT_SAO_LUU_BANG_TAY</EventKey>
+    <EventName>Sao lưu bằng tay</EventName>
+    <ParentID>95</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>101</ID>
+    <EventKey>HT_PHUC_HOI</EventKey>
+    <EventName>Phục hồi hệ thống</EventName>
+    <ParentID>95</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>102</ID>
+    <EventKey>HT_NHAT_KY_QL</EventKey>
+    <EventName>Quản lý nhật ký hệ thống</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>103</ID>
+    <EventKey>HT_NHAT_KY_XOA</EventKey>
+    <EventName>Xoá nhật ký hệ thống</EventName>
+    <ParentID>102</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>104</ID>
+    <EventKey>HT_CAU_HINH_HE_THONG</EventKey>
+    <EventName>Cấu hình hệ thống</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>105</ID>
+    <EventKey>HT_THAY_DOI_THONG_TIN_CA_NHAN</EventKey>
+    <EventName>Thay đổi thông tin cá nhân</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>106</ID>
+    <EventKey>HT_DANG_NHAP</EventKey>
+    <EventName>Đăng nhập</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysEvent>
+    <ID>107</ID>
+    <EventKey>HT_DANG_XUAT</EventKey>
+    <EventName>Đăng xuất</EventName>
+    <ParentID>81</ParentID>
+  </SysEvent>
+  <SysUser>
+    <STT>15599</STT>
+    <ID>TTCN_15599</ID>
+    <UserName>TTCN_bndung</UserName>
+    <PassWord>0D-53-99-50-84-27-CE-79-55-6C-DA-71-91-80-20-C1-E8-D1-5B-53</PassWord>
+    <FullName>Bùi Ngọc Dũng</FullName>
+    <Address />
+    <PlaceOfBirth />
+    <Email />
+    <PhoneNumber>0988888</PhoneNumber>
+    <Gender>true</Gender>
+    <OrganizationID>TTCN</OrganizationID>
+    <DepartmentID>TTCN_12_21</DepartmentID>
+    <Position>1</Position>
+    <NgayCapNhatSauCung>2009-08-27T16:34:22.867+07:00</NgayCapNhatSauCung>
+  </SysUser>
+  <SysPermission>
+    <ID>01</ID>
+    <PermissionName>CHUNG_NHAN</PermissionName>
+    <Description>Chứng nhận</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0101</ID>
+    <PermissionName>CN_QUAN_LY_HO_SO</PermissionName>
+    <Description>Tiếp nhận hồ sơ</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0103</ID>
+    <PermissionName>CN_PHAN_CONG_XU_LY</PermissionName>
+    <Description>Phân công xử lý, thẩm định hồ sơ chứng nhận</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0104</ID>
+    <PermissionName>CN_XU_LY_DANH_GIA_SAN_PHAM</PermissionName>
+    <Description>Xử lý, đánh giá sản phẩm chứng nhận</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0105</ID>
+    <PermissionName>CN_THAM_DINH</PermissionName>
+    <Description>Thẩm định</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0106</ID>
+    <PermissionName>CN_PHE_DUYET</PermissionName>
+    <Description>Phê duyệt</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0107</ID>
+    <PermissionName>CN_LUU_TRU</PermissionName>
+    <Description>Lưu trữ hồ sơ</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0109</ID>
+    <PermissionName>CN_THU_LE_PHI</PermissionName>
+    <Description>Thu lệ phí</Description>
+    <ParentPermission>01</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>02</ID>
+    <PermissionName>CONG_BO</PermissionName>
+    <Description>Công bố</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0201</ID>
+    <PermissionName>CB_QUAN_LY_HO_SO</PermissionName>
+    <Description>Tiếp nhận hồ sơ</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0203</ID>
+    <PermissionName>CB_PHAN_CONG_XU_LY</PermissionName>
+    <Description>Phân công xử lý, thẩm định hồ sơ công bố</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0204</ID>
+    <PermissionName>CB_XU_LY_DANH_GIA_HO_SO</PermissionName>
+    <Description>Xử lý, đánh giá hồ sơ công bố</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0205</ID>
+    <PermissionName>CB_THAM_DINH</PermissionName>
+    <Description>Thẩm định</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0206</ID>
+    <PermissionName>CB_PHE_DUYET</PermissionName>
+    <Description>Phê duyệt</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0207</ID>
+    <PermissionName>CB_LUU_TRU</PermissionName>
+    <Description>Lưu trữ hồ sơ</Description>
+    <ParentPermission>02</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>03</ID>
+    <PermissionName>DANH_MUC</PermissionName>
+    <Description>Danh mục</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0301</ID>
+    <PermissionName>DM_NHOM_SAN_PHAM_QL</PermissionName>
+    <Description>Quản lý danh mục nhóm sản phẩm</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0302</ID>
+    <PermissionName>DM_SAN_PHAM_QL</PermissionName>
+    <Description>Quản lý danh mục sản phẩm</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0303</ID>
+    <PermissionName>DM_DON_VI_QL</PermissionName>
+    <Description>Quản lý danh mục đơn vị</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0304</ID>
+    <PermissionName>DM_TRUNG_TAM_QL</PermissionName>
+    <Description>Quản lý danh mục trung tâm</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0305</ID>
+    <PermissionName>DM_CO_QUAN_DO_KIEM_QL</PermissionName>
+    <Description>Quản lý danh mục cơ quan đo kiểm</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0306</ID>
+    <PermissionName>DM_HANG_SAN_XUAT_QL</PermissionName>
+    <Description>Quản lý danh mục hãng sản xuất</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0307</ID>
+    <PermissionName>DM_LE_PHI_QL</PermissionName>
+    <Description>Quản lý danh mục lệ phí</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0308</ID>
+    <PermissionName>DM_TIEU_CHUAN_QL</PermissionName>
+    <Description>Quản lý danh mục tiêu chuẩn</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0309</ID>
+    <PermissionName>DM_PHONG_BAN_QL</PermissionName>
+    <Description>Quản lý danh mục phòng ban</Description>
+    <ParentPermission>03</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>04</ID>
+    <PermissionName>DONG_BO</PermissionName>
+    <Description>Đồng bộ</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0401</ID>
+    <PermissionName>DB_LAP_LICH</PermissionName>
+    <Description>Lập lịch đồng bộ</Description>
+    <ParentPermission>04</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0402</ID>
+    <PermissionName>DB_BANG_TAY</PermissionName>
+    <Description>Đồng bộ bằng tay</Description>
+    <ParentPermission>04</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0403</ID>
+    <PermissionName>DB_TU_FILE</PermissionName>
+    <Description>Đồng bộ từ file</Description>
+    <ParentPermission>04</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0404</ID>
+    <PermissionName>DB_BAO_CAO_XOA</PermissionName>
+    <Description>Xoá báo cáo đồng bộ</Description>
+    <ParentPermission>04</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>05</ID>
+    <PermissionName>HE_THONG</PermissionName>
+    <Description>Quản trị hệ thống</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0501</ID>
+    <PermissionName>HT_VAI_TRO_QL</PermissionName>
+    <Description>Quản lý vai trò</Description>
+    <ParentPermission>05</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050101</ID>
+    <PermissionName>HT_VAI_TRO_THEM_MOI</PermissionName>
+    <Description>Thêm mới vai trò</Description>
+    <ParentPermission>0501</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050102</ID>
+    <PermissionName>HT_VAI_TRO_SUA</PermissionName>
+    <Description>Cập nhật thông tin vai trò</Description>
+    <ParentPermission>0501</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050103</ID>
+    <PermissionName>HT_VAI_TRO_XOA</PermissionName>
+    <Description>Xoá vai trò</Description>
+    <ParentPermission>0501</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0502</ID>
+    <PermissionName>HT_NGUOI_DUNG_QL</PermissionName>
+    <Description>Quản lý người dùng</Description>
+    <ParentPermission>05</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050201</ID>
+    <PermissionName>HT_NGUOI_DUNG_THEM_MOI</PermissionName>
+    <Description>Thêm mới người dùng</Description>
+    <ParentPermission>0502</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050202</ID>
+    <PermissionName>HT_NGUOI_DUNG_SUA</PermissionName>
+    <Description>Cập nhật thông tin người dùng</Description>
+    <ParentPermission>0502</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050203</ID>
+    <PermissionName>HT_NGUOI_DUNG_XOA</PermissionName>
+    <Description>Xoá người dùng</Description>
+    <ParentPermission>0502</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0503</ID>
+    <PermissionName>HT_SAO_LUU_PHUC_HOI</PermissionName>
+    <Description>Sao lưu phục hồi hệ thống</Description>
+    <ParentPermission>05</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050301</ID>
+    <PermissionName>HT_SAO_LUU_LAP_LICH</PermissionName>
+    <Description>Lập lịch sao lưu</Description>
+    <ParentPermission>0503</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050302</ID>
+    <PermissionName>HT_SAO_LUU_XOA_FILE</PermissionName>
+    <Description>Xoá file sao lưu</Description>
+    <ParentPermission>0503</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050303</ID>
+    <PermissionName>HT_SAO_LUU_BANG_TAY</PermissionName>
+    <Description>Sao lưu bằng tay</Description>
+    <ParentPermission>0503</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>050304</ID>
+    <PermissionName>HT_PHUC_HOI</PermissionName>
+    <Description>Phục hồi hệ thống</Description>
+    <ParentPermission>0503</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0504</ID>
+    <PermissionName>HT_NHAT_KY_QUAN_LY</PermissionName>
+    <Description>Quản lý nhật ký hệ thống</Description>
+    <ParentPermission>05</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0505</ID>
+    <PermissionName>HT_CAU_HINH_HE_THONG</PermissionName>
+    <Description>Quản lý cấu hình hệ thống</Description>
+    <ParentPermission>05</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>06</ID>
+    <PermissionName>BAO_CAO</PermissionName>
+    <Description>Tạo báo cáo</Description>
+  </SysPermission>
+  <SysPermission>
+    <ID>0601</ID>
+    <PermissionName>BC_BAO_CAO_TUAN</PermissionName>
+    <Description>Tạo báo cáo tuần</Description>
+    <ParentPermission>06</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0602</ID>
+    <PermissionName>BC_BAO_CAO_QUY</PermissionName>
+    <Description>Tạo báo cáo quý</Description>
+    <ParentPermission>06</ParentPermission>
+  </SysPermission>
+  <SysPermission>
+    <ID>0603</ID>
+    <PermissionName>BC_BAO_CAO_THONG_KE</PermissionName>
+    <Description>Tạo báo cáo thống kê</Description>
+    <ParentPermission>06</ParentPermission>
+  </SysPermission>
+  <SysUserRole>
+    <ID>TTCN_366</ID>
+    <UserID>TTCN_15578</UserID>
+    <RoleID>TTCN_126</RoleID>
+  </SysUserRole>
+  <SysUserRole>
+    <ID>TTCN_368</ID>
+    <UserID>TTCN_15592</UserID>
+    <RoleID>TTCN_131</RoleID>
+  </SysUserRole>
+  <SysUserRole>
+    <ID>TTCN_369</ID>
+    <UserID>TTCN_15599</UserID>
+    <RoleID>TTCN_126</RoleID>
+  </SysUserRole>
+  <SysRole>
+    <ID>TTCN_12_6</ID>
+    <RoleName>Quản trị hệ thống</RoleName>
+    <NgayCapNhatSauCung>2009-07-25T11:38:06.43+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description>Quản trị hệ thống</Description>
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_124</ID>
+    <RoleName>Chuên viên tiếp nhận</RoleName>
+    <NgayCapNhatSauCung>2009-07-25T11:38:06.43+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_125</ID>
+    <RoleName>Chuyên viên xử lý</RoleName>
+    <NgayCapNhatSauCung>2009-07-25T11:38:06.43+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_126</ID>
+    <RoleName>Giám đốc trung tâm</RoleName>
+    <NgayCapNhatSauCung>2009-08-27T15:33:03.057+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_127</ID>
+    <RoleName>phê duyệt</RoleName>
+    <NgayCapNhatSauCung>2009-07-25T11:38:06.443+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_128</ID>
+    <RoleName>Chuyên viên lưu trữ</RoleName>
+    <NgayCapNhatSauCung>2009-08-27T15:32:45.76+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_129</ID>
+    <RoleName>Chuyên viên thu phí</RoleName>
+    <NgayCapNhatSauCung>2009-08-27T15:30:07.087+07:00</NgayCapNhatSauCung>
+    <DaDongBo>true</DaDongBo>
+    <Description />
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_131</ID>
+    <RoleName>Chuyên viên thẩm định</RoleName>
+    <NgayCapNhatSauCung>2009-08-27T15:29:29.883+07:00</NgayCapNhatSauCung>
+    <Description>Người thẩm định hồ sơ</Description>
+  </SysRole>
+  <SysRole>
+    <ID>TTCN_132</ID>
+    <RoleName>gsg</RoleName>
+    <NgayCapNhatSauCung>2009-11-12T10:18:48.84+07:00</NgayCapNhatSauCung>
+    <Description />
+  </SysRole>
+</NewDataSet>

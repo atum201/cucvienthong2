@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msgBaoCaoKhongCoDuLieuDeIn" xml:space="preserve">
+    <value>Không có dữ liệu để in báo cáo</value>
+  </data>
+  <data name="msgCapNhatHangSanXuat" xml:space="preserve">
+    <value>Cập nhật hãng sản xuất thành công</value>
+  </data>
+  <data name="msgCapNhatHoSo" xml:space="preserve">
+    <value>Cập nhật Hồ sơ thành công</value>
+  </data>
+  <data name="msgCapNhatLePhi" xml:space="preserve">
+    <value>Cập nhật danh mục lệ phí thành công</value>
+  </data>
+  <data name="msgCapNhatNguoiDungThanhCong" xml:space="preserve">
+    <value>Cập nhật thông tin người dùng {0} thành công</value>
+  </data>
+  <data name="msgCapNhatNguoiDungThatBai" xml:space="preserve">
+    <value>Cập nhật thông tin người dùng {0} thất bại</value>
+  </data>
+  <data name="msgCapNhatNhomSanPhamThanhCong" xml:space="preserve">
+    <value>Cập nhật nhóm sản phẩm thành công</value>
+  </data>
+  <data name="msgCapNhatNhomSanPhamThatBai" xml:space="preserve">
+    <value>Cập nhật nhóm sản phẩm thất bại</value>
+  </data>
+  <data name="msgCapNhatPhongBan" xml:space="preserve">
+    <value>Cập nhật phòng ban thành công</value>
+  </data>
+  <data name="msgCapNhatSanPham" xml:space="preserve">
+    <value>Cập nhật sản phẩm thành công</value>
+  </data>
+  <data name="msgCapNhatThanhCong" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="msgCapNhatThatBai" xml:space="preserve">
+    <value>Cập nhật thất bại</value>
+  </data>
+  <data name="msgCapNhatTieuChuan" xml:space="preserve">
+    <value>Cập nhật tiêu chuẩn thành công</value>
+  </data>
+  <data name="msgCapNhatVaiTroThanhCong" xml:space="preserve">
+    <value>Cập nhật vai trò {0} thành công</value>
+  </data>
+  <data name="msgCapNhatVaiTroThatBai" xml:space="preserve">
+    <value>Cập nhật vai trò thất bại {0}</value>
+  </data>
+  <data name="msgChuaChonChiTieuApDung" xml:space="preserve">
+    <value>Chưa chọn chỉ tiêu áp dụng!</value>
+  </data>
+  <data name="msgChuaSCV" xml:space="preserve">
+    <value>Chọn file công văn đính kèm</value>
+  </data>
+  <data name="msgConfirmHangSanXuat" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa các hãng sản xuất đã chọn không?</value>
+  </data>
+  <data name="msgCoQuanDoKiem_TaoMoi" xml:space="preserve">
+    <value>Tạo mới cơ quan đo kiểm thành công</value>
+  </data>
+  <data name="msgDoKiemCapNhat" xml:space="preserve">
+    <value>Cập nhật cơ quan đo kiểm thành công</value>
+  </data>
+  <data name="msgDoKiemXoa" xml:space="preserve">
+    <value>Xóa cơ quan đo kiểm thành công</value>
+  </data>
+  <data name="msgDongBoError" xml:space="preserve">
+    <value>Dữ liệu đã đồng bộ, không thể xóa</value>
+  </data>
+  <data name="msgErrorDeleteReferent" xml:space="preserve">
+    <value>Xóa không thành công, dữ liệu này đang được sử dụng</value>
+  </data>
+  <data name="msgGuiHoSoThanhCong" xml:space="preserve">
+    <value>Gửi hồ sơ thành công</value>
+  </data>
+  <data name="msgGuiSanPhamThanhCong" xml:space="preserve">
+    <value>Gửi sản phẩm thành công</value>
+  </data>
+  <data name="msgGuiThongBaoPhiThanhCong" xml:space="preserve">
+    <value>- Gửi thành công Thông báo phí: {0} \n</value>
+  </data>
+  <data name="msgGuiThongBaoPhiThatBai" xml:space="preserve">
+    <value>- Không thể gửi được Thông báo phí: {0}</value>
+  </data>
+  <data name="msgKhongCoHoSoCBHetHan" xml:space="preserve">
+    <value>Không có hồ sơ công bố hết hạn</value>
+  </data>
+  <data name="msgKhongCoHoSoCBMoi" xml:space="preserve">
+    <value>Không có hồ sơ công bố đến</value>
+  </data>
+  <data name="msgKhongCoHoSoCBSapHetHan" xml:space="preserve">
+    <value>Không có hồ sơ công bố sắp hết hạn cần giải quyết</value>
+  </data>
+  <data name="msgKhongCoHoSoCNHetHan" xml:space="preserve">
+    <value>Không có hồ sơ chứng nhận hết hạn</value>
+  </data>
+  <data name="msgKhongCoHoSoCNMoi" xml:space="preserve">
+    <value>Không có hồ sơ chứng nhận đến</value>
+  </data>
+  <data name="msgKhongCoHoSoCNSapHetHan" xml:space="preserve">
+    <value>Không có hồ sơ chứng nhận sắp hết hạn cần giải quyết</value>
+  </data>
+  <data name="msgKhongCoSanPham" xml:space="preserve">
+    <value>Hồ sơ chưa có sản phẩm</value>
+  </data>
+  <data name="msgKhongCoThongBaoLePhiChoDuyetHuy" xml:space="preserve">
+    <value>Không có thông báo lệ phí chờ huỷ</value>
+  </data>
+  <data name="msgKhongCoThongBaoLePhiChoThuPhi" xml:space="preserve">
+    <value>Không có giấy báo lệ phí chờ thu phí</value>
+  </data>
+  <data name="msgKhongPheDuyet" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="msgLuuTruHoSo" xml:space="preserve">
+    <value>Lưu trữ Hồ sơ thành công</value>
+  </data>
+  <data name="msgMatKhauCuKhongDung" xml:space="preserve">
+    <value>Mật khẩu cũ không đúng</value>
+  </data>
+  <data name="msgMatKhauKhongKhop" xml:space="preserve">
+    <value>Mật khẩu nhập lại không khớp với mật khẩu mới</value>
+  </data>
+  <data name="msgNguoiDungDaThamGiaVaoHeThong" xml:space="preserve">
+    <value>Người dùng đã tham gia vào hệ thống</value>
+  </data>
+  <data name="msgPhanCongThanhCong" xml:space="preserve">
+    <value>Phân công xử lý, thẩm định thành công</value>
+  </data>
+  <data name="msgPheDuyet" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="msgSoHoSoCBHetHan" xml:space="preserve">
+    <value>Có {0} hồ sơ công bố hết hạn</value>
+  </data>
+  <data name="msgSoHoSoCBMoi" xml:space="preserve">
+    <value>Có {0} hồ sơ công bố đến cần giải quyết</value>
+  </data>
+  <data name="msgSoHoSoCBSapHetHan" xml:space="preserve">
+    <value>Có {0} hồ sơ công bố sắp hết hạn cần giải quyết</value>
+  </data>
+  <data name="msgSoHoSoCNHetHan" xml:space="preserve">
+    <value>Có {0} hồ sơ chứng nhận hết hạn</value>
+  </data>
+  <data name="msgSoHoSoCNMoi" xml:space="preserve">
+    <value>Có {0} hồ sơ chứng nhận đến cần giải quyết</value>
+  </data>
+  <data name="msgSoHoSoCNSapHetHan" xml:space="preserve">
+    <value>Có {0} hồ sơ chứng nhận sắp hết hạn cần giải quyết</value>
+  </data>
+  <data name="msgSoThongBaoLePhiChoDuyetHuy" xml:space="preserve">
+    <value>Có {0} giấy báo lệ phí chờ duyệt huỷ</value>
+  </data>
+  <data name="msgSoThongBaoLePhiChoThuPhi" xml:space="preserve">
+    <value>Có {0} giấy báo lệ phí chờ thu phí, {1} giấy báo lệ phí chờ huỷ</value>
+  </data>
+  <data name="msgSysConfigCapNhat" xml:space="preserve">
+    <value>Cập nhật cấu hình hệ thống thành công</value>
+  </data>
+  <data name="msgTaoMoiHangSanXuat" xml:space="preserve">
+    <value>Tạo mới hãng sản xuất thành công</value>
+  </data>
+  <data name="msgTaoMoiHoSo" xml:space="preserve">
+    <value>Tạo mới Hồ sơ thành công</value>
+  </data>
+  <data name="msgTaoMoiLePhi" xml:space="preserve">
+    <value>Tạo mới danh mục lệ phí thành công</value>
+  </data>
+  <data name="msgTaoMoiMauDau" xml:space="preserve">
+    <value>Thêm mới mẫu dấu thành công</value>
+  </data>
+  <data name="msgTaoMoiNguoiDungThanhCong" xml:space="preserve">
+    <value>Tạo mới người dùng {0} thành công</value>
+  </data>
+  <data name="msgTaoMoiNhomSanPhamThanhCong" xml:space="preserve">
+    <value>Tạo mới nhóm sản phẩm thành công</value>
+  </data>
+  <data name="msgTaoMoiNhomSanPhamThatBai" xml:space="preserve">
+    <value>Tạo mới nhóm sản phẩm thất bại</value>
+  </data>
+  <data name="msgTaoMoiPhongBan" xml:space="preserve">
+    <value>Tạo mới phòng ban thành công</value>
+  </data>
+  <data name="msgTaoMoiThanhCong" xml:space="preserve">
+    <value>Tạo mới thành công</value>
+  </data>
+  <data name="msgTaoMoiTieuChuan" xml:space="preserve">
+    <value>Đã tạo mới tiêu chuẩn thành công</value>
+  </data>
+  <data name="msgTaoMoiVaiTroThanhCong" xml:space="preserve">
+    <value>Tạo mới vai trò {0} thành công</value>
+  </data>
+  <data name="msgTaoNguoiDungThatBai" xml:space="preserve">
+    <value>Tạo người dùng thất bại {0}</value>
+  </data>
+  <data name="msgTaoVaiTroThatBai" xml:space="preserve">
+    <value>Tạo mới vai trò thất bại {0}</value>
+  </data>
+  <data name="msgTenVaiTroDaCo" xml:space="preserve">
+    <value>Tên vai trò đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="msgThamDinhDongY" xml:space="preserve">
+    <value>Thẩm định nhất trí</value>
+  </data>
+  <data name="msgThamDinhKhongDongY" xml:space="preserve">
+    <value>Thẩm định không nhất trí</value>
+  </data>
+  <data name="msgThemmoiSanPham" xml:space="preserve">
+    <value>Thêm mới sản phẩm thành công</value>
+  </data>
+  <data name="msgTrungCVID" xml:space="preserve">
+    <value>Chọn chuyên viên xử lý phải khác chuyên viên thẩm định</value>
+  </data>
+  <data name="msgTrungMa" xml:space="preserve">
+    <value>Mã bị trùng, yêu cầu nhập lại.</value>
+  </data>
+  <data name="msgTrungMaTen" xml:space="preserve">
+    <value>Mã hoặc tên bị trùng, yêu cầu nhập lại.</value>
+  </data>
+  <data name="msgTrungSoCVDonVi" xml:space="preserve">
+    <value>Số Công văn đơn vị đã tồn tại ! Hãy nhập vào số khác</value>
+  </data>
+  <data name="msgTrungSoHoSo" xml:space="preserve">
+    <value>Số hồ sơ đã tồn tại !Hãy nhập số khác</value>
+  </data>
+  <data name="msgTrungTen" xml:space="preserve">
+    <value>Tên bị trùng, yêu cầu nhập lại.</value>
+  </data>
+  <data name="msgVaiTroDaDuocGanChoNguoiDung" xml:space="preserve">
+    <value>Vai trò đã được gán cho người dùng</value>
+  </data>
+  <data name="msgXoaCoQuanDoKiemThanhCong" xml:space="preserve">
+    <value>Xóa Cơ quan đo kiểm ( {0} ) thành công</value>
+  </data>
+  <data name="msgXoaCoQuanDoKiemThatBai" xml:space="preserve">
+    <value>Xóa Cơ quan đo kiểm: {0} thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaDonViThanhCong" xml:space="preserve">
+    <value>Xóa đơn vị: {0} thành công!</value>
+  </data>
+  <data name="msgXoaDonViThatBai" xml:space="preserve">
+    <value>Xóa đơn vị ( {0} ) thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaHangSanXuat" xml:space="preserve">
+    <value>- Xóa thành công hãng sản xuất: {0}</value>
+  </data>
+  <data name="msgXoaHangSanXuatThanhCong" xml:space="preserve">
+    <value>Xóa hãng sản xuất: {0} thành công</value>
+  </data>
+  <data name="msgXoaHangSanXuatThatBai" xml:space="preserve">
+    <value>Xóa hãng sản xuất: {0} thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaHoSo" xml:space="preserve">
+    <value>- Xóa thành công Hồ sơ: {0} \n</value>
+  </data>
+  <data name="msgXoaHoSoThatBai" xml:space="preserve">
+    <value>- Không thể xóa được Hồ sơ: {0}</value>
+  </data>
+  <data name="msgXoaLePhi" xml:space="preserve">
+    <value>Xóa danh mục lệ phí thành công: {0}</value>
+  </data>
+  <data name="msgXoaLePhiThatBai" xml:space="preserve">
+    <value>Xóa các danh mục: {0} thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaNguoiDungThanhCong" xml:space="preserve">
+    <value>Xóa người dùng: {0} thành công</value>
+  </data>
+  <data name="msgXoaNhomSanPhamThanhCong" xml:space="preserve">
+    <value> Xóa  nhóm sản phẩm: {0} thành công!</value>
+  </data>
+  <data name="msgXoaNhomSanPhamThatBai" xml:space="preserve">
+    <value>Nhóm sản phẩm ({0}) đang được sử dụng. Bạn không được phép xóa nhóm sản phẩm này</value>
+  </data>
+  <data name="msgXoaPhongBanThanhCong" xml:space="preserve">
+    <value>- Xóa phòng ban: {0} thành công!</value>
+  </data>
+  <data name="msgXoaPhongBanThatBai" xml:space="preserve">
+    <value>Xóa Phòng ban: {0}  thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaSanPham" xml:space="preserve">
+    <value>Xóa sản phẩm thành công</value>
+  </data>
+  <data name="msgXoaSanPhamThanhCong" xml:space="preserve">
+    <value> Xóa thành công Sản phẩm: {0}</value>
+  </data>
+  <data name="msgXoaSanPhamThatBai" xml:space="preserve">
+    <value>Không thể xóa được Sản phẩm: {0}, đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaThongBaoPhi" xml:space="preserve">
+    <value> Xóa thành công Thông Báo Phí: {0}</value>
+  </data>
+  <data name="msgXoaThongBaoPhiThatBai" xml:space="preserve">
+    <value>Không thể xóa được Thông Báo Phí: {0}</value>
+  </data>
+  <data name="msgXoaTieuChuan" xml:space="preserve">
+    <value>Xóa tiêu chuẩn: {0}  thành công</value>
+  </data>
+  <data name="msgXoaTieuChuanThatBai" xml:space="preserve">
+    <value>Không xóa được tiêu chuẩn: {0},  vì tiêu chuẩn này đang được dùng</value>
+  </data>
+  <data name="msgXoaTrungTamThanhCong" xml:space="preserve">
+    <value>Xóa Trung tam {0} thành công</value>
+  </data>
+  <data name="msgXoaTrungTamThatBai" xml:space="preserve">
+    <value>Xóa các danh mục: {0} thất bại! Đã có đối tượng sử dụng</value>
+  </data>
+  <data name="msgXoaVaiTroThanhCong" xml:space="preserve">
+    <value>Xóa vai trò: {0} thành công</value>
+  </data>
+  <data name="msgXoaVaiTroThatBai" xml:space="preserve">
+    <value>Xóa vai trò thất bại: {0}</value>
+  </data>
+</root>

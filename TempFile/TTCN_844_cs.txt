@@ -1,0 +1,1 @@
+Data Source=tuanvm;Initial Catalog=Cuc_QLCL;Integrated Security=True

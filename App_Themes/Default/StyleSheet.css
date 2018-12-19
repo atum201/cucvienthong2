@@ -1,0 +1,200 @@
+﻿body
+{
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.body_popup
+{
+	font-family: arial;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+a
+{
+	text-decoration: none;
+}
+.danhsach_button
+{
+	border-right: #ccc 1px outset;
+	padding-right: 2px;
+	border-top: #ccc 1px outset;
+	padding-left: 2px;
+	font-weight: bold;
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+	padding-bottom: 1px;
+	border-left: #ccc 1px outset;
+	cursor: pointer;
+	color: #000000;
+	padding-top: 1px;
+	border-bottom: #ccc 1px outset;
+	font-size: 12px;
+}
+.tieude
+{
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.sitepath
+{
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.login_form
+{
+	border: 1px solid #CCCCCC;
+	width: 400px;
+	background-color: #ffffff;
+}
+menu
+{
+	z-index: 2147483640;
+}
+radio
+{
+	border: 0px solid #66CCFF;
+}
+.input_readonly
+{
+	border: 1px solid #FFFFC0; /** remember to change image path **/
+	background: url(none) no-repeat #FFFFC0;
+	font-family: verdana, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	color: #454743;
+}
+textarea
+{
+	border: 1px solid #66CCFF; /** remember to change image path **/
+	background: url(none) no-repeat #FFFFFF;
+	font-family: verdana, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	color: #454743;
+}
+.caption
+{
+	left: auto;
+	text-indent: 8pt;
+	text-align: left;
+	vertical-align: top;
+}
+
+A.Paging
+{
+	font: 10px,Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #6d6921;
+}
+A.Paging:hover
+{
+	font: bold 10px,Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color: #6d6921;
+}
+.PagingSeperator
+{
+	font: bold 10px,Verdana, Arial, Helvetica, sans-serif;
+	color: #6d6921;
+	text-decoration: none;
+}
+A.PagingSelected
+{
+	font: bold 10px,Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #6d6921;
+}
+A.PagingSelected:hover
+{
+	font: bold 10px,Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color: #6d6921;
+}
+/*//////////////*/
+/* Copyright 2006 Joost de Valk */
+a img
+{
+	border: 0;
+}
+
+.oneselect td
+{
+}
+
+.highlight td
+{
+	cursor: text;
+	background-color: #ff6;
+}
+
+.file_upload
+{
+	width: 300px;
+}
+.unread td
+{
+	background-color: #EFEFEF;
+	font-weight: bold;
+}
+.expired td
+{
+	color: #FF0000;
+}
+.expired a
+{
+	color: #FF0000;
+}
+.expired
+{
+	color: #FF0000;
+}
+.nearexpired a
+{
+	color: #FF6200;
+}
+.nearexpired td
+{
+	color: #FF6200;
+}
+.nearexpired
+{
+	color: #FF6200;
+}
+.unread
+{
+	background-color: #EFEFEF;
+	font-weight: bold;
+}
+.rowitem
+{
+	height: 30px;
+}
+.pager_style span
+{
+	color: Black;
+	font-weight: bold;
+}
+.pager_style a
+{
+	text-decoration: underline;
+	color: Red;
+	font-weight: bold;
+}
+.pager_style
+{
+	font-weight: bold;
+}
+
+legend
+{
+	font-weight: bold;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	- <GiayBaoLePhi>
+		<SoLuongSanPham>Quốc tịch</SoLuongSanPham>
+		<TenSanPham>Quốc tịch</TenSanPham>
+		<LePhi>Ngày tháng năm sinh</LePhi>
+		<ThanhTien>Thành tiền</ThanhTien>
+		<GiaTriLoHang>Giới tính</GiaTriLoHang>
+	</GiayBaoLePhi>
+</root>

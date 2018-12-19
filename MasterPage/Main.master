@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="MasterPage_Main"
+    Description="Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông" %>
+<%@ Register Src="../UserControls/UserInfo.ascx" TagName="UserInfo" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông</title>
+    <link href="../htmls/CSS/jquery.autocomplete.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../Js/jquery-1.3.2-vsdoc2.js"></script>
+
+    <script type="text/javascript" src="../Js/jquery.keypad.js"></script>
+
+    <script type="text/javascript" src="../Js/Common.js"></script>
+
+    <script type="text/javascript" src="../Js/dhtmlxcombo.js"></script>
+
+    <script type="text/javascript" src="../Js/dhtmlxcommon.js"></script>
+
+    <script type="text/javascript" src="../Js/DataGridCheckBoxAll.js"></script>
+
+    <script type="text/javascript" src="../Js/TreeViewCheckBox.js"></script>
+
+    <script type="text/javascript" src="../Js/TreeViewCheckAll.js"></script>
+
+    <%--<script type="text/javascript" src="../Js/sortable/sortable.js"></script>--%>
+    <%--Các JavaScript dùng để tạo Resizeable div--%>
+
+    <script type="text/javascript" src="../Js/genresize.js"></script>
+
+    <script type="text/javascript" src="../Js/ieemu.js"></script>
+
+    <script type="text/javascript">
+        window.dhx_globalImgPath="../Images/";
+        if (moz) {
+	        extendElementModel();
+	        extendEventObject();
+	        emulateEventHandlers(["mousemove", "mousedown", "mouseup"]);
+        }
+        function ShowHide(controlName) {
+            if(controlName=='rbCapGCN')
+            {
+                document.getElementById('rThoiHan').style.display='block';
+                document.getElementById('rLephi').style.display='block';
+            }
+            else
+            {
+                document.getElementById('rThoiHan').style.display='none';
+                document.getElementById('rLephi').style.display='none';
+            }            
+        }
+         function ShowHideCongBo(controlName) {
+            if(controlName=='rbDaCap')
+            {
+            document.getElementById('rSoGiayCN').style.display='block';
+                document.getElementById('rGiayToPhapNhan').style.display='none';
+                document.getElementById('rTaiLieuKyThuat').style.display='none';
+                document.getElementById('rTaiLieuQuyTrinhSanXuat').style.display='none';
+                document.getElementById('TaiLieuKhac').style.display='none';
+            }
+            else if(controlName=='rbTuDanhGia')
+                {
+                document.getElementById('rSoGiayCN').style.display='none';
+                document.getElementById('rGiayToPhapNhan').style.display='block';
+                document.getElementById('rTaiLieuKyThuat').style.display='block';
+                document.getElementById('rTaiLieuQuyTrinhSanXuat').style.display='block';
+                document.getElementById('TaiLieuKhac').style.display='block';
+                }
+        }
+         function ShowHideLePhi(controlName) {
+            if(controlName=='' || controlName=='rbKhongPhaiChungNhan')
+            {
+                document.getElementById('rThoiHan').style.display='none';
+            }
+            else if(controlName=='rbCapGCN')
+                {
+                document.getElementById('rThoiHan').style.display='block';
+                }
+        }
+        
+         function ShowGiaTri(controlName) {
+            if(controlName=='rbNKPMD')
+            {
+                document.getElementById('trGiaTri').style.display='block';
+            }
+            else if (controlName !='rbNKPMD')
+            {
+                document.getElementById('trGiaTri').style.display='none';            
+            }
+            
+            if(controlName=='rbSXTN')
+            {
+                document.getElementById('trKTCSSX').style.display='block';
+            }
+            else
+            {
+                document.getElementById('trKTCSSX').style.display='none';            
+            }
+        }
+                     
+    </script>
+
+    <style type="text/css">
+        .menu
+        {
+	        z-index:2147483647;
+	    }
+	</style>
+    <style type="text/css">
+        .hover_item
+        {	       
+            border-width:2px; 
+            border-style:solid;
+	        border-color:#D19275;		        	        	       	        
+        }                     
+    </style>
+    <%--End of Các JavaScript dùng để tạo Resizeable div--%>
+</head>
+<body style="margin-left: 0; margin-top: 0" onclick="parent_disable();" ondblclick="parent_disable();">
+    <form id="form01" runat="server">
+        <table style="border: 1px solid #000000; position: relative; width: 100%" cellpadding="0"
+            cellspacing="0" align="center">
+            <tr>
+                <td style="height: 90px; background: #3873d9" colspan="3" valign="top">
+                    <img src="../htmls/image/banner.jpg" /></td>
+            </tr>
+            <tr>
+                <td colspan="1" valign="top" style="background-color: #ddecfe">
+                    <table cellpadding="0px" border="0" cellspacing="0">
+                        <tr>
+                            <td valign="top">
+                                <asp:Menu ID="Menu1" runat="server" Font-Bold="False" Font-Names="Verdana" Font-Size="11px"
+                                    Orientation="Horizontal" ForeColor="#4d4d4d" DataSourceID="SiteMapDataSource1"
+                                    StaticSubMenuIndent="12px" StaticEnableDefaultPopOutImage="False">
+                                    <DynamicHoverStyle BackColor="#3873D9" ForeColor="White" CssClass="menu" />
+                                    <DynamicMenuItemStyle BackColor="#E5F5FF" ForeColor="#4D4D4D" Height="29px" HorizontalPadding="5px"
+                                        VerticalPadding="5px" />
+                                    <DynamicMenuStyle CssClass="menu" BackColor="#E5F5FF" ForeColor="#4D4D4D" HorizontalPadding="5px"
+                                        VerticalPadding="5px" />
+                                    <StaticHoverStyle BackColor="#3873D9" BorderColor="Blue" BorderStyle="None" BorderWidth="1px"
+                                        Font-Bold="True" Font-Names="Verdana" ForeColor="White" Height="24px" />
+                                    <StaticMenuItemStyle Font-Bold="True" Height="24px" HorizontalPadding="10px" />
+                                    <DynamicSelectedStyle BackColor="#0C89D7" ForeColor="White" />
+                                </asp:Menu>
+                            </td>
+                            <td valign="top" width="100%" align="right" style="height: auto; text-align: right;">
+                                <div style="float: right">
+                                    <uc1:UserInfo ID="UserInfo1" runat="server" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 450px" colspan="3" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="background: url(../htmls/image/bottom.gif) repeat-x left top;
+                    font: 10px Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #ffffff; width: auto;
+                    height: 40px" valign="middle">
+                    &nbsp;Cục quản lý chất lượng công nghệ thông tin và truyền thông &nbsp;&nbsp;&nbsp;
+                    Địa chỉ: 18 Nguyễn Du, Hà Nội, Việt Nam.&nbsp;<br />
+                    &nbsp;Điện thoại:( 84-4). 3782 0990. Fax: ( 84-4). 3782 0998
+                    <div style="width: 100%; text-align: right">
+                        &nbsp;Hệ thống được xây dựng bởi công ty cổ phần công nghệ Tinh Vân. Điện thoại
+                        hỗ trợ: 0975 705 375. Email: tuanvm@tinhvan.com
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

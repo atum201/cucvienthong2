@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	- <GiayBaoLePhi>
+		<SoLuongSanPham>Quốc tịch</SoLuongSanPham>
+		<TenSanPham>Quốc tịch</TenSanPham>
+		<TenNhomSanPham>xxx</TenNhomSanPham>
+		<LePhi>Ngày tháng năm sinh</LePhi>
+		<ThanhTien>Thành tiền</ThanhTien>
+		<KyHieuSanPham>xyz</KyHieuSanPham>
+	</GiayBaoLePhi>
+</root>

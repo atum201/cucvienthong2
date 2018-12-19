@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  - <LePhiTiepNhanCNHQ>
+    <STT>STT</STT>
+    <LoaiDichVu>Loại dịch vụ</LoaiDichVu>
+    <DonGia>Đơn giá</DonGia>
+    <SoLuong>Số lượng</SoLuong>
+    <ThanhTien>Thành tiền</ThanhTien>
+  </LePhiTiepNhanCNHQ>
+</root>

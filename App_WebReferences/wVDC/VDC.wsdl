@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDataResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetFileSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFileSizeResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMaxRequestLength">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMaxRequestLengthResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMaxRequestLengthResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoDuLieuTheoTrungTam">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoDuLieuTheoTrungTamResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AppendUpload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="package" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AppendUploadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppendUploadResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFileHash">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFileHashResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckFileHashResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HashBuffer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buffer" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HashBufferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HashBufferResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoVDC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoVDCResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="VDCGuiDuLieu">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VDCGuiDuLieuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VDCGuiDuLieuResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YeuCauLayDuLieuDongBo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YeuCauLayDuLieuDongBoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="YeuCauLayDuLieuDongBoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoGuiDuLieuTuVDC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoGuiDuLieuTuVDCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DongBoGuiDuLieuTuVDCResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoGuiFileTuVDC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DongBoGuiFileTuVDCResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="LayDuLieuDongBo_TatCa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LayDuLieuDongBo_TatCaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LayDuLieuDongBo_TatCaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XoaLichSu_CapNhatNgayDongBoSauCung_VDC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaTrungTam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XoaLichSu_CapNhatNgayDongBoSauCung_VDCResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SendData" />
+  </wsdl:message>
+  <wsdl:message name="SendDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SendDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileSize" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMaxRequestLengthSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMaxRequestLength" />
+  </wsdl:message>
+  <wsdl:message name="GetMaxRequestLengthSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMaxRequestLengthResponse" />
+  </wsdl:message>
+  <wsdl:message name="DongBoDuLieuTheoTrungTamSoapIn">
+    <wsdl:part name="parameters" element="tns:DongBoDuLieuTheoTrungTam" />
+  </wsdl:message>
+  <wsdl:message name="DongBoDuLieuTheoTrungTamSoapOut">
+    <wsdl:part name="parameters" element="tns:DongBoDuLieuTheoTrungTamResponse" />
+  </wsdl:message>
+  <wsdl:message name="AppendUploadSoapIn">
+    <wsdl:part name="parameters" element="tns:AppendUpload" />
+  </wsdl:message>
+  <wsdl:message name="AppendUploadSoapOut">
+    <wsdl:part name="parameters" element="tns:AppendUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckFileHashSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckFileHash" />
+  </wsdl:message>
+  <wsdl:message name="CheckFileHashSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckFileHashResponse" />
+  </wsdl:message>
+  <wsdl:message name="HashBufferSoapIn">
+    <wsdl:part name="parameters" element="tns:HashBuffer" />
+  </wsdl:message>
+  <wsdl:message name="HashBufferSoapOut">
+    <wsdl:part name="parameters" element="tns:HashBufferResponse" />
+  </wsdl:message>
+  <wsdl:message name="DongBoVDCSoapIn">
+    <wsdl:part name="parameters" element="tns:DongBoVDC" />
+  </wsdl:message>
+  <wsdl:message name="DongBoVDCSoapOut">
+    <wsdl:part name="parameters" element="tns:DongBoVDCResponse" />
+  </wsdl:message>
+  <wsdl:message name="VDCGuiDuLieuSoapIn">
+    <wsdl:part name="parameters" element="tns:VDCGuiDuLieu" />
+  </wsdl:message>
+  <wsdl:message name="VDCGuiDuLieuSoapOut">
+    <wsdl:part name="parameters" element="tns:VDCGuiDuLieuResponse" />
+  </wsdl:message>
+  <wsdl:message name="YeuCauLayDuLieuDongBoSoapIn">
+    <wsdl:part name="parameters" element="tns:YeuCauLayDuLieuDongBo" />
+  </wsdl:message>
+  <wsdl:message name="YeuCauLayDuLieuDongBoSoapOut">
+    <wsdl:part name="parameters" element="tns:YeuCauLayDuLieuDongBoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DongBoGuiDuLieuTuVDCSoapIn">
+    <wsdl:part name="parameters" element="tns:DongBoGuiDuLieuTuVDC" />
+  </wsdl:message>
+  <wsdl:message name="DongBoGuiDuLieuTuVDCSoapOut">
+    <wsdl:part name="parameters" element="tns:DongBoGuiDuLieuTuVDCResponse" />
+  </wsdl:message>
+  <wsdl:message name="DongBoGuiFileTuVDCSoapIn">
+    <wsdl:part name="parameters" element="tns:DongBoGuiFileTuVDC" />
+  </wsdl:message>
+  <wsdl:message name="DongBoGuiFileTuVDCSoapOut">
+    <wsdl:part name="parameters" element="tns:DongBoGuiFileTuVDCResponse" />
+  </wsdl:message>
+  <wsdl:message name="LayDuLieuDongBo_TatCaSoapIn">
+    <wsdl:part name="parameters" element="tns:LayDuLieuDongBo_TatCa" />
+  </wsdl:message>
+  <wsdl:message name="LayDuLieuDongBo_TatCaSoapOut">
+    <wsdl:part name="parameters" element="tns:LayDuLieuDongBo_TatCaResponse" />
+  </wsdl:message>
+  <wsdl:message name="XoaLichSu_CapNhatNgayDongBoSauCung_VDCSoapIn">
+    <wsdl:part name="parameters" element="tns:XoaLichSu_CapNhatNgayDongBoSauCung_VDC" />
+  </wsdl:message>
+  <wsdl:message name="XoaLichSu_CapNhatNgayDongBoSauCung_VDCSoapOut">
+    <wsdl:part name="parameters" element="tns:XoaLichSu_CapNhatNgayDongBoSauCung_VDCResponse" />
+  </wsdl:message>
+  <wsdl:portType name="VDCSoap">
+    <wsdl:operation name="SendData">
+      <wsdl:input message="tns:SendDataSoapIn" />
+      <wsdl:output message="tns:SendDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <wsdl:input message="tns:GetFileSizeSoapIn" />
+      <wsdl:output message="tns:GetFileSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxRequestLength">
+      <wsdl:input message="tns:GetMaxRequestLengthSoapIn" />
+      <wsdl:output message="tns:GetMaxRequestLengthSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DongBoDuLieuTheoTrungTam">
+      <wsdl:input message="tns:DongBoDuLieuTheoTrungTamSoapIn" />
+      <wsdl:output message="tns:DongBoDuLieuTheoTrungTamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AppendUpload">
+      <wsdl:input message="tns:AppendUploadSoapIn" />
+      <wsdl:output message="tns:AppendUploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFileHash">
+      <wsdl:input message="tns:CheckFileHashSoapIn" />
+      <wsdl:output message="tns:CheckFileHashSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HashBuffer">
+      <wsdl:input message="tns:HashBufferSoapIn" />
+      <wsdl:output message="tns:HashBufferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DongBoVDC">
+      <wsdl:input message="tns:DongBoVDCSoapIn" />
+      <wsdl:output message="tns:DongBoVDCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VDCGuiDuLieu">
+      <wsdl:input message="tns:VDCGuiDuLieuSoapIn" />
+      <wsdl:output message="tns:VDCGuiDuLieuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YeuCauLayDuLieuDongBo">
+      <wsdl:input message="tns:YeuCauLayDuLieuDongBoSoapIn" />
+      <wsdl:output message="tns:YeuCauLayDuLieuDongBoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiDuLieuTuVDC">
+      <wsdl:input message="tns:DongBoGuiDuLieuTuVDCSoapIn" />
+      <wsdl:output message="tns:DongBoGuiDuLieuTuVDCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiFileTuVDC">
+      <wsdl:input message="tns:DongBoGuiFileTuVDCSoapIn" />
+      <wsdl:output message="tns:DongBoGuiFileTuVDCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LayDuLieuDongBo_TatCa">
+      <wsdl:input message="tns:LayDuLieuDongBo_TatCaSoapIn" />
+      <wsdl:output message="tns:LayDuLieuDongBo_TatCaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="XoaLichSu_CapNhatNgayDongBoSauCung_VDC">
+      <wsdl:input message="tns:XoaLichSu_CapNhatNgayDongBoSauCung_VDCSoapIn" />
+      <wsdl:output message="tns:XoaLichSu_CapNhatNgayDongBoSauCung_VDCSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VDCSoap" type="tns:VDCSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendData">
+      <soap:operation soapAction="http://tempuri.org/SendData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <soap:operation soapAction="http://tempuri.org/GetFileSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxRequestLength">
+      <soap:operation soapAction="http://tempuri.org/GetMaxRequestLength" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoDuLieuTheoTrungTam">
+      <soap:operation soapAction="http://tempuri.org/DongBoDuLieuTheoTrungTam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppendUpload">
+      <soap:operation soapAction="http://tempuri.org/AppendUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFileHash">
+      <soap:operation soapAction="http://tempuri.org/CheckFileHash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HashBuffer">
+      <soap:operation soapAction="http://tempuri.org/HashBuffer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoVDC">
+      <soap:operation soapAction="http://tempuri.org/DongBoVDC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VDCGuiDuLieu">
+      <soap:operation soapAction="http://tempuri.org/VDCGuiDuLieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YeuCauLayDuLieuDongBo">
+      <soap:operation soapAction="http://tempuri.org/YeuCauLayDuLieuDongBo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiDuLieuTuVDC">
+      <soap:operation soapAction="http://tempuri.org/DongBoGuiDuLieuTuVDC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiFileTuVDC">
+      <soap:operation soapAction="http://tempuri.org/DongBoGuiFileTuVDC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LayDuLieuDongBo_TatCa">
+      <soap:operation soapAction="http://tempuri.org/LayDuLieuDongBo_TatCa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XoaLichSu_CapNhatNgayDongBoSauCung_VDC">
+      <soap:operation soapAction="http://tempuri.org/XoaLichSu_CapNhatNgayDongBoSauCung_VDC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VDCSoap12" type="tns:VDCSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendData">
+      <soap12:operation soapAction="http://tempuri.org/SendData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSize">
+      <soap12:operation soapAction="http://tempuri.org/GetFileSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxRequestLength">
+      <soap12:operation soapAction="http://tempuri.org/GetMaxRequestLength" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoDuLieuTheoTrungTam">
+      <soap12:operation soapAction="http://tempuri.org/DongBoDuLieuTheoTrungTam" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppendUpload">
+      <soap12:operation soapAction="http://tempuri.org/AppendUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFileHash">
+      <soap12:operation soapAction="http://tempuri.org/CheckFileHash" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HashBuffer">
+      <soap12:operation soapAction="http://tempuri.org/HashBuffer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoVDC">
+      <soap12:operation soapAction="http://tempuri.org/DongBoVDC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VDCGuiDuLieu">
+      <soap12:operation soapAction="http://tempuri.org/VDCGuiDuLieu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YeuCauLayDuLieuDongBo">
+      <soap12:operation soapAction="http://tempuri.org/YeuCauLayDuLieuDongBo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiDuLieuTuVDC">
+      <soap12:operation soapAction="http://tempuri.org/DongBoGuiDuLieuTuVDC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DongBoGuiFileTuVDC">
+      <soap12:operation soapAction="http://tempuri.org/DongBoGuiFileTuVDC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LayDuLieuDongBo_TatCa">
+      <soap12:operation soapAction="http://tempuri.org/LayDuLieuDongBo_TatCa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XoaLichSu_CapNhatNgayDongBoSauCung_VDC">
+      <soap12:operation soapAction="http://tempuri.org/XoaLichSu_CapNhatNgayDongBoSauCung_VDC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VDC">
+    <wsdl:port name="VDCSoap" binding="tns:VDCSoap">
+      <soap:address location="http://192.168.50.35/CucQLCL_Internet/VDC/VDC.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VDCSoap12" binding="tns:VDCSoap12">
+      <soap12:address location="http://192.168.50.35/CucQLCL_Internet/VDC/VDC.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

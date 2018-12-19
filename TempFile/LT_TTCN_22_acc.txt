@@ -1,0 +1,16 @@
+Hi all,
+
+Toàn b? tài li?u trong D? án nâng c?p ph?n m?m Qu?n lý V?t tu hàng hóa và tích h?p ph?n m?m Qu?n lý M?ng lu?i kho du?c luu trên máy 35.Ð?a ch?: \\192.168.50.35\@VatTuHangHoa\Tai lieu . 
+
+Trong dó m?i ngu?i chú ý 2 tài li?u: YeuCauNghiepVu.0.2.doc, SoDoChucNang.doc và tài li?u g?c ban d?u TL PTYC_Cuc DTQG_Final_HaiNT.doc.
+
+Ngoài ra, chuong trình cu hi?n dang ho?t d?ng dã du?c d?ng trên máy 35. Ð?a ch?: http://192.168.50.35/DT/Welcome.aspx Ð?i phát tri?n s? d?a vào dây d? xây d?ng prototype, còn d?i Test có th? tham kh?o làm testcase
+
+Acc dang nh?p:
+
+·         Ð?i v?i c?p T?ng c?c: cuc/cdtqg@123
+
+·         Ð?i v?i c?p DTQGKV: hanamninh/hanamninh, danang/danang …
+
+·         Ð?i v?i c?p T?ng kho: tksonla/tksonla, tkphuyen/tkphuyem
+

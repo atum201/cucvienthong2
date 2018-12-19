@@ -1,0 +1,2682 @@
+----------------------------------------
+Timestamp: 11/03/2010 2:16:35 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/03/2010 2:16:41 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/03/2010 2:16:50 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/03/2010 3:20:12 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/03/2010 3:22:21 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_HoSo_DM_DonVi". The conflict occurred in database "CUC_QLCL_TEST", table "dbo.DM_DonVi", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/03/2010 2:57:45 SA
+Message: Page: Quản lý người dùng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/03/2010 4:31:54 SA
+Message: Page: Hiển thị báo cáo
+This row already belongs to this table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:43:45 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:44:01 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:44:44 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:44:54 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:45:14 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:45:51 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:45:54 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:46:19 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:47:37 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 1:47:51 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosodagui_ascx' to type 'UserControls_uc_CN_HoSoDaGui'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 5:48:55 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:22:37 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+String was not recognized as a valid DateTime.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:25:07 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+String was not recognized as a valid DateTime.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:33:18 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+String was not recognized as a valid DateTime.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 3:38:34 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Conversion failed when converting the varchar value 'TTCN' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 6:43:08 CH
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 6:45:05 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The DELETE statement conflicted with the REFERENCE constraint "FK_ThongBaoLePhiChiTiet_ThongBaoLePhi". The conflict occurred in database "Cuc_QLCL", table "dbo.ThongBaoLePhiChiTiet", column 'ThongBaoLePhiID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 6:48:00 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The DELETE statement conflicted with the REFERENCE constraint "FK_ThongBaoLePhiChiTiet_ThongBaoLePhi". The conflict occurred in database "Cuc_QLCL", table "dbo.ThongBaoLePhiChiTiet", column 'ThongBaoLePhiID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:06:25 CH
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:07:42 CH
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:09:05 CH
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/03/2010 7:17:38 CH
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/03/2010 12:44:37 SA
+Message: Page: Quản lý hồ sơ
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/03/2010 12:45:46 SA
+Message: Page: Quản lý hồ sơ
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/03/2010 1:04:13 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/03/2010 1:07:33 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 2:32:10 SA
+Message: Page: Thông báo nộp tiền
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 3:34:19 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 3:35:51 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 3:37:01 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 4:11:56 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/04/2010 8:21:56 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 03/04/2010 2:56:12 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 03/04/2010 2:58:30 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 2:57:34 SA
+Message: Page: Chi tiết sản phẩm
+The value '' of the MaximumValue property of 'rvCheckDate' cannot be converted to type 'Date'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 3:50:47 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'TenSanPham'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 4:00:36 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 4:01:26 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 4:16:45 SA
+Message: Page: Chi tiết sản phẩm
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 7:33:27 SA
+Message: Page: Chi tiết sản phẩm
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SanPham_DM_HangSanXuat". The conflict occurred in database "Cuc_QLCL", table "dbo.DM_HangSanXuat", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 7:34:15 SA
+Message: Page: Chi tiết sản phẩm
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SanPham_DM_HangSanXuat". The conflict occurred in database "Cuc_QLCL", table "dbo.DM_HangSanXuat", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/04/2010 7:39:41 SA
+Message: Page: Chi tiết sản phẩm
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SanPham_DM_HangSanXuat". The conflict occurred in database "Cuc_QLCL", table "dbo.DM_HangSanXuat", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 2:19:50 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 2:20:19 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 2:23:15 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 2:23:23 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 3:43:54 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A field or property with the name 'TenTiengViet' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 3:44:13 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A field or property with the name 'TenTiengViet' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 3:52:31 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A field or property with the name 'TenTiengViet' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:14:56 SA
+Message: Page: Untitled Page
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:18:37 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:18:43 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:25:19 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:27:10 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:29:36 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:30:53 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:39:43 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:39:50 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:49:40 SA
+Message: Page: Untitled Page
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:50:13 SA
+Message: Page: Untitled Page
+The value '' of the MaximumValue property of 'rvdate' cannot be converted to type 'Date'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:50:45 SA
+Message: Page: Untitled Page
+The value '' of the MaximumValue property of 'rvdate' cannot be converted to type 'Date'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:54:41 SA
+Message: Page: Untitled Page
+Unable to find control id 'txtNgaySinh' referenced by the 'ControlToValidate' property of 'rvdate'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/04/2010 7:56:01 SA
+Message: Page: Untitled Page
+String was not recognized as a valid DateTime.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 1:47:41 SA
+Message: Page: Untitled Page
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 4:48:40 SA
+Message: Page: Chi tiết sản phẩm
+The value '' of the MaximumValue property of 'rvCheckDate' cannot be converted to type 'Date'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 8:57:46 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 8:57:55 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 8:58:05 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:06:02 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:07:23 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:07:48 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:09:23 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:10:05 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:23:32 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:24:46 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:25:11 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:27:22 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:27:25 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:27:44 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:27:54 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:28:27 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:29:26 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:30:56 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/04/2010 9:49:44 SA
+Message: Page: Cục quản lý chất lượng
+Index was outside the bounds of the array.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 1:49:15 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 1:57:38 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 1:58:43 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 1:59:27 SA
+Message: Page: Chi tiết sản phẩm
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 2:09:37 SA
+Message: Page: Chi tiết sản phẩm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 2:11:00 SA
+Message: Page: Chi tiết sản phẩm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 2:12:25 SA
+Message: Page: Chi tiết sản phẩm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 2:43:53 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'TrangThaiID'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 3:10:53 SA
+Message: Page: Chi tiết sản phẩm
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 4:08:18 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosomoinhan_ascx' to type 'UserControls_uc_CN_HoSoMoiNhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 4:08:25 SA
+Message: Page: Hồ sơ chứng nhận
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hosomoinhan_ascx' to type 'UserControls_uc_CN_HoSoMoiNhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:47:40 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:47:52 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:47:57 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:02 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:08 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:13 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:18 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:24 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:48:29 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 8:50:48 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 9:02:38 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/04/2010 3:27:20 CH
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 2:24:59 SA
+Message: Page: Hiển thị báo cáo
+Procedure or function BaoCaoTiepNhanHoSo has too many arguments specified.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 2:56:59 SA
+Message: Page: Thông báo nộp tiền
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:12:20 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:12:36 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:12:52 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:12:59 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:16:03 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:16:55 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/04/2010 4:18:28 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 1:36:32 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 1:36:39 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 1:36:46 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 1:50:48 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 1:50:55 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 3:39:49 SA
+Message: Page: Hiển thị báo cáo
+Culture 'en' is a neutral culture. It cannot be used in formatting and parsing and therefore cannot be set as the thread's current culture.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 3:45:03 SA
+Message: Page: Hiển thị báo cáo
+Culture 'en' is a neutral culture. It cannot be used in formatting and parsing and therefore cannot be set as the thread's current culture.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/04/2010 10:15:13 SA
+Message: Page: Thông báo nộp tiền
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2010 7:10:07 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 1:56:02 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 1:57:58 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 4:32:47 SA
+Message: Page: Quản lý người dùng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 8:08:56 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid object name 'HoSoResult'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 8:09:33 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid object name 'HoSoResult'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:20:38 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Incorrect syntax near 'Donvi'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'DeNghiCN'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:21:15 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Incorrect syntax near the keyword 'WHEN'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'DeNghiCN'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:21:45 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Incorrect syntax near the keyword 'WHEN'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'DeNghiCN'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:24:17 SA
+Message: Page: Tra cứu Công bố
+Incorrect syntax near the keyword 'OR'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+Incorrect syntax near 'BanCongBo'.
+Incorrect syntax near 'BanTuDanhGia'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:27:00 SA
+Message: Page: Tra cứu thông tin hồ sơ
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:58:36 SA
+Message: Page: Tra cứu Công bố
+Incorrect syntax near the keyword 'OR'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+Incorrect syntax near 'BanCongBo'.
+Incorrect syntax near 'BanTuDanhGia'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 9:58:49 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Incorrect syntax near the keyword 'OR'.
+Incorrect syntax near 'nguoixuly'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near 'hinhthuc'.
+Incorrect syntax near 'trangthai'.
+Incorrect syntax near 'DeNghiCN'.
+Incorrect syntax near 'TuCachPhapNhan'.
+Incorrect syntax near 'TaiLieuKyThuat'.
+Incorrect syntax near 'KetQuaDoKiem'.
+Incorrect syntax near 'QuyTrinhSanXuat'.
+Incorrect syntax near 'QuyTrinhDamBao'.
+Incorrect syntax near 'ChungChiHTQLCL'.
+Incorrect syntax near 'TieuChuanApDung'.
+Incorrect syntax near 'HoSoDayDu'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 10:16:21 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near ','.
+Incorrect syntax near 'TrangThai'.
+Incorrect syntax near ')'.
+Incorrect syntax near 'manhomsanpham'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near ','.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 10:17:32 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near ','.
+Incorrect syntax near 'SoTBLP'.
+Incorrect syntax near 'TrangThai'.
+Incorrect syntax near ')'.
+Incorrect syntax near 'manhomsanpham'.
+Incorrect syntax near 'nguongoc'.
+Incorrect syntax near ','.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/04/2010 10:17:45 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near ','.
+Incorrect syntax near ','.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:31:11 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'SoGCN'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:32:09 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'SoGCN'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:36:19 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:37:33 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:38:24 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:40:06 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:40:11 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:40:30 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'o'.
+ SELECT 
+							DISTINCT 
+							o.[SoGCN]
+							,h.Sohoso
+							,(select tblp.sogiaythongbaolephi from thongbaolephi tblp
+							JOIN thongbaolephi_sanpham tblp_sp ON tblp_sp.thongbaolephiid =tblp.id
+							where tblp_sp.sanphamid= o.id) SoTBLP
+							,o.ID
+							,o.SanphamID
+							,(CASE h.TrangThaiId WHEN 13 THEN o.DmSanPham_TenTiengViet
+												WHEN 11 THEN o.DmSanPham_TenTiengViet
+												ELSE
+													dp.TenTiengViet 
+												END) TenTiengViet
+							,o.[KyHieu]
+						    ,(CASE h.TrangThaiId WHEN 13 THEN o.DmHSX_TenHangSanXuat
+												WHEN 11 THEN o.DmHSX_TenHangSanXuat
+												ELSE
+													hsx.TenHangSanXuat
+												END) TenHangSanXuat 
+							,CASE o.trangthaiid WHEN 6 THEN N'Chưa cấp' WHEN 11 THEN N'Đã cấp' WHEN 12 THEN N'Bị hủy'  END TrangThai
+							,(CASE h.TrangThaiId WHEN 13 THEN h.DmDonVi_TenTiengViet
+												WHEN 11 THEN h.DmDonVi_TenTiengViet
+												ELSE
+													(SELECT dv.TenTiengViet FROM dbo.DM_Donvi dv JOIN Hoso hs on dv.id=hs.DonviID WHERE hs.ID = o.HoSoID)
+												END) donvi 
+							,(SELECT gp.MaNhom FROM dbo.DM_NhomSanPham gp WHERE gp.ID = o.[NhomSanPhamID]) manhomsanpham
+							,dbo.F_GetSoBanTiepNhanCB(o.SoGCN) as sobantiepnhanCB
+							,CASE o.[NguonGocID] WHEN 1 THEN N'NK mậu dịch' WHEN 2 THEN N'NK phi mậu dịch' ELSE N'Sản xuất trong nước' END nguongoc							
+							,[dbo].[F_LayTieuChuanApDungChoSP](o.id) TieuChuanApdung	
+							,o.[NgayKyDuyet]
+							,(CASE h.TrangThaiId WHEN 13 THEN 
+													DATEADD(year, o.ThoiHanId + 1,o.ngaykyduyet)
+												WHEN 11 THEN 
+													DATEADD(year, o.ThoiHanId + 1,o.ngaykyduyet)
+												ELSE
+													DATEADD(year,(select nsp.thoihangcn from dm_nhomsanpham nsp where nsp.id=o.nhomsanphamid ) + 1,o.ngaykyduyet)
+												END) ngayhethan 
+							
+						FROM [dbo].[SanPham] o 
+						left JOIN DM_SanPham dp on dp.id=o.SanphamID 
+						left join dbo.SanPham_TieuChuanApDung sp_tc on sp_tc.SanPhamID = o.ID 
+						JOIN Hoso h on h.id= o.hosoid
+						JOIN Dm_HangSanXuat hsx ON o.HangSanXuatID = hsx.Id 						
+					    WHERE o.TrangThaiID in (6,11,12) AND o.sogcn NOT LIKE '%/%' 
+                        AND o.sogcn<>'' AND o.ngaykyduyet<>'' AND o.nguoikyduyetid<>''  AND h.LoaiHoSo IN (1, 3) o.SoGCN ASC 
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/04/2010 10:41:26 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near 'BYo'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 1:54:20 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 1:55:15 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 2:24:55 SA
+Message: Page: Thông báo lệ phí
+Conversion failed when converting the nvarchar value '005/' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 2:27:14 SA
+Message: Page: Thông báo lệ phí
+Conversion failed when converting the nvarchar value '188A' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 2:35:25 SA
+Message: Page: Tra cứu thu phí
+Incorrect syntax near ')'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:37:29 SA
+Message: Page: In thông báo lệ phí
+Column 'MaSoThue' does not belong to table Table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:38:06 SA
+Message: Page: In thông báo lệ phí
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:38:16 SA
+Message: Page: In thông báo lệ phí
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:39:09 SA
+Message: Page: In thông báo lệ phí
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:39:13 SA
+Message: Page: In thông báo lệ phí
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/04/2010 3:53:28 SA
+Message: Page: In thông báo nộp tiền
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/04/2010 4:41:18 SA
+Message: Page: Tra cứu bản công bố
+DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'o'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:15:11 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:18:29 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:19:01 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:19:05 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:19:30 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:19:38 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 4:20:28 SA
+Message: Page: In thông báo lệ phí
+Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 8:52:31 SA
+Message: Page: In thông báo nộp tiền
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 8:53:04 SA
+Message: Page: In thông báo nộp tiền
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 8:53:54 SA
+Message: Page: In thông báo nộp tiền
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/04/2010 8:57:05 SA
+Message: Page: In thông báo nộp tiền
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2010 4:04:26 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2010 4:07:12 SA
+Message: Page: Hiển thị báo cáo
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 1:52:51 SA
+Message: Page: Tra cứu bản công bố
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 1:54:23 SA
+Message: Page: Tra cứu bản công bố
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:28:19 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:31:37 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:45:45 SA
+Message: Page: In thông báo lệ phí
+Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:50:08 SA
+Message: Page: In thông báo lệ phí
+Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:50:11 SA
+Message: Page: In thông báo lệ phí
+Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/04/2010 4:51:02 SA
+Message: Page: In thông báo lệ phí
+Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 3:03:50 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_QuaTrinhXuLy_EN_LoaiXuLy". The conflict occurred in database "CucQLCL", table "dbo.EN_LoaiXuLy", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 3:08:34 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_QuaTrinhXuLy_EN_LoaiXuLy". The conflict occurred in database "CucQLCL", table "dbo.EN_LoaiXuLy", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 3:13:54 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_QuaTrinhXuLy_EN_LoaiXuLy". The conflict occurred in database "CucQLCL", table "dbo.EN_LoaiXuLy", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:10:27 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:12:33 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:15:01 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:16:12 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:17:08 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/04/2010 10:19:05 SA
+Message: Page: Quản lý hồ sơ
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 4:17:38 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 4:22:44 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 9:00:41 SA
+Message: Page: Hiển thị báo cáo
+Cannot find table 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 9:01:26 SA
+Message: Page: Hiển thị báo cáo
+Cannot find table 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 9:02:25 SA
+Message: Page: Hiển thị báo cáo
+Cannot find table 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/04/2010 9:03:59 SA
+Message: Page: Hiển thị báo cáo
+Cannot find table 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/05/2010 4:35:47 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/05/2010 5:01:18 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Control 'chklstTieuChuan' referenced by the ControlToValidate property of 'CustomValidator1' cannot be validated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/05/2010 7:35:10 SA
+Message: Page: Quản lý hồ sơ
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/05/2010 8:05:19 SA
+Message: Page: Hồ sơ chứng nhận
+A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/05/2010 8:06:02 SA
+Message: Page: Hồ sơ chứng nhận
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 1:30:51 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:34:01 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:37:21 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:38:01 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:40:12 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:40:23 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:40:50 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:41:35 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 4:43:01 SA
+Message: Page: Chi tiết sản phẩm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:20:03 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:21:59 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:24:00 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:29:29 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:29:46 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 6:32:21 SA
+Message: Page: Untitled Page
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 7:26:41 SA
+Message: Page: Danh mục cơ quan đo kiểm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/05/2010 7:26:54 SA
+Message: Page: Danh mục cơ quan đo kiểm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/05/2010 9:28:07 SA
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/05/2010 9:28:45 SA
+Message: Page: Cục quản lý chất lượng
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/05/2010 2:02:36 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/05/2010 2:06:08 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/05/2010 2:07:01 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/05/2010 3:05:17 SA
+Message: Page: Chi tiết sản phẩm
+Index and length must refer to a location within the string.
+Parameter name: length
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/05/2010 4:43:40 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/05/2010 3:28:08 SA
+Message: Page: Cục quản lý chất lượng
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 13/05/2010 4:35:15 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 14/05/2010 4:01:34 SA
+Message: Page: Nhập hồ sơ công bố
+Incorrect syntax near 'hs'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 14/05/2010 4:01:58 SA
+Message: Page: Nhập hồ sơ công bố
+Incorrect syntax near 'hs'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 3:35:41 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 3:36:07 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 4:51:37 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:03:54 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:05:28 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:29 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:38 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:41 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:45 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:51 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 5:06:56 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 6:56:20 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/05/2010 6:59:45 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 17/05/2010 3:33:20 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_QuaTrinhXuLy_EN_LoaiXuLy". The conflict occurred in database "cucqlcl_new", table "dbo.EN_LoaiXuLy", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 5:55:26 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 8:45:20 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 8:46:46 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 8:48:16 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 8:50:23 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 8:56:12 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 9:14:55 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 9:37:05 SA
+Message: Page: Quản lý hồ sơ
+Column 'KetLuanId' does not belong to table .
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 9:40:30 SA
+Message: Page: Quản lý hồ sơ
+Column 'KetLuanId' does not belong to table .
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 9:41:33 SA
+Message: Page: Quản lý hồ sơ
+Column 'KetLuanId' does not belong to table .
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 10:46:23 SA
+Message: Page: Cục quản lý chất lượng - Lưu trữ hồ sơ
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 19/05/2010 10:47:59 SA
+Message: Page: Cục quản lý chất lượng - Lưu trữ hồ sơ
+Nullable object must have a value.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 1:46:57 SA
+Message: Page: Quản lý hồ sơ
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 9:29:19 SA
+Message: Page: Hiển thị báo cáo
+Not supported within subreports.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 10:06:15 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 10:09:34 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 10:09:48 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2010 10:33:48 SA
+Message: Page: Hiển thị báo cáo
+Missing parameter values.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/05/2010 9:51:20 SA
+Message: Page: Quản lý hồ sơ
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/05/2010 9:51:48 SA
+Message: Page: Quản lý hồ sơ
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 1:53:03 SA
+Message: Page: Đồng bộ bằng tay
+Cannot insert explicit value for identity column in table 'DB_BaoCaoDongBo' when IDENTITY_INSERT is set to OFF.
+Error converting data type nvarchar to int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 1:57:29 SA
+Message: Page: Đồng bộ bằng tay
+Error converting data type nvarchar to int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 2:00:05 SA
+Message: Page: Đồng bộ bằng tay
+Error converting data type nvarchar to int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 2:08:09 SA
+Message: Page: Đồng bộ bằng tay
+Specified cast is not valid.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 3:58:17 CH
+Message: Page: Thông báo lệ phí
+Violation of UNIQUE KEY constraint 'IX_ThongBaoLePhi_SanPham'. Cannot insert duplicate key in object 'dbo.ThongBaoLePhi_SanPham'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 3:59:40 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The DELETE statement conflicted with the REFERENCE constraint "FK_ThongBaoLePhi_SanPham_ThongBaoLePhi". The conflict occurred in database "CucQLCL", table "dbo.ThongBaoLePhi_SanPham", column 'ThongBaoLePhiID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:07:23 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:07:54 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:08:43 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:09:27 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:09:57 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:10:27 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:11:02 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:12:21 CH
+Message: Page: Cục quản lý chất lượng
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:20:28 CH
+Message: Page: Cục quản lý chất lượng
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:20:34 CH
+Message: Page: Cục quản lý chất lượng
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:21:43 CH
+Message: Page: Cục quản lý chất lượng
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:24:11 CH
+Message: Page: Cục quản lý chất lượng
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 4:35:35 CH
+Message: Page: Cục quản lý chất lượng
+Cannot open database "CucQLCL" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 5:00:45 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 5:00:46 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 25/05/2010 5:00:46 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2010 4:42:50 SA
+Message: Page: Hiển thị báo cáo
+Cannot find table 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2010 9:22:25 SA
+Message: Page: Hiển thị báo cáo
+Conversion failed when converting the nvarchar value 'TTCN_67552' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2010 9:24:08 SA
+Message: Page: Hiển thị báo cáo
+Conversion failed when converting the nvarchar value 'TTCN_67552' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:39:12 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'Nguoitiepnhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:40:00 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'Nguoitiepnhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:40:30 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'NguoiTiepNhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:42:43 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'nguoitiepnhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:44:27 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'nguoitiepnhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 27/05/2010 3:44:53 SA
+Message: Page: Tra cứu thông tin hồ sơ
+Invalid column name 'nguoitiepnhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/05/2010 4:25:45 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/05/2010 7:55:05 SA
+Message: Page: Tra cứu Công bố
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/05/2010 7:57:52 SA
+Message: Page: Tra cứu Công bố
+DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'DanhSachTBLP'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 28/05/2010 7:59:21 SA
+Message: Page: Tra cứu Công bố
+Cannot find either column "dbo" or the user-defined function or aggregate "dbo.F_GetDanhSachTBLP", or the name is ambiguous.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/05/2010 7:16:18 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 29/05/2010 7:18:41 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/05/2010 3:15:32 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/05/2010 3:16:47 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/05/2010 3:20:38 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/05/2010 8:03:13 SA
+Message: Page: Quản lý mẫu dấu hợp quy
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 30/05/2010 8:26:43 SA
+Message: Page: Quản lý mẫu dấu hợp quy
+Cannot find ContentPlaceHolder 'ContentPlaceHolder2' in the master page '/Cuc_QLCL/MasterPage/Main.master', verify content control's ContentPlaceHolderID attribute in the content page.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 31/05/2010 3:11:40 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/06/2010 9:47:06 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/06/2010 10:03:48 SA
+Message: Page: Thông báo lệ phí
+Procedure or function ThongBaoLePhi_Insert has too many arguments specified.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/06/2010 10:07:38 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Conversion failed when converting the nvarchar value 'Số s' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/06/2010 3:48:31 SA
+Message: Page: Thông báo lệ phí
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:04:11 SA
+Message: Page: Danh mục phòng ban
+property  does not exist!
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:05:09 SA
+Message: Page: Danh mục phòng ban
+property  does not exist!
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:06:00 SA
+Message: Page: Danh mục phòng ban
+property  does not exist!
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:07:48 SA
+Message: Page: Danh mục phòng ban
+property  does not exist!
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:08:01 SA
+Message: Page: Danh mục phòng ban
+property  does not exist!
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/06/2010 3:37:03 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_HoSo_DM_DonVi". The conflict occurred in database "CucQLCL_TT2", table "dbo.DM_DonVi", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/06/2010 3:51:55 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Cannot open backup device '\\servervcc\Backup\TT29.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 07/06/2010 3:53:55 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Cannot open backup device '\\servervcc\Backup\TT210.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 3:44:58 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 3:45:10 SA
+Message: Page: Hiển thị báo cáo
+The types of the parameter field and parameter field current values are not compatible.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:31:24 SA
+Message: Page: Quản lý sao lưu, phục hồi
+'D:\Phan mem QLCL\Backup' is not a valid virtual path.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:35:04 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:36:52 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Multiple controls with the same ID 'chkCheckAll' were found. FindControl requires that controls have unique IDs.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:37:39 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Multiple controls with the same ID 'chkCheck' were found. FindControl requires that controls have unique IDs.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:37:46 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Multiple controls with the same ID 'chkCheck' were found. FindControl requires that controls have unique IDs.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 08/06/2010 7:38:24 SA
+Message: Page: Quản lý sao lưu, phục hồi
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 7:55:53 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 7:59:29 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 8:00:33 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 8:02:42 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 8:04:21 SA
+Message: Page: Quản lý hồ sơ
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 10:17:58 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/06/2010 10:19:17 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 3:02:32 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 3:02:42 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 3:33:27 SA
+Message: Page: Quản lý hồ sơ
+Column 'TrangThaiID' is constrained to be unique.  Value '4' is already present.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 3:34:41 SA
+Message: Page: Quản lý hồ sơ
+Table doesn't have a primary key.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 3:35:13 SA
+Message: Page: Quản lý hồ sơ
+Column 'ID' does not allow nulls.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:36:35 SA
+Message: Page: Quản lý hồ sơ
+This row already belongs to another table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:39:29 SA
+Message: Page: Quản lý hồ sơ
+This row already belongs to another table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:40:22 SA
+Message: Page: Quản lý hồ sơ
+The given DataRow is not in the current DataRowCollection.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:42:07 SA
+Message: Page: Quản lý hồ sơ
+Collection was modified; enumeration operation might not execute.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:49:10 SA
+Message: Page: Quản lý hồ sơ
+Syntax error in the expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 4:50:40 SA
+Message: Page: Quản lý hồ sơ
+Syntax error in the expression.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:31:15 SA
+Message: Page: Quản lý hồ sơ
+Column 'ID' does not belong to table .
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:38:15 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:39:07 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:39:15 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:39:24 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:39:42 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:41:16 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 5:44:47 SA
+Message: Page: Quản lý hồ sơ
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 8:24:53 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 8:25:19 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 8:25:48 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 8:27:31 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 10/06/2010 8:28:15 SA
+Message: Page: In thông báo lệ phí
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:43:14 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:45:01 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:46:43 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:47:47 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:49:37 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 3:50:26 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 4:25:40 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 4:25:54 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 4:42:04 SA
+Message: Page: Quản lý hồ sơ
+Column 'TenTrangThai' is constrained to be unique.  Value 'Chờ thẩm định' is already present.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/06/2010 4:47:12 SA
+Message: Page: Quản lý hồ sơ
+Column 'TenTrangThai' is constrained to be unique.  Value 'Chờ thẩm định' is already present.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 16/06/2010 7:26:53 SA
+Message: Page: Quản lý hồ sơ
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 16/06/2010 8:15:13 SA
+Message: Page: Tra cứu bản công bố
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 16/06/2010 8:18:52 SA
+Message: Page: Tra cứu bản công bố
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 17/06/2010 5:35:34 SA
+Message: Page: Đồng bộ từ file
+Could not find file 'E:\My Project\Cuc QLCL\Source code\Cuc_QLCL\Cuc_QLCL\DuLieuDongBo\Input\LayDuLieuTT3.xml'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 17/06/2010 5:39:19 SA
+Message: Page: Đồng bộ từ file
+Could not find file 'E:\My Project\Cuc QLCL\Source code\Cuc_QLCL\Cuc_QLCL\DuLieuDongBo\Input\LayDuLieuTT3.xml'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 17/06/2010 5:48:38 SA
+Message: Page: Đồng bộ từ file
+Could not find file 'E:\My Project\Cuc QLCL\Source code\Cuc_QLCL\Cuc_QLCL\DuLieuDongBo\Input\LayDuLieuTT3.xml'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 12:03:15 SA
+Message: Page: Thông báo lệ phí
+A field or property with the name 'SoBanTiepNhanCB' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 12:03:38 SA
+Message: Page: Thông báo lệ phí
+A field or property with the name 'SoBanTiepNhanCB' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 12:04:09 SA
+Message: Page: Thông báo lệ phí
+A field or property with the name 'SoBanTiepNhanCB' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 12:05:14 SA
+Message: Page: Thông báo lệ phí
+A field or property with the name 'SoBanTiepNhanCB' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 12:12:07 SA
+Message: Page: Thông báo lệ phí
+A field or property with the name 'SoBanTiepNhanCB' was not found on the selected data source.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 3:58:53 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 22/06/2010 3:59:10 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/06/2010 1:50:15 SA
+Message: Page: Thông báo nộp tiền
+Input string was not in a correct format.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 2:21:26 SA
+Message: Page: Tra cứu giấy chứng nhận
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 2:23:08 SA
+Message: Page: Tra cứu giấy chứng nhận
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 2:24:56 SA
+Message: Page: Tra cứu giấy chứng nhận
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 3:03:21 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near ')'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 3:18:40 SA
+Message: Page: Tra cứu giấy chứng nhận
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:17:57 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near the keyword 'DESC'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:18:21 SA
+Message: Page: Tra cứu giấy chứng nhận
+The ranking function "ROW_NUMBER" must have an ORDER BY clause.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:19:37 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near ','.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:20:07 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near the keyword 'DESC'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:20:35 SA
+Message: Page: Tra cứu giấy chứng nhận
+Ambiguous column name 'STT'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:21:08 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/08/2010 7:22:49 SA
+Message: Page: Tra cứu giấy chứng nhận
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/08/2010 10:09:09 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Conversion failed when converting the nvarchar value 'b001' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/08/2010 10:19:05 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Conversion failed when converting the nvarchar value 'b001' to data type int.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 12:53:29 CH
+Message: Page: Tra cứu giấy chứng nhận
+Column 'TongSoBanGhi' does not belong to table Table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 12:56:01 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'SoTBLP'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 12:56:25 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'donvi'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:08:19 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'SoTBLP'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:13:11 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'sotblp'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:13:49 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'sotblp'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:14:35 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'sotblp'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:16:34 CH
+Message: Page: Tra cứu giấy chứng nhận
+Invalid column name 'sotblp'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:41:10 CH
+Message: Page: Tra cứu bản công bố
+Invalid column name 'SoTBLP'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 15/08/2010 1:41:20 CH
+Message: Page: Tra cứu bản công bố
+Invalid column name 'donvi'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 17/08/2010 1:55:53 CH
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object reference not set to an instance of an object.
+
+----------------------------------------
