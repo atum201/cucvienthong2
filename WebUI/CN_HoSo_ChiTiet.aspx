@@ -64,7 +64,7 @@
             <td style="width: 465px; height: 26px;">
                 <asp:TextBox ID="txtSoHoSo" runat="server" Width="90%" BackColor="#FFFFC0"></asp:TextBox></td>
             <td align="left" style="text-align: left;">
-                Đơn vị nộp hồ sơ</td>
+                Đơn vị nộp hồ sơ <asp:LinkButton ID="lbtSuaDonVi" runat="server" TabIndex="6">Sửa</asp:LinkButton></td>
             <td colspan="" style="height: auto; text-align: left; width: 465px;">
                 <div style="float: left; width:80%">
                     <cc1:ComboBox ID="ddlDonVi" runat="server" Width="100%" AutoPostBack="True" OnSelectedIndexChanged="ddlDonVi_SelectedIndexChanged"
@@ -72,7 +72,8 @@
                     </cc1:ComboBox>
                 </div>
                 <asp:LinkButton ID="lbtTaoMoiDV" runat="server" OnClientClick="popCenter('DM_DonVi_ChiTiet.aspx','DM_DonVi_ChiTiet',800,400);return false;"
-                    TabIndex="6">Thêm đơn vị</asp:LinkButton></td>
+                    TabIndex="6">Thêm đơn vị</asp:LinkButton>
+                </td>
         </tr>
         <tr>
             <td>

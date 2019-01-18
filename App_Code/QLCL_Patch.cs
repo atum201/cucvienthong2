@@ -15,6 +15,7 @@ public static class QLCL_Patch
     public  enum LoaiPatch { FileAttach_CoQuanDoKiem, FileAttach_DonVi_Nop_HoSo, LePhi_HoSoChungNhan, NguoiKy_GiayBaoPhi, IDLink };
     public static string connectString = ConfigurationManager.ConnectionStrings["Cuc_QLCL.Data.ConnectionString"].ConnectionString;
     public enum LePhi { DonGiaQuyChuan1 = 950, DonGiaQuyChuan2 = 600 , DonGiaTiepNhan = 300, PhiXemXet = 1350, PhiDonGia = 750};
+    public static string duoiCBNK = "KTCL";
     public static bool InsertToSql(String query)
     {
         try{

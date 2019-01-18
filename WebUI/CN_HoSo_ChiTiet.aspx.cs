@@ -29,6 +29,7 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
     //LongHH
     private bool edit = false;
     private string ThongBaoLePhiID = string.Empty;
+    public string IDDonVi = string.Empty;
     //LongHH
     HoSo objHS = null;
     string passedArgument = "";
@@ -79,10 +80,15 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
                 txtTenTiengAnh.Text = objDonVi.TenTiengAnh.ToString();
                 txtDiaChi.Text = objDonVi.DiaChi.ToString();
                 txtMaSoThue.Text = objDonVi.MaSoThue.ToString();
+                IDDonVi = objDonVi.Id.ToString();
+                lbtSuaDonVi.OnClientClick = "popCenter('DM_DonVi_ChiTiet.aspx?ID=" + IDDonVi + "','DM_DonVi_ChiTiet',800,400);return false;";
                 //LongHH
             }
+            else {
+                lbtSuaDonVi.Visible = false;
+            }
             // LongHH
-            txtTaiLieuKhac.Text = "Trả kết quả sau 10 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ";
+            txtTaiLieuKhac.Text = "Trả kết quả sau 7 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ";
             DataTable dsnguoiky = QLCL_Patch.GetDSNguoiKyGiayBaoPhi();
 
             if (dsnguoiky.Rows.Count > 0)
@@ -864,6 +870,7 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
         txtTenTiengAnh.Text = objDonVi.TenTiengAnh.ToString();
         txtDiaChi.Text = objDonVi.DiaChi.ToString();
         txtMaSoThue.Text = objDonVi.MaSoThue.ToString();
+        lbtSuaDonVi.OnClientClick = "popCenter('DM_DonVi_ChiTiet.aspx?ID=" + objDonVi.Id + "','DM_DonVi_ChiTiet',800,400);return false;";
         //LongHH
     }
     /// <summary>

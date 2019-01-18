@@ -87,7 +87,7 @@
         </tr>
         <tr>
             <td align="left" style="width: 14%; text-align: left;">
-                Đơn vị nộp hồ sơ</td>
+                Đơn vị nộp hồ sơ<asp:LinkButton ID="lbtSuaDonVi" runat="server" TabIndex="6">Sửa</asp:LinkButton></td>
             <td style="text-align: left; width: 32%;">
                 <div style="float: left;width:70%">
                     <cc1:ComboBox ID="ddlDonVi" runat="server" Width="100%" AutoPostBack="True" OnSelectedIndexChanged="ddlDonVi_SelectedIndexChanged"
@@ -212,7 +212,7 @@
                 Tài liệu khác</td>
             <td style="width: 32%; text-align: left">
                 <asp:TextBox ID="txtTaiLieuKhac" runat="server" Rows="3" TextMode="MultiLine" Width="95%"
-                    TabIndex="19">Trả kết quả sau 7 ngày làm việc</asp:TextBox></td>
+                    TabIndex="19">Trả kết quả sau 5 ngày làm việc</asp:TextBox></td>
             <td style="width: 14%; text-align: left; vertical-align: top;">
                 Lưu ý</td>
             <td style="width: 32%">
