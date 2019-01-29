@@ -558,8 +558,10 @@
                                     </tr>
                                     <tr>
                                         <td align="left" class="caption" style="width: 33%;">
+                                            S&#7889; GCN
                                         </td>
                                         <td align="left" colspan="3" style="text-align: left; width: 66%;" valign="top">
+                                            <asp:TextBox ID="txtSoGCN" runat="server" Width="70%"></asp:TextBox>
                                         </td>
                                     </tr>
                                     <tr>
