@@ -268,7 +268,7 @@
                 <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <td>
-                            <asp:RadioButtonList ID="rdgNguonGoc" runat="server" RepeatDirection="Horizontal"
+                            <asp:RadioButtonList ID="rdgNguonGoc" runat="server" RepeatDirection="Horizontal" CssClass="nguonGocSanPham"
                                 TabIndex="13" RepeatColumns="2" />
                         </td>
                         <td style="width: 20px; text-align: right;">
@@ -365,6 +365,18 @@
                 <asp:TextBox ID="txtTongPhi" runat="server" Width="90%" TabIndex="27">
                 </asp:TextBox></td>
         </tr>
+        <tr style="color: #000000" id="RowPhiDanhGiaQTSX" runat="server" class="danhgianQTSX">
+            <td align="left" style="text-align: left;" valign="top">
+                Số lượng Đánh giá QTSX</td>
+            <td style="text-align: left; width: 465px;">
+                <asp:TextBox ID="txtSlDanhGiaQTSX" runat="server" Width="90%"  class="sltnchange" 
+                    TabIndex="26"></asp:TextBox></td>
+            <td style="vertical-align: top;">
+                Số lượng Lấy mẫu sản phẩm</td>
+            <td style="text-align: left;">
+                <asp:TextBox ID="txtSlLayMauSP" runat="server" Width="90%" TabIndex="27">
+                </asp:TextBox></td>
+        </tr>
         <%--LongHH--%>
         <tr>
             <td style="text-align: left" align="left">
@@ -376,6 +388,8 @@
                     OnClick="btnInPhieuNhan_Click" TabIndex="29" />
                 <asp:Button ID="btnInGiayBaoPhi" runat="server" Text="In giấy báo phí" Width="133px"
                     OnClick="btnInGiayBaoPhi_Click" TabIndex="30" />
+                <asp:Button ID="btnPhiDanhGiaQTSX" runat="server" Text="In phí đánh giá QTSX" Width="133px" 
+                    OnClick="btnPhiDanhGiaQTSX_Click" TabIndex="30" />
                 <asp:Button ID="btnHoSoChiTiet" runat="server" TabIndex="31" Text="Hồ Sơ Chi Tiết"
                     OnClick="btnHoSoChiTiet_Click" Visible="false" />
                 <asp:Button ID="btnCopy" runat="server" Text="Thêm hồ sơ mới" Width="145px" CausesValidation="False"
@@ -419,6 +433,21 @@
             })
             TinhTongPhi();
             $(".sltnchange").change(TinhTongPhi);
+            <%if(!checkNguonGoc){ %>
+                $(".danhgianQTSX").css("display", "none");
+                $("#<%=btnPhiDanhGiaQTSX.ClientID %>").css("display", "none");
+            <%} %>
+            $('.nguonGocSanPham input').click(function () {
+                var selectedvalue = $('.nguonGocSanPham input:checked').val()
+                if (selectedvalue == '4') {
+                    $(".danhgianQTSX").css("display", "");
+                    $("#<%=btnPhiDanhGiaQTSX.ClientID %>").css("display", "");
+                } else {
+                    $(".danhgianQTSX").css("display", "none");
+                    $("#<%=btnPhiDanhGiaQTSX.ClientID %>").css("display", "none");
+                }
+            })
+
         })
 
         

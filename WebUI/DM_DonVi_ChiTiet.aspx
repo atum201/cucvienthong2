@@ -111,6 +111,21 @@
                             <%--LongHH--%>
                         </td>
                     </tr>
+                    <%--LongHH--%>
+                    <tr style="font-size: 13px">
+                        <td align="right" style="width: 120px; text-align: left">
+                            Người tạo</td>
+                        <td style="width: 220px; text-align: left">
+                            <asp:Literal ID="txtNguoiTao" runat=server></asp:Literal>
+                            </td>
+                        <td style="width: 120px; text-align: left">
+                            Vẫn tạo khi trùng tên
+                        </td>
+                        <td style="text-align: left">
+                            <asp:CheckBox ID="cbVanTao" runat="server" Checked="false" />
+                        </td>
+                    </tr>
+                    <%--LongHH--%>
                     <tr style="font-size: 13px">
                         <td style="width: 120px; text-align: left;" align="right">
                             &nbsp;</td>

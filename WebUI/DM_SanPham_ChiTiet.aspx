@@ -109,6 +109,13 @@
                                 </asp:DropDownList></td>
                         </tr>
                         <tr>
+                            <td align="left" class="caption" style="width: 150px; align: left">
+                                <asp:Label ID="Label1" runat="server" Text="Ghi chú"></asp:Label></td>
+                            <td align="left" colspan="3">
+                                <asp:TextBox ID="txtGhiChu" runat="server" TextMode="MultiLine" Rows="3" Width="546px"></asp:TextBox>
+                                </td>
+                        </tr>
+                        <tr>
                             <td align="left" class="caption" style="width: 150px;">
                             </td>
                             <td align="left" colspan="2" style="width: 200px;">

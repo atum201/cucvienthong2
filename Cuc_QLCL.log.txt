@@ -2680,3 +2680,246 @@ Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngà
 Object reference not set to an instance of an object.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 20/02/2019 7:24:00 SA
+Message: Page: Quản lý hồ sơ
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hososanphammoinhan_ascx' to type 'UserControls_uc_CN_HoSoSanPhamMoiNhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/02/2019 7:41:49 SA
+Message: Page: Quản lý hồ sơ
+Unable to cast object of type 'ASP.usercontrols_uc_cn_hososanphammoinhan_ascx' to type 'UserControls_uc_CN_HoSoSanPhamMoiNhan'.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/02/2019 2:35:50 SA
+Message: Page: Quản lý hồ sơ
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/02/2019 2:47:02 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_HoSo_EN_NhanHoSoTu". The conflict occurred in database "cucvienthong2", table "dbo.EN_NhanHoSoTu", column 'ID'.
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/04/2019 1:58:22 SA
+Message: Page: Tra cứu thông tin người nộp hồ sơ
+There is no row at position 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/04/2019 2:30:21 SA
+Message: Page: Tra cứu thông tin người nộp hồ sơ
+Column 'NguoiThamDinh' does not belong to table Table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 04/04/2019 2:31:25 SA
+Message: Page: Tra cứu thông tin người nộp hồ sơ
+Column 'NguoiThamDinh' does not belong to table Table.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 2:45:30 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 3:45:34 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 3:46:32 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 3:58:07 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 3:58:35 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 3:59:32 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 4:11:07 SA
+Message: Page: Cục Quản Lý Chất Lượng
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 18/04/2019 4:27:51 SA
+Message: Page: Tạo mới sản phẩm
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2019 3:22:13 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2019 3:25:10 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/04/2019 3:31:05 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:33:54 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:36:10 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:39:01 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:45:45 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:46:14 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:47:26 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'. The duplicate key value is (0039/2019/PÐGQT-TT2).
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:47:54 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot insert duplicate key row in object 'dbo.ThongBaoLePhi' with unique index 'unique_index'. The duplicate key value is (0039/2019/PÐGQT-TT2).
+The statement has been terminated.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:51:19 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:57:12 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:58:52 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 7:59:26 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:00:25 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:00:48 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:09:15 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:10:22 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:11:13 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:11:42 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:11:51 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:11:58 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 02/05/2019 8:39:02 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/05/2019 1:58:46 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 09/05/2019 3:21:28 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------

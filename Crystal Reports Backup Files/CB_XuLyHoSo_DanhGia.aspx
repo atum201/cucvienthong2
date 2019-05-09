@@ -418,154 +418,190 @@
         }
      
     </script>
-
+    <%--LongHH--%>
+    <style type="text/css">
+        .dhx_combo_box{
+            width:100% !important;
+        }
+        .mr10{
+            margin-right:10px;
+        }
+        .dhx_combo_list{
+            height:550px;
+        }
+    </style>
+    <script type="text/javascript">
+        //LongHH
+        function reheight(p, tc) {
+            var l = tc.find("tr").length;
+            if (l > 10) {
+                tc.css("height", 300);
+                p.css("height", 319);
+            } else if (l === 0) {
+                tc.css("height", 30);
+                p.css("height", 30 + 19);
+            }
+            else {
+                tc.css("height", l * 30);
+                p.css("height", l * 30 + 19);
+            }
+        }
+        //LongHH
+        $(document).ready(function () {
+            reheight($("#<%=Panel1.ClientID %>"), $("#<%=chklstTieuChuan.ClientID %>"));
+        })
+    </script>
     <div>
         <span style="font-family: Arial"><strong>CÔNG BỐ&gt;&gt;<asp:HyperLink ID="hlDanhSachHoSo"
             runat="server"></asp:HyperLink></strong><a href="../WebUI/CN_HoSo_QuanLy.aspx?direct=CB_HoSoDen"></a><strong>&gt;&gt;<asp:HyperLink
                 ID="hlDanhSachSanPham" runat="server"></asp:HyperLink></strong><strong>&gt;&gt; </strong>
             <asp:Label ID="lblTrangThai" runat="server"></asp:Label></span></div>
     <table id="Table6" style="width: 100%">
-        <tr style="font-family: Times New Roman">
-        </tr>
         <tr>
             <td align="right" style="height: 21px; text-align: right; width: 100%;" colspan="6">
                 <fieldset style="width: 98%">
                     <legend>Thông tin sản phẩm</legend>
-                    <table id="Table2" style="width: 100%">
+                    <table width="100%" cellspacing="0">
                         <tr>
-                            <td colspan="2" align="left" valign="top" style="width: 20%;">
-                                <div align="left">
-                                    <table width="100%" cellspacing="0">
-                                        <tr>
-                                            <td align="left" class="caption" style="width: 15%">
-                                            </td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                                <asp:ValidationSummary ID="vsXyLyHoSoDanhGia" runat="server" ShowMessageBox="True"
-                                                    ShowSummary="False" />
-                                                </td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                <span style="width: 20%; height: 24px; text-align: right"><span>T&ecirc;n s&#7843;n
-                                                    ph&#7849;m</span></span></td>
-                                            <td valign="top" align="left" style="width: 30%; text-align: left">
-                                                <div style="float: left">
-                                                    <cc1:ComboBox ID="ddlTenSanPham" runat="server" AutoPostBack="True" Width="290px"
-                                                        OnSelectedIndexChanged="ddlTenSanPham_SelectedIndexChanged" onChange="checkChangeSanPham();">
-                                                    </cc1:ComboBox></div>
-                                                <asp:LinkButton ID="lnkbtnTaoMoiSP" runat="server" OnClick="lnkbtnTaoMoiSP_Click"
-                                                    CausesValidation="False"> Tạo mới </asp:LinkButton>
-                                            </td>
-                                            <td align="left" valign="top" width="44%" style="width: 30%; text-align: left">
-                                                &nbsp;Tiêu chuẩn áp dụng</td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="width: 15%; height: 26px;" class="caption">
-                                                K&yacute; hi&#7879;u</td>
-                                            <td valign="top" align="left" style="width: 30%; text-align: left; height: 26px;">
-                                                <asp:TextBox ID="txtKyHieu" runat="server" Width="288px" MaxLength="255"></asp:TextBox></td>
-                                            <td align="left" valign="top" style="width: 30%; text-align: left" rowspan="8">
-                                                <asp:Panel ID="Panel1" runat="server" Height="100px" ScrollBars="Both" Width="80%"
+                            <td width="60%" valign="top">
+                                <table width="100%" cellspacing="0">
+                                    <tr>
+                                        <td align="left" class="caption" style="width: 33%">
+                                        </td>
+                                        <td align="left" style="width: 66%; text-align: left" valign="top">
+                                            <asp:ValidationSummary ID="vsXyLyHoSoDanhGia" runat="server" ShowMessageBox="True"
+                                                ShowSummary="False" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            <span style="width: 20%; height: 24px; text-align: right"><span>T&ecirc;n s&#7843;n
+                                                ph&#7849;m</span></span></td>
+                                        <td valign="top" align="left" style="width: 66%; text-align: left">
+                                            <div style="float: left;width:70.2%;margin-right:10px;">
+                                                <cc1:ComboBox ID="ddlTenSanPham" runat="server" AutoPostBack="True" Width="59.5%" 
+                                                    OnSelectedIndexChanged="ddlTenSanPham_SelectedIndexChanged" onChange="checkChangeSanPham();">
+                                                </cc1:ComboBox></div>
+                                            <asp:LinkButton ID="lnkbtnTaoMoiSP" runat="server" OnClick="lnkbtnTaoMoiSP_Click"
+                                                CausesValidation="False"> Tạo mới </asp:LinkButton>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="width: 33%; height: 26px;" class="caption">
+                                            K&yacute; hi&#7879;u</td>
+                                        <td valign="top" align="left" style="width: 66%; text-align: left; height: 26px;">
+                                            <asp:TextBox ID="txtKyHieu" runat="server" Width="70%" MaxLength="255"></asp:TextBox></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="caption" style="width: 15%">
+                                            Số bản công bố</td>
+                                        <td align="left" style="width: 30%; text-align: left" valign="top">
+                                            <asp:TextBox ID="txtSoBanCongBo" runat="server" Width="70%" MaxLength="255"></asp:TextBox></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="caption" style="width: 33%">
+                                            Ngày công bố</td>
+                                        <td align="left" style="width: 66%; text-align: left" valign="top">
+                                            <asp:TextBox ID="txtNgayCongBo" runat="server" BorderColor="Transparent" TabIndex="3"
+                                                Width="70%"></asp:TextBox>
+                                            <rjs:PopCalendar ID="pclNgayCongBo" runat="server" ForeColor="#FFFFC0"
+                                                ScriptsValidators="No Validate" Separator="/" ShowErrorMessage="False" />
+                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNgayCongBo"
+                                                Display="Dynamic" ErrorMessage="Ngày không đúng định dạng DD/MM/YYYY" ValidationExpression="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d">*</asp:RegularExpressionValidator>
+                                            (dd/mm/yyyy)</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="caption" style="width: 33%">
+                                            Số bản tự đánh giá</td>
+                                        <td align="left" style="width: 66%; text-align: left" valign="top">
+                                            <asp:TextBox ID="txtSoBanTuDanhGia" runat="server" MaxLength="255" Width="70%"></asp:TextBox></td>
+                                    </tr>
+                                    <tr runat="server" id="rSoBanTuDanhGia">
+                                        <td align="left" class="caption" style="width: 33%">
+                                            Ngày đánh giá</td>
+                                        <td align="left" style="width: 66%; text-align: left" valign="top">
+                                            <asp:TextBox ID="txtNgayDanhGia" runat="server" BorderColor="Transparent" TabIndex="3"
+                                                Width="70%"></asp:TextBox>
+                                            <rjs:PopCalendar ID="pclNgayDanhGia" runat="server" Control="txtNgayDanhGia" ForeColor="#FFFFC0"
+                                                ScriptsValidators="No Validate" Separator="/" ShowErrorMessage="False" />
+                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtNgayDanhGia"
+                                                Display="Dynamic" ErrorMessage="Ngày không đúng định dạng DD/MM/YYYY" ValidationExpression="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d">*</asp:RegularExpressionValidator>
+                                            (dd/mm/yyyy)</td>
+                                    </tr>
+                                    <tr runat="server" id="rNgayTuDanhGia">
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            Tr&#7841;ng th&aacute;i</td>
+                                        <td valign="top" align="left" style="width: 66%; text-align: left">
+                                            <asp:TextBox ID="txtTrangThai" runat="server" Width="70%" BackColor="#FFFFC0" ReadOnly="True"></asp:TextBox></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            H&atilde;ng s&#7843;n xu&#7845;t</td>
+                                        <td valign="top" align="left" style="width: 66%; text-align: left">
+                                            <div style="float: left;width:70.2%;margin-right:10px;">
+                                                <cc1:ComboBox ID="ddlHangSanXuat" runat="server" Width="59.5%" onChange="checkChangeHangSanXuat();">
+                                                </cc1:ComboBox>
+                                            </div>
+                                            <asp:LinkButton ID="lnkbtnTaoMoiHSX" runat="server" OnClick="lnkbtnTaoMoiHSX_Click"
+                                                CausesValidation="False"> Tạo mới </asp:LinkButton></td>
+                                    </tr>
+                                    <tr runat="server" id="rGiaTriLoHang">
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            Gi&aacute; tr&#7883; l&ocirc; h&agrave;ng</td>
+                                        <td valign="top" align="left" style="width: 66%; text-align: left">
+                                            <asp:DropDownList ID="ddlGiaTriLoHang" runat="server" Width="70%" AutoPostBack="True"
+                                                OnSelectedIndexChanged="ddlGiaTriLoHang_SelectedIndexChanged" onChange="checkChangeGiaTriLoHang();"
+                                                Height="22px">
+                                            </asp:DropDownList>
+                                            <asp:RequiredFieldValidator ID="rqfGiaTriLoHang" runat="server" ErrorMessage="Nhập giá trị lô hàng"
+                                                ControlToValidate="ddlGiaTriLoHang" Visible="False">*</asp:RequiredFieldValidator></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="caption" style="width: 33%;">
+                                            S&#7889; GCN
+                                        </td>
+                                        <td align="left" colspan="3" style="text-align: left; width: 66%;" valign="top">
+                                            <asp:TextBox ID="txtSoGCN" runat="server" Width="70%" BackColor="#FFFFC0" ReadOnly="True"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            T&agrave;i li&#7879;u</td>
+                                        <td align="left" colspan="3" style="text-align: left; width: 66%;" valign="top">
+                                            <asp:LinkButton ID="lbtnBAN_CONG_BO" runat="server"></asp:LinkButton>
+                                            &nbsp;&nbsp;
+                                            <asp:LinkButton ID="lbtnGIAY_TO_TU_CACH_PHAP_NHAN" runat="server"></asp:LinkButton>&nbsp;
+                                            <asp:LinkButton ID="lbtnBAN_TU_DANH_GIA" runat="server"></asp:LinkButton>&nbsp;
+                                            <asp:LinkButton ID="lbtnMAU_DAU_HOP_QUY" runat="server"></asp:LinkButton>&nbsp;
+                                            <asp:LinkButton ID="lbtnTAI_LIEU_KY_THUAT" runat="server"></asp:LinkButton>&nbsp;
+                                            <asp:LinkButton ID="lbtnKET_QUA_DO_KIEM" runat="server"></asp:LinkButton>&nbsp;
+                                        </td>
+                                    </tr>
+                                    <tr id="rChiTieuKyThuatKemTheo" runat="server">
+                                        <td align="left" style="width: 33%;" class="caption">
+                                            Chỉ tiêu kỹ thuật kèm theo&nbsp;</td>
+                                        <td align="left" colspan="3" style="text-align: left; width: 66%;" valign="top">
+                                            <asp:FileUpload ID="FileGiayToTuCachPhapNhan" runat="server" Width="52%" />
+                                            <asp:LinkButton ID="lnkbtnChiTieuKyThuatKemTheo" runat="server">Chỉ tiêu kỹ thuật kèm theo</asp:LinkButton></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="40%" valign="top">
+                                <table>
+                                    <tr>
+                                        <td align="left" valign="top" style="width: 100%; text-align: left">
+                                            &nbsp;Tiêu chuẩn áp dụng</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="top" style="width: 60%; text-align: left" >
+                                            <asp:Panel ID="Panel1" runat="server" Height="100px" ScrollBars="Both" Width="330px"
                                                     BorderWidth="1px" Wrap="False">
-                                                    <asp:CheckBoxList ID="chklstTieuChuan" runat="server" Width="300px" Height="100px"
+                                                    <asp:CheckBoxList ID="chklstTieuChuan" runat="server" Width="95%"
                                                         CellPadding="0" CellSpacing="0" OnSelectedIndexChanged="chklstTieuChuan_SelectedIndexChanged">
                                                     </asp:CheckBoxList></asp:Panel>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" class="caption" style="width: 15%">
-                                                Số bản công bố</td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                                <asp:TextBox ID="txtSoBanCongBo" runat="server" Width="288px" MaxLength="255"></asp:TextBox></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" class="caption" style="width: 15%">
-                                                Ngày công bố</td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                                <asp:TextBox ID="txtNgayCongBo" runat="server" BorderColor="Transparent" TabIndex="3"
-                                                    Width="30%"></asp:TextBox>
-                                                <rjs:PopCalendar ID="pclNgayCongBo" runat="server" ForeColor="#FFFFC0"
-                                                    ScriptsValidators="No Validate" Separator="/" ShowErrorMessage="False" />
-                                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNgayCongBo"
-                                                    Display="Dynamic" ErrorMessage="Ngày không đúng định dạng DD/MM/YYYY" ValidationExpression="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d">*</asp:RegularExpressionValidator>
-                                                (dd/mm/yyyy)</td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" class="caption" style="width: 15%">
-                                                Số bản tự đánh giá</td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                                <asp:TextBox ID="txtSoBanTuDanhGia" runat="server" MaxLength="255" Width="288px"></asp:TextBox></td>
-                                        </tr>
-                                        <tr runat="server" id="rSoBanTuDanhGia">
-                                            <td align="left" class="caption" style="width: 15%">
-                                                Ngày đánh giá</td>
-                                            <td align="left" style="width: 30%; text-align: left" valign="top">
-                                                <asp:TextBox ID="txtNgayDanhGia" runat="server" BorderColor="Transparent" TabIndex="3"
-                                                    Width="30%"></asp:TextBox>
-                                                <rjs:PopCalendar ID="pclNgayDanhGia" runat="server" Control="txtNgayDanhGia" ForeColor="#FFFFC0"
-                                                    ScriptsValidators="No Validate" Separator="/" ShowErrorMessage="False" />
-                                                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtNgayDanhGia"
-                                                    Display="Dynamic" ErrorMessage="Ngày không đúng định dạng DD/MM/YYYY" ValidationExpression="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d">*</asp:RegularExpressionValidator>
-                                                (dd/mm/yyyy)</td>
-                                        </tr>
-                                        <tr runat="server" id="rNgayTuDanhGia">
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                Tr&#7841;ng th&aacute;i</td>
-                                            <td valign="top" align="left" style="width: 30%; text-align: left">
-                                                <asp:TextBox ID="txtTrangThai" runat="server" Width="288px" BackColor="#FFFFC0" ReadOnly="True"></asp:TextBox></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                H&atilde;ng s&#7843;n xu&#7845;t</td>
-                                            <td valign="top" align="left" style="width: 30%; text-align: left">
-                                                <div style="float: left">
-                                                    <cc1:ComboBox ID="ddlHangSanXuat" runat="server" Width="290px" Height="22px" onChange="checkChangeHangSanXuat();">
-                                                    </cc1:ComboBox>
-                                                </div>
-                                                <asp:LinkButton ID="lnkbtnTaoMoiHSX" runat="server" OnClick="lnkbtnTaoMoiHSX_Click"
-                                                    CausesValidation="False"> Tạo mới </asp:LinkButton></td>
-                                        </tr>
-                                        <tr runat="server" id="rGiaTriLoHang">
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                Gi&aacute; tr&#7883; l&ocirc; h&agrave;ng</td>
-                                            <td valign="top" align="left" style="width: 30%; text-align: left">
-                                                <asp:DropDownList ID="ddlGiaTriLoHang" runat="server" Width="290px" AutoPostBack="True"
-                                                    OnSelectedIndexChanged="ddlGiaTriLoHang_SelectedIndexChanged" onChange="checkChangeGiaTriLoHang();"
-                                                    Height="22px">
-                                                </asp:DropDownList>
-                                                <asp:RequiredFieldValidator ID="rqfGiaTriLoHang" runat="server" ErrorMessage="Nhập giá trị lô hàng"
-                                                    ControlToValidate="ddlGiaTriLoHang" Visible="False">*</asp:RequiredFieldValidator></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" class="caption" style="width: 15%;">
-                                            </td>
-                                            <td align="left" colspan="3" style="text-align: left; width: 30%;" valign="top">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                T&agrave;i li&#7879;u</td>
-                                            <td align="left" colspan="3" style="text-align: left; width: 30%;" valign="top">
-                                                <asp:LinkButton ID="lbtnBAN_CONG_BO" runat="server"></asp:LinkButton>
-                                                &nbsp;&nbsp;
-                                                <asp:LinkButton ID="lbtnGIAY_TO_TU_CACH_PHAP_NHAN" runat="server"></asp:LinkButton>&nbsp;
-                                                <asp:LinkButton ID="lbtnBAN_TU_DANH_GIA" runat="server"></asp:LinkButton>&nbsp;
-                                                <asp:LinkButton ID="lbtnMAU_DAU_HOP_QUY" runat="server"></asp:LinkButton>&nbsp;
-                                                <asp:LinkButton ID="lbtnTAI_LIEU_KY_THUAT" runat="server"></asp:LinkButton>&nbsp;
-                                                <asp:LinkButton ID="lbtnKET_QUA_DO_KIEM" runat="server"></asp:LinkButton>&nbsp;
-                                            </td>
-                                        </tr>
-                                        <tr id="rChiTieuKyThuatKemTheo" runat="server">
-                                            <td align="left" style="width: 15%;" class="caption">
-                                                Chỉ tiêu kỹ thuật kèm theo&nbsp;</td>
-                                            <td align="left" colspan="3" style="text-align: left; width: 30%;" valign="top">
-                                                <asp:FileUpload ID="FileGiayToTuCachPhapNhan" runat="server" Width="52%" />
-                                                <asp:LinkButton ID="lnkbtnChiTieuKyThuatKemTheo" runat="server">Chỉ tiêu kỹ thuật kèm theo</asp:LinkButton></td>
-                                        </tr>
-                                    </table>
-                                </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
@@ -633,8 +669,8 @@
                             <td align="left" style="width: 20%;" class="caption">
                                 Số/Ngày đo kiểm</td>
                             <td colspan="5" style="height: 12px; text-align: left">
-                                <asp:TextBox ID="txtSoDoKiem" runat="server" Width="100px" MaxLength="255"></asp:TextBox>/<asp:TextBox
-                                    ID="txtNgayDoKiem" runat="server" CausesValidation="True" Width="100px" MaxLength="10"></asp:TextBox><rjs:PopCalendar
+                                <asp:TextBox ID="txtSoDoKiem" runat="server" Width="34.7%" MaxLength="255"></asp:TextBox>/<asp:TextBox
+                                    ID="txtNgayDoKiem" runat="server" CausesValidation="True" Width="34.7%" MaxLength="10"></asp:TextBox><rjs:PopCalendar
                                         ID="calendarFrom" runat="server" Control="txtNgayDoKiem" ScriptsValidators="No Validate"
                                         Separator="/" ShowErrorMessage="False" />
                                 (dd/mm/yyyy)<asp:RangeValidator ID="rvCheckDate" runat="server" ErrorMessage="Nhập sai ngày đo kiểm"
@@ -644,14 +680,45 @@
                             <td align="left" style="width: 20%;" class="caption">
                                 Cơ quan đo kiểm</td>
                             <td colspan="5" style="height: 13px; text-align: left;">
-                                <div style="float: left">
-                                    <cc1:ComboBox ID="ddlCoQuanDoLuong" runat="server" Width="400px" OnChange="checkChangeCoQuanDoLuong();">
+                                <div style="float: left;width:70.2%;margin-right: 10px;">
+                                    <cc1:ComboBox ID="ddlCoQuanDoLuong" runat="server" Width="100%" OnChange="checkChangeCoQuanDoLuong();"  AutoPostBack="true" OnSelectedIndexChanged="ddlCoQuanDoLuong_SelectedIndexChanged">
                                     </cc1:ComboBox>
                                 </div>
                                 <asp:LinkButton ID="lnkbtnTaoMoiCQDK" runat="server" OnClick="lnkbtnTaoMoiCoQuanDoLuong"
                                     CausesValidation="False"> Tạo mới </asp:LinkButton>
                             </td>
                         </tr>
+                        <%--LongHH--%>
+                        <tr id="trTenTiengAnh" runat ="server">
+                            <td align="left" style="width: 20%;" class="caption">
+                                Tên tiếng anh CQĐK</td>
+                            <td colspan="5" style="height: 13px; text-align: left;">
+                                <asp:TextBox ID="txtTenTiengAnhCQDK" runat="server" Width="70%"></asp:TextBox>&nbsp;
+                            </td>
+                        </tr>
+                        <tr id="trDiaChi" runat ="server">
+                            <td align="left" style="width: 20%;" class="caption">
+                                Địa chỉ CQĐK</td>
+                            <td colspan="5" style="height: 13px; text-align: left;">
+                                <asp:TextBox ID="txtDiaChiCQDK" runat="server" Width="70%"></asp:TextBox>&nbsp;
+                            </td>
+                        </tr>
+                        <tr id="trSoDienThoai" runat ="server">
+                            <td align="left" style="width: 20%;" class="caption">
+                                Số điện thoại CQĐK</td>
+                            <td colspan="5" style="height: 13px; text-align: left;">
+                                <asp:TextBox ID="txtSDTCQDK" runat="server" Width="70%"></asp:TextBox>&nbsp;
+                            </td>
+                        </tr>
+
+                        <tr id="tr1" runat ="server">
+                            <td align="left" style="width: 20%;" class="caption">
+                                File đính kèm</td>
+                            <td colspan="5" style="height: 13px; text-align: left;">
+                                <asp:LinkButton ID="lbtnFileDinhKem" runat="server"></asp:LinkButton>&nbsp;
+                            </td>
+                        </tr>
+                        <%--LongHH--%>
                         <tr id="trNoiDungDoKiem" runat ="server">
                             <td align="left" style="width: 20%;" class="caption">
                                 Nội dung đo kiểm</td>
@@ -692,7 +759,7 @@
                             <td style="width: 20%;" align="left" class="caption">
                                 Số BTN/CV</td>
                             <td colspan="5" style="text-align: left">
-                                <asp:TextBox ID="txtSoBTNCV" runat="server" Width="214px" MaxLength="50" BackColor="#FFFFC0"></asp:TextBox>
+                                <asp:TextBox ID="txtSoBTNCV" runat="server" Width="70%" MaxLength="50" BackColor="#FFFFC0"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="rqfSoBTN" runat="server" ControlToValidate="txtSoBTNCV"
                                     ErrorMessage="Nhập số BTN/CV" Visible="False">*</asp:RequiredFieldValidator>
                                 <asp:FileUpload ID="fileUpSoCongVan" runat="server" />

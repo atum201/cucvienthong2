@@ -435,7 +435,9 @@ public partial class WebUI_CB_XuLyHoSo_DanhGia : PageBase
                     trCoQuanKiem.Visible = true;
                     trNoiDungDoKiem.Visible = true;
                 }
-
+                //LongHH
+                txtSoGCN.Text = objSanPham.SoGcn;
+                //LongHH
             }
             if (Convert.ToInt32(rblKetLuan.SelectedValue) == (int)EnKetLuanList.CAP_BAN_TIEP_NHAN_CB)
             {

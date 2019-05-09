@@ -30,6 +30,10 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
     private bool edit = false;
     private string ThongBaoLePhiID = string.Empty;
     public string IDDonVi = string.Empty;
+    public bool vanban = false;
+    public int SLPhiQTSX = 1;
+    public int SLPhiLayMau = 1;
+    public bool checkNguonGoc = false;
     //LongHH
     HoSo objHS = null;
     string passedArgument = "";
@@ -51,6 +55,8 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
             ChangeControlStatus(false);
         }
         //LongHH
+        if (Request.QueryString["VB"] != null)
+            vanban = true;
         hfDonGiaTiepNhan.Value = ((int)QLCL_Patch.LePhi.DonGiaTiepNhan).ToString();
         hfDonGiaXemXet.Value = ((int)QLCL_Patch.LePhi.PhiXemXet).ToString();
         DataTable TTGiayBaoPhi = QLCL_Patch.GetTTGiayBaoPhi(MaHoSo);
@@ -116,7 +122,17 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
 
                 }
             }
-            
+            //PhiDanhGiaQTSX
+            if (QLCL_Patch.CheckPhiDanhGiaQTSX(MaHoSo)) {
+                DataTable dt = QLCL_Patch.GetTTGiayBaoPhiDanhGiaQTSX(MaHoSo);
+                if (dt != null && dt.Rows.Count > 0) {
+                    int.TryParse(dt.Rows[0]["SLTiepNhan"].ToString(), out SLPhiQTSX);
+                    int.TryParse(dt.Rows[0]["SLXemXet"].ToString(), out SLPhiLayMau);
+                }
+            }
+            txtSlDanhGiaQTSX.Text = SLPhiQTSX.ToString();
+            txtSlLayMauSP.Text = SLPhiLayMau.ToString();
+            //PhiDanhGiaQTSX
 
             // LongHH
         }
@@ -166,7 +182,11 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
             //txtSoCongVanDen.Text = "Số sinh tự động";
             txtNguoiTiepNhan.Text = mUserInfo.FullName;
             txtNgayNhan.Text = DateTime.Now.ToShortDateString();
-            rdgNhanTu.SelectedValue = ((int)EnNhanHoSoTuList.TRUC_TIEP).ToString();
+            //LongHH
+            rdgNhanTu.SelectedValue = Request.QueryString["vb"] != null ? 5.ToString() : ((int)EnNhanHoSoTuList.TRUC_TIEP).ToString();
+            if (Request.QueryString["vb"] != null)
+                rdgLoaiHinhChungNhan.SelectedValue = ((int)LoaiHoSo.ChungNhanHopQuy).ToString();
+            //LongHH
         }
         else
         {
@@ -265,7 +285,12 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
         rdgNhanTu.Items.Add(BUU_DIEN);
         rdgNhanTu.Items.Add(TRUC_TIEP);
         rdgNhanTu.Items.Add(QUA_MANG);
-
+        // LongHH
+        ListItem VAN_BAN = new ListItem();
+        VAN_BAN.Text = "Văn bản";
+        VAN_BAN.Value = 5.ToString();
+        rdgNhanTu.Items.Add(VAN_BAN);
+        // LongHH
         //gán dữ liệu cho RadioButtonList Nguồn gốc
         ListItem NK_CHUA_DO_KIEM = new ListItem();
         NK_CHUA_DO_KIEM.Text = EntityHelper.GetEnumTextValue(EnNguonGocList.NK_CHUA_DO_KIEM);
@@ -285,7 +310,7 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
 
         rdgNguonGoc.Items.Add(SX_TRONG_NUOC_CO_ISO);
         rdgNguonGoc.Items.Add(NK_KEM_KQ_DO_KIEM);
-        rdgNguonGoc.Items.Add(SX_TRONG_NUOC_KHONG_CO_ISO);
+        rdgNguonGoc.Items.Add(SX_TRONG_NUOC_KHONG_CO_ISO); 
         rdgNguonGoc.Items.Add(NK_CHUA_DO_KIEM);
 
         // Gan du lieu cho radionbutton list loại hình chứng nhận
@@ -392,6 +417,17 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
                     if (item.Value == objHS.NhanHoSoTuId.ToString())
                     {
                         rdgNhanTu.SelectedValue = objHS.NhanHoSoTuId.ToString();
+                        //LongHH
+                        if (objHS.NhanHoSoTuId.ToString().Equals(5.ToString())) {
+                            RowNguoiKy.Style.Add("display", "None");
+                            RowSoLuong.Style.Add("display", "None");
+                            //RowPhiDanhGiaQTSX.Style.Add("display", "None");
+                            btnInGiayBaoPhi.Visible = false;
+                            btnInPhieuNhan.Visible = false;
+                            //btnPhiDanhGiaQTSX.Visible = false;
+                        }
+
+                        //LongHH
                     }
                 }
                 //chọn lại nguồn gốc
@@ -400,6 +436,12 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
                     if (item.Value == objHS.NguonGocId.ToString())
                     {
                         rdgNguonGoc.SelectedValue = objHS.NguonGocId.ToString();
+                        // LongHH
+                        if (rdgNguonGoc.SelectedValue == ((int)EnNguonGocList.SX_TRONG_NUOC_KHONG_CO_ISO).ToString())
+                        {
+                            checkNguonGoc = true;
+                        }
+                        // LongHH
                     }
                 }
                 //chọn lai đơn vị
@@ -764,6 +806,54 @@ public partial class WebUI_CN_HoSo_ChiTiet : PageBase
         }
         
     }
+    // LongHH
+    protected void btnPhiDanhGiaQTSX_Click(object sender, EventArgs e)
+    {
+        bool checkedit = QLCL_Patch.CheckTBPhiDGQTSX(objHS.Id);
+        int tp = (int.Parse(txtSlDanhGiaQTSX.Text.Trim())*(int)QLCL_Patch.LePhi.PhiDanhGiaQuaTrinhSanXuat) + (int.Parse(txtSlLayMauSP.Text.Trim()) * (int)QLCL_Patch.LePhi.PhiLayMauSanPham);
+        if (checkedit)
+        {
+            QLCL_Patch.UpdatePhiDanhGiaQTSX(objHS.Id, txtSlDanhGiaQTSX.Text.Trim(), txtSlLayMauSP.Text.Trim());
+            Response.Redirect("../ReportForm/HienBaoCao.aspx?HoSoID=" + objHS.Id + "&LoaiBaoCao=ThuPhiDanhGiaQTSX&TenBaoCao=ThuPhiDanhGiaQTSX&format=Word");
+        }
+        if (!checkedit)
+        {
+            string sogiaycn = objHS.SoHoSo.Replace("CNHQ", "PĐGQT");
+            ThongBaoLePhi tblp = ProviderFactory.ThongBaoLePhiProvider.GetBySoGiayThongBaoLePhi(sogiaycn);
+            Cuc_QLCL.Data.TransactionManager transaction = ProviderFactory.Transaction;
+            try
+            {
+                if (tblp != null)
+                {
+                    QLCL_Patch.UpdatePhiDanhGiaQTSX(objHS.Id, txtSlDanhGiaQTSX.Text.Trim(), txtSlLayMauSP.Text.Trim());
+                }
+                else
+                {
+                    ThongBaoLePhi objThongBaoLePhi = new ThongBaoLePhi();
+                    objThongBaoLePhi.DonViId = objHS.DonViId;
+                    objThongBaoLePhi.TongPhi = tp;
+                    objThongBaoLePhi.TrangThaiId = (int?)EnTrangThaiThongBaoPhiList.CHO_THU_PHI;
+                    objThongBaoLePhi.HoSoId = objHS.Id;
+                    objThongBaoLePhi.LoaiPhiId = 10;
+                    objThongBaoLePhi.NguoiPheDuyetId = ddlNguoiKy.SelectedValue;
+                    objThongBaoLePhi.TenNguoiKyDuyet = ddlNguoiKy.SelectedItem.Text;
+                    objThongBaoLePhi.SoGiayThongBaoLePhi = sogiaycn;
+
+                    ProviderFactory.ThongBaoLePhiProvider.Insert(transaction, objThongBaoLePhi);
+                    transaction.Commit();
+                    transaction.Dispose();
+                }
+                Response.Redirect("../ReportForm/HienBaoCao.aspx?HoSoID=" + objHS.Id + "&LoaiBaoCao=ThuPhiDanhGiaQTSX&TenBaoCao=ThuPhiDanhGiaQTSX&format=Word");
+            }
+            catch (Exception ex)
+            {
+                transaction.Rollback();
+                throw ex;
+            }
+        }
+        
+    }
+
 
     // LongHH
     protected void btnInPhieuNhan_Click(object sender, EventArgs e)

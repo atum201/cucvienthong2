@@ -582,9 +582,12 @@
                                                     ph&#7849;m</span></span></td>
                                             <td valign="top" align="left" style="width: 66%; text-align: left">
                                                 <div style="float: left;width:70.2%;margin-right:10px;">
-                                                    <cc1:ComboBox ID="ddlTenSanPham" runat="server" AutoPostBack="True" Width="59.5%"
+                                                    <cc1:ComboBox ID="ddlTenSanPham" runat="server" AutoPostBack="True" Width="59.5%" BackColor="#FFFFC0" ReadOnly="True" CssClass="input_readonly" Visible="false"
                                                         OnSelectedIndexChanged="ddlTenSanPham_SelectedIndexChanged" onChange="checkChangeSanPham();">
-                                                    </cc1:ComboBox></div>
+                                                    </cc1:ComboBox>
+                                                    <asp:TextBox ID="txtTenSanPham" runat="server" Width="100%" BackColor="#FFFFC0"
+                                                    ReadOnly="True"></asp:TextBox>
+                                                    </div>
                                                 <asp:LinkButton ID="lnkbtnTaoMoiSP" runat="server" OnClick="lnkbtnTaoMoiSP_Click"
                                                     CausesValidation="False"> Tạo mới </asp:LinkButton>
                                             </td>
@@ -609,7 +612,7 @@
                                             <td align="left" style="width: 33%;" class="caption">
                                                 K&yacute; hi&#7879;u</td>
                                             <td valign="top" align="left" style="width: 66%; text-align: left">
-                                                <asp:TextBox ID="txtKyHieu" runat="server" Width="70%" MaxLength="255"></asp:TextBox></td>
+                                                <asp:TextBox ID="txtKyHieu" runat="server" Width="70%" MaxLength="255" BackColor="#FFFFC0" ReadOnly="True"></asp:TextBox></td>
                                         </tr>
                                         <tr>
                                             <td align="left" style="width: 33%;" class="caption">
@@ -622,8 +625,10 @@
                                                 H&atilde;ng s&#7843;n xu&#7845;t</td>
                                             <td valign="top" align="left" style="width: 66%; text-align: left">
                                                 <div style="float: left; width:70.2%; margin-right:10px">
-                                                    <cc1:ComboBox ID="ddlHangSanXuat" runat="server" Width="59.5%" onkeypress="checkChangeHangSanXuat();">
+                                                    <cc1:ComboBox ID="ddlHangSanXuat" runat="server" Width="59.5%" onkeypress="checkChangeHangSanXuat();" CssClass="input_readonly" ReadOnly="True" Visible="false">
                                                     </cc1:ComboBox>
+                                                    <asp:TextBox ID="txtHangSanXuat" runat="server" Width="100%" BackColor="#FFFFC0"
+                                                    ReadOnly="True"></asp:TextBox>
                                                 </div>
                                                 <asp:LinkButton ID="lnkbtnTaoMoiHSX" runat="server" OnClick="lnkbtnTaoMoiHSX_Click"
                                                     CausesValidation="False"> Tạo mới </asp:LinkButton></td>
@@ -665,6 +670,12 @@
                                                 <asp:FileUpload ID="FileGiayToTuCachPhapNhan" runat="server" Width="52%" />
                                                 <asp:LinkButton ID="lnkbtnChiTieuKyThuatKemTheo" runat="server">Chỉ tiêu kỹ thuật kèm theo</asp:LinkButton></td>
                                         </tr>
+                                        <tr>
+                                            <td align="left" style="width: 33%;" class="caption">
+                                                Ghi chú</td>
+                                            <td align="left" colspan="3" style="text-align: left; width: 66%;" valign="top">
+                                                <asp:TextBox ID="txtGhiChu" runat="server" TextMode="MultiLine" Rows="3" Width="70%" BackColor="#FFFFC0" ReadOnly="True"></asp:TextBox></td>
+                                        </tr>
                                     </table>
                                 </td>
                                 <td width="40%">
@@ -678,7 +689,7 @@
                                                 <asp:Panel ID="Panel1" runat="server" ScrollBars="Both" Width="330px"
                                                     BorderWidth="1px" Wrap="False" >
                                                     <asp:CheckBoxList ID="chklstTieuChuan" runat="server" Width="95%"
-                                                        CellPadding="0" CellSpacing="0" OnSelectedIndexChanged="chklstTieuChuan_SelectedIndexChanged">
+                                                        CellPadding="0" CellSpacing="0" OnSelectedIndexChanged="chklstTieuChuan_SelectedIndexChanged" CssClass="input_readonly" Enabled="false" >
                                                     </asp:CheckBoxList></asp:Panel>
                                             </td>
                                         </tr>

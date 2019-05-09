@@ -133,6 +133,14 @@
                                 <asp:LinkButton ID="lbtnTIEU_CHUAN_TU_NGUYEN_AP_DUNG" runat="server"></asp:LinkButton></td>
                         </tr>
                         <tr>
+                            <td align="right" style="width: 50px;" valign="top">
+                            </td>
+                            <td align="right" style="width: 15%; height: auto; text-align: left" valign="top">
+                                Ghi chú:</td>
+                            <td colspan="5" style="height: auto; text-align: left">
+                                <asp:Label ID="lblGhiChu" runat="server" Font-Bold="true"></asp:Label></td>
+                        </tr>
+                        <tr>
                             <td align="right" style="width: 50px;">
                             </td>
                             <td align="right" style="width: 15%; height: 18px; text-align: right">

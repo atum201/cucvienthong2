@@ -12,9 +12,9 @@ using System.Web;
 /// </summary>
 public static class QLCL_Patch
 {
-    public  enum LoaiPatch { FileAttach_CoQuanDoKiem, FileAttach_DonVi_Nop_HoSo, LePhi_HoSoChungNhan, NguoiKy_GiayBaoPhi, IDLink };
+    public  enum LoaiPatch { FileAttach_CoQuanDoKiem, FileAttach_DonVi_Nop_HoSo, LePhi_HoSoChungNhan, NguoiKy_GiayBaoPhi, IDLink, NguoiTao_DonVi, GhiChu_SanPham, PhiDanhGiaQTSX };
     public static string connectString = ConfigurationManager.ConnectionStrings["Cuc_QLCL.Data.ConnectionString"].ConnectionString;
-    public enum LePhi { DonGiaQuyChuan1 = 950, DonGiaQuyChuan2 = 600 , DonGiaTiepNhan = 300, PhiXemXet = 1350, PhiDonGia = 750};
+    public enum LePhi { DonGiaQuyChuan1 = 950, DonGiaQuyChuan2 = 600 , DonGiaTiepNhan = 300, PhiXemXet = 1350, PhiDonGia = 750,PhiDanhGiaQuaTrinhSanXuat=4800,PhiLayMauSanPham=600};
     public static string duoiCBNK = "KTCL";
     public static bool InsertToSql(String query)
     {
@@ -43,7 +43,19 @@ public static class QLCL_Patch
     {
         return InsertToSql("INSERT INTO [dbo].[QLCL_Patch](ID,Type,LePhi) VALUES ('" + idHoSo + "'," + (int)LoaiPatch.LePhi_HoSoChungNhan + "," + LePhi + "))");
     }
+    public static bool SetNguoiTao_DonVi(string IDDonVi, string IdNguoiTao)
+    {
+        return InsertToSql("INSERT INTO [dbo].[QLCL_Patch](ID,Type,NguoiKy) VALUES ('" + IDDonVi + "'," + (int)LoaiPatch.NguoiTao_DonVi + ",'" + IdNguoiTao + "')");
+    }
+    public static bool SetGhiChu_SanPham(string IDSanPham, string GhiChu)
+    {
+        return InsertToSql("INSERT INTO [dbo].[QLCL_Patch](ID,Type,GhiChu) VALUES ('" + IDSanPham + "'," + (int)LoaiPatch.GhiChu_SanPham + ",N'" + GhiChu + "')");
+    }
 
+    public static bool SetPhiDanhGiaQTSX(string IDHoSo, string SlDanhGiaQTSX, string SlLayMau) {
+        return InsertToSql("INSERT INTO [dbo].[QLCL_Patch](ID,Type,SLTiepNhan,SLXemXet) VALUES ('" + IDHoSo + "'," + (int)LoaiPatch.PhiDanhGiaQTSX + ",'" + SlDanhGiaQTSX + "','"+SlLayMau+"')");
+    }
+    
     public static bool Delete_SanPham(string SanPhamID) {
         return InsertToSql("delete from ThongBaoLePhi_SanPham where SanPhamID='" + SanPhamID + "';" +
                            "delete from QuaTrinhXuLy where SanPhamID='" + SanPhamID + "';" +
@@ -209,6 +221,78 @@ public static class QLCL_Patch
         }
     }
 
+    public static string GetNguoiTao_DonVi(string IDDonVi)
+    {
+        string result = string.Empty;
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT NguoiKy FROM QLCL_Patch WHERE Type=" + (int)LoaiPatch.NguoiTao_DonVi + " AND ID='" + IDDonVi + "'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            DataRow row = dt.Rows[i];
+
+                            if (row[0] != DBNull.Value)
+                            {
+                                result = row[0].ToString();
+                            }
+
+                        }
+                        return result;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            return string.Empty;
+        }
+    }
+    
+    public static string GetGhiChu_SanPham(string IDSanPham)
+    {
+        string result = string.Empty;
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT GhiChu FROM QLCL_Patch WHERE Type=" + (int)LoaiPatch.GhiChu_SanPham + " AND ID='" + IDSanPham + "'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            DataRow row = dt.Rows[i];
+
+                            if (row[0] != DBNull.Value)
+                            {
+                                result = row[0].ToString();
+                            }
+
+                        }
+                        return result;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            return string.Empty;
+        }
+    }
+
     public static DataTable GetTTGiayBaoPhi(string idHoSo)
     {
         try
@@ -216,6 +300,81 @@ public static class QLCL_Patch
             using (SqlConnection con = new SqlConnection(connectString))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM QLCL_Patch WHERE Type=" + (int)LoaiPatch.NguoiKy_GiayBaoPhi + " AND ID='" + idHoSo + "'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        return dt;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    public static DataTable GetTTGiayBaoPhiDanhGiaQTSX(string idHoSo)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM QLCL_Patch WHERE Type=" + (int)LoaiPatch.PhiDanhGiaQTSX + " AND ID='" + idHoSo + "'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        return dt;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    public static DataTable GetHoSoByNguoiNop(string nguoinop)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM HOSO WHERE NguoiNopHoSo like N'%" + nguoinop + "%'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        return dt;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    public static DataTable GetDataByQuery(string query)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query))
                 using (SqlDataAdapter sda = new SqlDataAdapter())
                 {
                     cmd.Connection = con;
@@ -259,6 +418,60 @@ public static class QLCL_Patch
             return null;
         }
         return null;
+    }
+
+    public static DataRow GetTBPhiDGQTSX(string idHoSo)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("select * from ThongBaoLePhi where HoSoId='" + idHoSo + "' and LoaiPhiID=10"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        if (dt != null && dt.Rows.Count > 0)
+                            return dt.Rows[0];
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return null;
+        }
+        return null;
+    }
+
+    public static bool CheckTBPhiDGQTSX(string idHoSo)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("select * from ThongBaoLePhi where HoSoId='" + idHoSo + "' and LoaiPhiID=10"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        if (dt != null && dt.Rows.Count > 0)
+                            return true;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return false;
+        }
+        return false;
     }
 
     public static DataTable GetAllSanPhamByHoSo(string idHoso) { 
@@ -328,7 +541,84 @@ public static class QLCL_Patch
         }
         return false;
     }
-
+    public static bool CheckPhiDanhGiaQTSX(string idhoso)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("select * from QLCL_Patch where ID='" + idhoso + "' and Type='"+(int)LoaiPatch.PhiDanhGiaQTSX+"'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        if (dt != null && dt.Rows.Count > 0)
+                            return true;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return false;
+        }
+        return false;
+    }
+    public static bool CheckTrungTenDonVi(string tenDonVi)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("select * from DM_DonVi where TenTiengViet=N'" + tenDonVi + "'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        if (dt != null && dt.Rows.Count > 0)
+                            return true;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return false;
+        }
+        return false;
+    }
+    public static bool CheckGhiChu_SanPham(string IDSanPham)
+    {
+        try
+        {
+            using (SqlConnection con = new SqlConnection(connectString))
+            {
+                using (SqlCommand cmd = new SqlCommand("select * from QLCL_Patch where ID='" + IDSanPham + "' and Type='"+(int)LoaiPatch.GhiChu_SanPham+"'"))
+                using (SqlDataAdapter sda = new SqlDataAdapter())
+                {
+                    cmd.Connection = con;
+                    sda.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        sda.Fill(dt);
+                        if (dt != null && dt.Rows.Count > 0)
+                            return true;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            return false;
+        }
+        return false;
+    }
     public static DataTable GetTBPhiTiepNhans(string trangthai)
     {
         try
@@ -361,6 +651,27 @@ public static class QLCL_Patch
                       "SET TongPhi = "+TongPhi+", NguoiPheDuyetID='"+IDNguoiPheDuyet+"', TenNguoiKyDuyet='"+TenNguoiPheDuyet+"' "+
                       "WHERE HoSoId='"+IDHoSo+"' and LoaiPhiID=9";
         return InsertToSql(query);
+    }
+    public static bool UpdateGhiChu_SanPham(String IDSanPham, String GhiCHu)
+    {
+        string query = "UPDATE QLCL_Patch " +
+                      "SET GhiChu = N'" + GhiCHu  +"'"+
+                      "WHERE ID='" + IDSanPham + "' and Type="+(int)LoaiPatch.GhiChu_SanPham;
+        return InsertToSql(query);
+    }
+    public static bool UpdatePhiDanhGiaQTSX(String IDHoSo, String SLDanhGia, String SlLayMau)
+    {
+        if (CheckPhiDanhGiaQTSX(IDHoSo))
+        {
+            string query = "UPDATE QLCL_Patch " +
+                          "SET SLTiepNhan = '" + SLDanhGia + "', SLXemXet='"+SlLayMau+"'" +
+                          "WHERE ID='" + IDHoSo + "' and Type=" + (int)LoaiPatch.PhiDanhGiaQTSX;
+            return InsertToSql(query);
+        }
+        else {
+            return SetPhiDanhGiaQTSX(IDHoSo, SLDanhGia, SlLayMau);
+        }
+        
     }
     public static string GetIDLink(string idHoSo)
     {

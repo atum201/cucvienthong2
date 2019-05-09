@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage/Main.master" AutoEventWireup="true"
-    CodeFile="CN_TraCuuThongTinHoSo.aspx.cs" Inherits="WebUI_CN_TraCuuThongTinHoSo"
+    CodeFile="CN_TraCuuNguoiNop.aspx.cs" Inherits="WebUI_CN_TraCuuNguoiNop"
     Title="Tra cứu thông tin hồ sơ" Theme="Default" %>
 
 <%@ Register Assembly="Cuc_QLCL.AdapterData" Namespace="TinhVan.WebUI.WebControls"

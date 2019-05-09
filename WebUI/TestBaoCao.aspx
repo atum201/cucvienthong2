@@ -27,6 +27,16 @@
         rel="stylesheet" type="text/css" />
 </head>
 <body>
+<script type="text/javascript">
+    function sendMail() {
+        var x = document.getElementById("trMail");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
     <form id="form1" runat="server">
         <div style="width: 100%; text-align: center">
             <table>
@@ -38,6 +48,38 @@
                             CssClass="lnkReport" CausesValidation="False"> <img src="../Images/xls.gif" border="0" height="20" width="20"   alt=""/>&nbsp;Excel </asp:LinkButton>
                         <asp:LinkButton runat="server" ID="lnkPDF" OnClick="lnkPDF_Click" ToolTip="Xuất ra file PDF"
                             CssClass="lnkReport" CausesValidation="False"> <img src="../Images/pdf.gif" border="0" height="20" width="20"  alt="" />&nbsp;PDF </asp:LinkButton>&nbsp;
+                        <a href="javascript:sendMail()" class="lnkReport">Gửi mail</a>
+                    </td>
+                </tr>
+                <tr id="trMail" style="display:none;">
+                    <td colspan="2" style="text-align: left">
+                        <table>
+                            <tr>
+                                <td style="width:100px">Gửi tới: </td>
+                                <td style="width:400px">
+                                    <asp:TextBox runat="server" ID="txtEmail" Width="350px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:100px">Tiêu đề: </td>
+                                <td style="width:400px">
+                                    <asp:TextBox runat="server" ID="txtTieuDe" Width="350px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:100px">Nội dung: </td>
+                                <td style="width:400px">
+                                    <asp:TextBox runat="server" ID="txtNoiDung" TextMode="MultiLine" Rows="5" Width="350px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:100px"></td>
+                                <td>
+                                    <asp:LinkButton runat="server" ID="lnkSendMail" OnClick="SendEmail_Click" ToolTip="Gửi mail"
+                            CssClass="lnkReport" CausesValidation="False">Gửi mail </asp:LinkButton>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
                 <tr>
