@@ -366,7 +366,7 @@
                             <%--<asp:ImageButton ID="imgBtnSuaPhiTiepNhan" runat="server" Height="16px" ImageUrl="~/htmls/image/sua.gif" OnClick="imgBtnSuaPhiTiepNhan_Click"
                                 Width="16px" />--%>
                             <%--<asp:LinkButton ID="LBTaoTiepNhan" runat="server" Font-Bold="False" OnClick="LBTaoTiepNhan_Click">Phí tiếp nhận HS</asp:LinkButton>--%>
-                            <asp:LinkButton ID="lnkThemMoiQTSX" runat="server">Thêm mới QTSX</asp:LinkButton>
+                            <asp:LinkButton ID="lnkThemMoiQTSX" runat="server" Visible="false">Thêm mới QTSX</asp:LinkButton>
                             <%--LongHH--%>
                             <asp:ImageButton ID="imgThemMoiTBP" runat="server" Height="16px" ImageUrl="~/htmls/image/new_f2.png"
                                 Width="16px" />&nbsp;

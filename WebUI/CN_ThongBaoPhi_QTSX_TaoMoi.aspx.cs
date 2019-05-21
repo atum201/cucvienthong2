@@ -230,15 +230,15 @@ public partial class WebUI_CN_ThongBaoPhi_QTSX_TaoMoi : PageBase
             //tao moi thong bao le phi chi tiet
             ThongBaoLePhiChiTiet objThongBaoLePhiChiTiet = new ThongBaoLePhiChiTiet();
             objThongBaoLePhiChiTiet.LoaiPhiId = (int)QLCL_Patch.LoaiPhi.LayMauQTSX;
-            objThongBaoLePhiChiTiet.MucPhi = Convert.ToInt32(txtPhiLayMau.Text);
-            objThongBaoLePhiChiTiet.SoLuong = 1;
+            objThongBaoLePhiChiTiet.MucPhi = Convert.ToInt32(txtPhiLayMau.Text.Trim());
+            objThongBaoLePhiChiTiet.SoLuong = Convert.ToInt32(txtSoLayMau.Text.Trim());
             objThongBaoLePhiChiTiet.ThongBaoLePhiId = objThongBaoLePhi.Id;
             lstObjThongBaoLePhiChiTiet.Add(objThongBaoLePhiChiTiet);
 
             ThongBaoLePhiChiTiet objThongBaoLePhiChiTiet2 = new ThongBaoLePhiChiTiet();
             objThongBaoLePhiChiTiet2.LoaiPhiId = (int)QLCL_Patch.LoaiPhi.DanhGiaQTSX;
             objThongBaoLePhiChiTiet2.MucPhi = Convert.ToInt32(txtPhiDanhGiaQuyTrinh.Text);
-            objThongBaoLePhiChiTiet2.SoLuong = Convert.ToInt32(txtSoQuyTrinh.Text);
+            objThongBaoLePhiChiTiet2.SoLuong = Convert.ToInt32(txtSoQuyTrinh.Text.Trim());
             objThongBaoLePhiChiTiet2.ThongBaoLePhiId = objThongBaoLePhi.Id;
             lstObjThongBaoLePhiChiTiet.Add(objThongBaoLePhiChiTiet2);
 

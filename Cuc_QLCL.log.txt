@@ -3007,3 +3007,15 @@ Message: Page: Untitled Page
 The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 21/05/2019 2:28:55 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 21/05/2019 2:32:27 SA
+Message: Page: Hiển thị báo cáo
+Object reference not set to an instance of an object.
+
+----------------------------------------
