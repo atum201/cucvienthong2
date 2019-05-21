@@ -3019,3 +3019,9 @@ Message: Page: Hiển thị báo cáo
 Object reference not set to an instance of an object.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 21/05/2019 6:05:40 SA
+Message: Page: Thông báo lệ phí
+Input string was not in a correct format.
+
+----------------------------------------
