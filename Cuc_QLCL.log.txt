@@ -2923,3 +2923,87 @@ Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngà
 Transaction needs to begin first.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 1:19:04 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Transaction needs to begin first.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 1:19:05 SA
+Message: Page: Hiển thị báo cáo
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 1:20:50 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 3:47:30 SA
+Message: Page: Quản lý hồ sơ
+There is no row at position 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 3:48:16 SA
+Message: Page: Quản lý hồ sơ
+There is no row at position 0.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 4:22:18 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 4:22:26 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 4:50:48 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 4:52:42 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Object cannot be cast from DBNull to other types.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 5:33:02 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 5:37:44 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 2:14:49 CH
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 2:17:22 CH
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 20/05/2019 10:35:10 CH
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------

@@ -284,6 +284,75 @@
             </fieldset>
         </td>
     </tr>
+    <tr runat="server" id="trThongBaoNopTienCNHQ">
+        <td style="width: 100%; text-align: left">
+            <fieldset style="width: 98%">
+                <legend>Thông báo nộp tiền lấy mẫu sản phẩm và đánh giá quy trình sản xuất</legend>
+                <table style="width: 100%;" id="TableCNHQ">
+                    <tr>
+                        <td style="text-align: right; height: 33px;">
+                            <%--LongHH--%>
+                            <asp:ImageButton ID="IBThemMoiCNHQ" runat="server" Height="17px" ImageUrl="~/htmls/image/new_f2.png"
+                                Width="17px" OnClick="IBThemMoiCNHQ_Click" />
+                            <asp:LinkButton ID="LBThemMoiCNHQ" runat="server" Font-Bold="False" OnClick="LBThemMoiCNHQ_Click">Thêm mới</asp:LinkButton>
+                            <%--LongHH--%>
+                            <asp:ImageButton ID="IBGuiCNHQ" runat="server" Height="14px" ImageUrl="~/htmls/image/send.JPG"
+                                OnClientClick="return confirm('Bạn có chắc chắn muốn gửi thông báo này không?');"
+                                Width="23px" OnClick="IBGuiCNHQ_Click" />
+                            <asp:LinkButton ID="LBGuiCNHQ" runat="server" Font-Bold="False" OnClick="LBGuiCNHQ_Click"
+                                OnClientClick="return confirm('Bạn có chắc chắn muốn gửi thông báo này không?');">
+                                 Gửi lãnh đạo</asp:LinkButton>
+                            <asp:ImageButton ID="IBXoaCNHQ" runat="server" Enabled="False" Height="16px" ImageUrl="~/htmls/image/cancel_f2.png"
+                                Width="16px" OnClick="IBXoaCNHQ_Click" />
+                            <asp:LinkButton ID="LBXoaCNHQ" runat="server" Font-Bold="False" Enabled="False" OnClick="LBXoaCNHQ_Click">Xóa</asp:LinkButton>
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+                <asp:GridView ID="gvThongBaoNopTienCNHQ" runat="server" AllowPaging="True" AutoGenerateColumns="False"
+                    EmptyDataText="Không có dữ liệu !" PageSize="15" Width="100%" OnPageIndexChanging="gvThongBaoNopTienCNHQ_PageIndexChanging"
+                    DataKeyNames="ID,TrangThaiID,SoGiayThongBaoLePhi" OnRowDataBound="gvThongBaoNopTienCNHQ_RowDataBound">
+                    <Columns>
+                        <asp:TemplateField HeaderText="Số th&#244;ng b&#225;o lệ ph&#237;">
+                            <ItemStyle Font-Underline="False" />
+                            <ItemTemplate>
+                                <a href="#" onclick="if(<%# Eval("TrangThaiID") %> == 1) return popCenter('CN_ThongBaoPhi_QTSX_TaoMoi.aspx?TrangThaiID=<%# Eval("TrangThaiID") %>&action=edit&HoSoID=<%# Request["HoSoID"].ToString() %>&ThongBaoLePhiID=<%# Eval("ID")%>','CN_ThongBaoPhi_QTSX_TaoMoi',800,600);
+                                             else if (<%# Eval("TrangThaiID") %> == 9) return popCenter('CN_ThongBaoPhi_QTSX_TaoMoi.aspx?TrangThaiID=<%# Eval("TrangThaiID") %>&action=edit&HoSoID=<%# Request["HoSoID"].ToString() %>&ThongBaoLePhiID=<%# Eval("ID")%>','CN_ThongBaoPhi_QTSX_TaoMoi',800,600);
+                                             else if (<%# Eval("TrangThaiID") %> != 1) return popCenter('CN_ThongBaoPhi_QTSX_TaoMoi.aspx?TrangThaiID=<%# Eval("TrangThaiID") %>&action=view&HoSoID=<%# Request["HoSoID"].ToString() %>&ThongBaoLePhiID=<%# Eval("ID")%>','CN_ThongBaoPhi_QTSX_TaoMoi',800,600);
+                                             else return popCenter('TestBaoCao.aspx?HoSoID=<%# Request["HoSoID"].ToString() %>&ThongBaoLePhiID=<%# Server.UrlEncode(Eval("ID").ToString()) %>','CN_ThuPhi',800,600);" />
+                                <%# Eval("SoGiayThongBaoLePhi")%>
+                                </a>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:BoundField DataField="TenTiengViet" HeaderText="Đơn vị nộp hồ sơ, c&#225; nh&#226;n" />
+                        <asp:BoundField DataField="DiaChi" HeaderText="Địa chỉ" />
+                        <asp:BoundField DataField="DienThoai" HeaderText="Điện thoại" />
+                        <asp:BoundField DataField="Fax" HeaderText="Fax" />
+                        <asp:BoundField DataField="TongPhi" HeaderText="Tổng ph&#237; (VNĐ)" DataFormatString="{0:#,#}.000" />
+                        <asp:BoundField DataField="MoTa" HeaderText="Trạng th&#225;i" />
+                        <asp:TemplateField HeaderText="In th&#244;ng b&#225;o">
+                            <ItemTemplate>
+                                <a onclick="javascript:popCenter('../ReportForm/HienBaoCao.aspx?ThongBaoLePhiId=<%#DataBinder.Eval(Container.DataItem,"ID")%>&LoaiBaoCao=ThuPhiDanhGiaQTSX','_blank',790,590);"
+                                    href="#">
+                                    <img src="../Images/printer.png" style="border: none;" alt="In biên bản" /></a>
+                            </ItemTemplate>
+                            <HeaderStyle HorizontalAlign="Center"></HeaderStyle>
+                            <ItemStyle HorizontalAlign="Center" Width="80px"></ItemStyle>
+                        </asp:TemplateField>
+                        <asp:TemplateField>
+                            <HeaderTemplate>
+                                <asp:CheckBox ID="chkCheckAll" runat="server" onclick="HeaderClick('gvThongBaoNopTienCNHQ')" />
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <asp:CheckBox ID="chkCheck" runat="server" onclick="ChildClick('gvThongBaoNopTienCNHQ')" />
+                            </ItemTemplate>
+                            <HeaderStyle HorizontalAlign="Left" />
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+            </fieldset>
+        </td>
+    </tr>
     <tr runat="server" id="trThongBaoPhi">
         <td style="width: 100%; text-align: left">
             <fieldset style="width: 98%">
@@ -297,6 +366,7 @@
                             <%--<asp:ImageButton ID="imgBtnSuaPhiTiepNhan" runat="server" Height="16px" ImageUrl="~/htmls/image/sua.gif" OnClick="imgBtnSuaPhiTiepNhan_Click"
                                 Width="16px" />--%>
                             <%--<asp:LinkButton ID="LBTaoTiepNhan" runat="server" Font-Bold="False" OnClick="LBTaoTiepNhan_Click">Phí tiếp nhận HS</asp:LinkButton>--%>
+                            <asp:LinkButton ID="lnkThemMoiQTSX" runat="server">Thêm mới QTSX</asp:LinkButton>
                             <%--LongHH--%>
                             <asp:ImageButton ID="imgThemMoiTBP" runat="server" Height="16px" ImageUrl="~/htmls/image/new_f2.png"
                                 Width="16px" />&nbsp;

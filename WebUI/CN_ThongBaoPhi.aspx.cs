@@ -222,14 +222,14 @@ public partial class WebUI_CN_ThongBaoPhi : PageBase
             }
             //LongHH Thêm bound cột trạng thái thông báo phí
 
-            if (Convert.ToInt32(DataBinder.Eval(e.Row.DataItem, "LoaiPhiID")) == 9)
-            {
+            //if (Convert.ToInt32(DataBinder.Eval(e.Row.DataItem, "LoaiPhiID")) == 9)
+            //{
                 e.Row.Cells[6].Text = QLCL_Patch.GetTrangThaiThongBaoPhi(Convert.ToInt32(DataBinder.Eval(e.Row.DataItem, "TrangThaiID")));
-            }
-            else
-            {
-                e.Row.Cells[6].Text = DataBinder.Eval(e.Row.DataItem, "MoTa").ToString();
-            }
+            //}
+            //else
+            //{
+            //    e.Row.Cells[6].Text = DataBinder.Eval(e.Row.DataItem, "MoTa").ToString();
+            //}
             //LongHH
         }
     }
