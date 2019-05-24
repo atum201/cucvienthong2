@@ -44,7 +44,10 @@ public partial class WebUI_CN_ThongBaoPhi : PageBase
         //LongHH
         dtLoaiPhi.Rows.Add("Lệ phí cấp Giấy chứng nhận hợp Quy", ((int)EnLoaiPhiList.PHI_CHUNG_NHAN_HQ).ToString());
         dtLoaiPhi.Rows.Add("Lệ phí cấp Giấy chứng nhận hợp chuẩn", ((int)EnLoaiPhiList.PHI_CHUNG_NHAN_HC).ToString());
-        dtLoaiPhi.Rows.Add("Phí lấy mẫu sản phẩm và đánh giá quy trình SX", "0");
+        dtLoaiPhi.Rows.Add("CNHC Phí lấy mẫu sản phẩm và đánh giá quy trình SX", "0");
+        //LongHH
+        dtLoaiPhi.Rows.Add("CNHQ Phí lấy mẫu sản phẩm và đánh giá quy trình SX", "10");
+        //LongHH
         dtLoaiPhi.Rows.Add("Lệ phí cấp Bản tiếp nhận công bố hợp quy", ((int)EnLoaiPhiList.PHI_CONG_BO_HQ).ToString());
         
 

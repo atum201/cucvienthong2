@@ -3025,3 +3025,33 @@ Message: Page: Thông báo lệ phí
 Input string was not in a correct format.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 24/05/2019 3:52:41 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/05/2019 3:55:02 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot find column SoGiayThongBaoLePhi.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/05/2019 3:55:12 SA
+Message: Page: Phần mềm quản lý chất lượng sản phẩm chuyên ngành viễn thông
+Cannot find column SoGiayThongBaoLePhi.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/05/2019 4:05:35 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 24/05/2019 4:14:39 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
