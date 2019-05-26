@@ -18,7 +18,7 @@
         {
             autocalc(value);
         }
-        function autocalc(oText)
+        function autocalc(oText,loai)
         {
 	        if (isNaN(oText.value)) //filter input
 	        {
@@ -26,11 +26,15 @@
 		        oText.value = '1';
 	        }else
 	        {
-	            var PhiLayMau= document.getElementById('txtPhiLayMau').value;
-	            var PhiDanhGiaQuyTrinh= document.getElementById('txtPhiDanhGiaQuyTrinh').value;
+	            var PhiLayMau = parseInt(document.getElementById('txtPhiLayMau').value);
+                var PhiDanhGiaQuyTrinh = parseInt(document.getElementById('txtPhiDanhGiaQuyTrinh').value);
+                var SlLayMau = parseInt(document.getElementById('txtSoLayMau').value);
+                var SlQuyTrinh = parseInt(document.getElementById('txtSoQuyTrinh').value);
+                var SoLayMau = loai == 'laymau' ? oText.value : SlLayMau;
+                var SoQuyTrinh = loai == 'quytrinh' ? oText.value : SlQuyTrinh;
 	            var TongPhi= document.getElementById('txtTongPhi');
-	            
-	            total = parseInt(PhiLayMau) + (parseInt(PhiDanhGiaQuyTrinh)*(oText.value));
+
+                total = (PhiLayMau * SoLayMau) + (PhiDanhGiaQuyTrinh * SoQuyTrinh);
 	            TongPhi.value = total;
 	            
 	            document.getElementById('hdnTongPhi').value = total;
@@ -109,7 +113,7 @@
                         Số lấy mẫu
                     </td>
                     <td>
-                        <asp:TextBox ID="txtSoLayMau" runat="server" Text="1" onkeyup="return ReCanculateTotal(this);"></asp:TextBox>
+                        <asp:TextBox ID="txtSoLayMau" runat="server" Text="1" onkeyup="return ReCanculateTotal(this,'laymau');"></asp:TextBox>
                         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="txtSoLayMau"
                             ErrorMessage="Cần phải có ít nhất một lấy mẫu cần đánh giá" Operator="GreaterThanEqual"
                             ValueToCompare="0">*</asp:CompareValidator></td>
@@ -119,7 +123,7 @@
                         Số quy trình
                     </td>
                     <td>
-                        <asp:TextBox ID="txtSoQuyTrinh" runat="server" Text="1" onkeyup="return ReCanculateTotal(this);"></asp:TextBox>
+                        <asp:TextBox ID="txtSoQuyTrinh" runat="server" Text="1" onkeyup="return ReCanculateTotal(this,'quytrinh');"></asp:TextBox>
                         <asp:CompareValidator ID="CompareValidator2" runat="server" ControlToValidate="txtSoQuyTrinh"
                             ErrorMessage="Cần phải có ít nhất một quy trình cần đánh giá" Operator="GreaterThanEqual"
                             ValueToCompare="0">*</asp:CompareValidator></td>

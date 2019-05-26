@@ -144,19 +144,15 @@ public partial class WebUI_CN_ThongBaoPhi_QTSX_TaoMoi : PageBase
             {
                 if (objObj.LoaiPhiId == (int)QLCL_Patch.LoaiPhi.DanhGiaQTSX)
                 {
-                    txtSoQuyTrinh.Text = "1";
-                }
-                else
-                {
                     txtSoQuyTrinh.Text = objObj.SoLuong.ToString();
                 }
-                if (objObj.LoaiPhiId == (int)QLCL_Patch.LoaiPhi.LayMauQTSX)
+                else if (objObj.LoaiPhiId == (int)QLCL_Patch.LoaiPhi.LayMauQTSX)
                 {
-                    txtSoLayMau.Text = "1";
+                    txtSoLayMau.Text = objObj.SoLuong.ToString();
                 }
                 else
                 {
-                    txtSoLayMau.Text = objObj.SoLuong.ToString();
+
                 }
             }
 

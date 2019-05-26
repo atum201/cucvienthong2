@@ -3055,3 +3055,39 @@ Message: Page: Untitled Page
 The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
 
 ----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 7:01:03 SA
+Message: Page: Hiển thị báo cáo
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 8:08:31 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 8:09:05 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 8:09:19 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 8:20:28 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
+----------------------------------------
+Timestamp: 26/05/2019 8:23:54 SA
+Message: Page: Untitled Page
+The type initializer for 'CrystalDecisions.CrystalReports.Engine.ReportDocument' threw an exception.
+
+----------------------------------------
