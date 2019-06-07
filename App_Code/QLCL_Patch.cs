@@ -17,6 +17,17 @@ public static class QLCL_Patch
     public enum LePhi { DonGiaQuyChuan1 = 950, DonGiaQuyChuan2 = 600 , DonGiaTiepNhan = 300, PhiXemXet = 1350, PhiDonGia = 750,PhiDanhGiaQuaTrinhSanXuat=4800,PhiLayMauSanPham=600};
     public enum LoaiPhi {PhiCNHQ=9, DanhGiaQTSX=10,LayMauQTSX=11};
     public static string duoiCBNK = "KTCL";
+
+    public enum DuoiHoSo
+    {
+        [EnumTextValue("CBHQ")]
+        CongBo_SanXuatTrongNuoc=6,
+        [EnumTextValue("KTCL")]
+        CongBo_NhaKhap=5,
+        [EnumTextValue("MGKT")]
+        CongBo_MiemKiemTra = 7,
+    }
+
     public static bool InsertToSql(String query)
     {
         try{

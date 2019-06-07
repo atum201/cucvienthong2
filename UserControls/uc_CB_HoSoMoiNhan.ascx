@@ -20,9 +20,10 @@
                         <td style="text-align: right">
                             <asp:ImageButton ID="imgButtonAdd" runat="server" Height="17px" ImageUrl="~/htmls/image/new_f2.png"
                                 Width="17px" OnClick="imgButtonAdd_Click" Visible="false" />
-                            <asp:LinkButton ID="lnkThemMoi" runat="server" Font-Bold="False" OnClick="lnkThemMoi_Click" Visible="false">Thêm mới</asp:LinkButton>
-                            <asp:LinkButton ID="lnkNhapKhau" runat="server" Font-Bold="False" OnClick="lnkNhapKhau_Click">Nhập khẩu</asp:LinkButton>
-                            <asp:LinkButton ID="lnkSanXuatTN" runat="server" Font-Bold="False" OnClick="lnkSanXuatTN_Click">Sản xuất TN</asp:LinkButton>
+                            <asp:LinkButton ID="lnkThemMoi" runat="server" Font-Bold="False" OnClick="lnkThemMoi_Click" Visible="false">Thêm mới</asp:LinkButton>	&nbsp;
+                            <asp:LinkButton ID="lnkMienGiam" runat="server" Font-Bold="False" OnClick="lnkMiemGiam_Click">Miễm giảm</asp:LinkButton>	&nbsp;
+                            <asp:LinkButton ID="lnkNhapKhau" runat="server" Font-Bold="False" OnClick="lnkNhapKhau_Click">Nhập khẩu</asp:LinkButton>	&nbsp;
+                            <asp:LinkButton ID="lnkSanXuatTN" runat="server" Font-Bold="False" OnClick="lnkSanXuatTN_Click">Sản xuất TN</asp:LinkButton>	&nbsp;
                             &nbsp;
                             <asp:ImageButton ID="imgBtnXoa" runat="server" Height="16px" ImageUrl="~/htmls/image/cancel_f2.png"
                                 Width="16px" OnClick="imgBtnXoa_Click" />
